@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+/* my name */
+h1 {}
+
+/* my description ("web developer ... ") */
+h2 {}
+
+/* 'looking for work' */
+p.summary {}
+
+p.skills {}
+/* a skill category */
+section.skill {}
+/* name of the skill*/
+section.skill h5 {}
+/* a detail of a skill */
+section.skill ul li {}
+
+/* personal history / work experience */
+p.experience {}
