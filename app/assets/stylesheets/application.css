@@ -1,35 +1,26 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.header {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+}
 
-/* my name */
-h1 {}
+.focus-area-1, .focus-area-2 {
+  margin: 20px;
+}
 
-/* my description ("web developer ... ") */
-h2 {}
+.skills .clickable {
+  border: 1px solid black;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 5px;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
 
-/* 'looking for work' */
-p.summary {}
-
-p.skills {}
-/* a skill category */
-section.skill {}
-/* name of the skill*/
-section.skill h5 {}
-/* a detail of a skill */
-section.skill ul li {}
-
-/* personal history / work experience */
-p.experience {}
+.skills .clickable:hover {
+  background-color: #AD310B;
+}
