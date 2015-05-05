@@ -30,12 +30,11 @@ pageReady = function (){
   // no need to prevent default - using fragment links + ids
   window.$sectionClone = undefined;
   $(".primary-links .clickable").click(function(e){
+    $el = $(e.currentTarget)
     !!$sectionClone && $sectionClone.remove();
-    $el = $(e.currentTarget);
     window.location.hash = $el.attr("href");
     $target = $(("." + $el.attr("data-target")));
     $sectionClone = $target.clone(true, true);
-    // debugger
     $('.focus-area-1').empty().append($sectionClone)
     $('.focus-area-2').empty()
     $sectionClone.fadeIn();
@@ -54,6 +53,14 @@ pageReady = function (){
     $(".focus-area-2").empty().append($skillsClone)
     $skillsClone.fadeIn();
   })
+
+  // Routing
+  var route = window.location.hash
+  var routeParts = route.slice(1).split("/")
+  routeParts.forEach(function(part){
+    // debugger
+    $((".clickable" + "[data-target='" + part + "']")).trigger("click")
+  });
 
 }
 
