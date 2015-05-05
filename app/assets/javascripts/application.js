@@ -33,6 +33,7 @@ pageReady = function (){
     $target = $(("." + $el.attr("data-target")));
     $targetClone = $target.clone(true, true);
     $('.focus-area-1').empty().append($targetClone)
+    $('.focus-area-2').empty()
     $targetClone.fadeIn();
   });
 
