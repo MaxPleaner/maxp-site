@@ -26,27 +26,35 @@ pageReady = function (){
   $('.skills, .skill-details, .experience').hide()
 
   // event listeners for primary links
+  // cache reference to clone to prevent virtual reference duplication
+  window.$sectionClone = undefined;
   $(".primary-links .clickable").click(function(e){
     e.preventDefault();
+    !!$sectionClone && $sectionClone.remove();
     $el = $(e.currentTarget);
     window.location.hash = $el.attr("href");
     $target = $(("." + $el.attr("data-target")));
-    $targetClone = $target.clone(true, true);
-    $('.focus-area-1').empty().append($targetClone)
+    $sectionClone = $target.clone(true, true);
+    // debugger
+    $('.focus-area-1').empty().append($sectionClone)
     $('.focus-area-2').empty()
-    $targetClone.fadeIn();
+    $sectionClone.fadeIn();
   });
 
   // event Listeners for Skills sections
+  // cache reference to clone to prevent virtual reference duplication
+  window.$skillsClone = undefined;
   $('.skills .clickable').click(function(e){
     e.preventDefault();
+    !!$skillsClone && $skillsClone.remove();
     $el = $(e.currentTarget);
     window.location.hash = $el.attr("href");
     $target = $(("." + $el.attr("data-target")));
-    $targetClone = $target.clone(true, true);
-    $(".focus-area-2").empty().append($targetClone)
-    $targetClone.fadeIn();
+    $skillsClone = $target.clone(true, true);
+    $(".focus-area-2").empty().append($skillsClone)
+    $skillsClone.fadeIn();
   })
+
 }
 
 $(function () { pageReady() })
