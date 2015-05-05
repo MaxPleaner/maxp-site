@@ -23,13 +23,13 @@ pageReady = function (){
 
   //  hide all togglable sections
   //  use JS instead of CSS for graceful degredation / progressive enhancement
-  $('.skills, .skill-details, .experience').hide()
+  $('.skills, .skill-details, .experience, .links').hide()
 
   // event listeners for primary links
   // cache reference to clone to prevent virtual reference duplication
+  // no need to prevent default - using fragment links + ids
   window.$sectionClone = undefined;
   $(".primary-links .clickable").click(function(e){
-    e.preventDefault();
     !!$sectionClone && $sectionClone.remove();
     $el = $(e.currentTarget);
     window.location.hash = $el.attr("href");
@@ -43,9 +43,9 @@ pageReady = function (){
 
   // event Listeners for Skills sections
   // cache reference to clone to prevent virtual reference duplication
+  // no need to prevent default - using fragment links + ids
   window.$skillsClone = undefined;
   $('.skills .clickable').click(function(e){
-    e.preventDefault();
     !!$skillsClone && $skillsClone.remove();
     $el = $(e.currentTarget);
     window.location.hash = $el.attr("href");
