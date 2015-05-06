@@ -24,3 +24,9 @@
 .skills .clickable:hover {
   background-color: #B4E0E8;
 }
+
+code {display: inline-block; border: 1px solid black; background: lightgrey}
+*{ transition: all 1s ease}
+
+.selected {box-shadow: 0px 0px 100px orange !important;
+font-size; 30em }

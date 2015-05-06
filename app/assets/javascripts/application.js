@@ -38,6 +38,8 @@ pageReady = function (){
     $('.focus-area-1').empty().append($sectionClone)
     $('.focus-area-2').empty()
     $sectionClone.fadeIn();
+    $("*").removeClass("selected")
+    $el.addClass("selected")
   });
 
   // event Listeners for Skills sections
@@ -52,13 +54,13 @@ pageReady = function (){
     $skillsClone = $target.clone(true, true);
     $(".focus-area-2").empty().append($skillsClone)
     $skillsClone.fadeIn();
+    $("*").removeClass("selected")
   })
 
   // Routing
   var route = window.location.hash
   var routeParts = route.slice(1).split("/")
   routeParts.forEach(function(part){
-    // debugger
     $((".clickable" + "[data-target='" + part + "']")).trigger("click")
   });
 
