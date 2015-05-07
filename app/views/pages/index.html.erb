@@ -56,10 +56,10 @@
 
         I recall when I was just starting out programming when I read that the Ruby
         community was the type to give a lot of hugs. I think this is a little far fetched,
-        but does illustrate some characteristics. The coziness of hugs reflects
-        the smaller size of the language's developer community, not just in
-        comparison to C and Java but also Python, which Ruby shares a very similar
-        syntax with.
+        but does illustrate some characteristics of the language. The coziness of hugs
+        reflects the smaller size of Ruby's developer community, not just in
+        comparison to C and Java but also Python, the latter of which Ruby shares a
+        very similar syntax with.
 
         The friendiness of hugs reflects the readability of Ruby. I haven't learned
         Java or C, but I haven't seen any such code that maintains a poetic natural
@@ -70,53 +70,49 @@
         variable types. I've found Ruby's stack traces to be quite comprehendable,
         though.
 
-        <a href="https://news.ycombinator.com/item?id=682101">Here</a> is an interesting thread about Python vs Ruby. - There's a lot
+        <a href="https://news.ycombinator.com/item?id=682101">Here</a> is an interesting thread about Python vs Ruby. There's a lot
         of bickering about minute syntax details, but I think there's a salient
         differentiation described between Python's "conservative" nature and Ruby's
         "experimental" one. I think this partly reflects Python's age and history
         of integration with enterprise / non-web application in comparison to Ruby's
-        more particular association with the web (Ruby became popular with Rails).
-        I've began learing Python, but for what I'm mainly using Ruby for (web apps),
-        I'm generally finding myself using my time to learn Node / Javascript instead. The
-        "cutting edge" sentiment aside, single-page-app features have become an
+        more particular association with the web, since Ruby became popular with Rails.
+        I've began learing Python, but for what I'm mainly using Ruby for, web apps,
+        I'm generally finding myself using my time to learn Node / Javascript instead.
+        The "cutting edge" sentiment aside, single-page-app features have become an
         expected convenience for users.
 
-        A list of some tools I use when writing Ruby:
+        <i><b>A list of some tools I use when writing Ruby:</b></i>
 
-        <a href="http://rubyonrails.org/">Rails</a><br>
+        <b><a href="http://rubyonrails.org/">Rails</a><br></b>
 
           Rails is the web framework I'm quickest and most fluent in.
           I don't think Rails is the end-all for web development. A fluent Node framework
-          developer may likely write complex single-page-apps faster than I (although I
-          am learning these skills), but for everything besides asynchronous
+          developer may likely write complex single-page-apps faster than I, although
+          I'm learning these skills, but for everything besides asynchronous
           server calls and client-side page navigation, I'm quickest with Rails.
 
-        A few topics of Rails development worth highlighting:
+          A few topics of Rails development worth highlighting:
 
-          <b> Auth </b> - at App Academy we learned to roll our own Auth in a 15
-            minute exam (using <a href="http://en.wikipedia.org/wiki/Bcrypt">Bcrypt</a>). There are also
-            gems like <a href="https://github.com/plataformatec/devise">Devise</a> which add this functionality,
-            and OAuth libraries for many providers.
+            <b> Auth </b> - at App Academy we learned to roll our own Auth in a 15
+              minute exam (using <a href="http://en.wikipedia.org/wiki/Bcrypt">Bcrypt</a>). There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a>
+              which add this functionality, and OAuth libraries for many providers.
 
-          <b> Code Organization </b> - At first, the default Rails project directory structure struck
-            me as a bit large, especially for sections relating to features I wasn't sure I'd use.
-            I still have this sense a little, but I've come to appreciate the 'convention
-            over configuration' approach and it does create a good level of portability for
-            moving components between projects.
+            <b> Code Organization</b> -  At first, the default Rails project directory structure struck
+              me as a bit large, especially for sections relating to features I wasn't sure I'd use.
+              I still have this sense a little, but I've come to appreciate the 'convention
+              over configuration' approach and it does create a good level of portability for
+              moving components between projects.
 
-          <b> Generators </b> - <code> rails new </code> is a generator for a new
-            project. For some projects (like this site, which is mainly HTML / CSS / JS),
-            this is nearly all the code the server needs in development mode. There
-            are also generators for models, controllers, database migrations,
-            <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and,
-            my favorite, <code>scaffold</code>, which produces a working <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end.
-            Generators excite me not just because of laziness but also because of their
-            potential to facilitate metaprogramming. There's even a project called
-            <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a web interface
-            and generates a rails project for you (<a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar Javascript tool).
-            I'm not sure such tools yet offer much efficiency gain for myself versus
-             a terminal and text editor, but the momentum is there to reduce boilerplate
-             and develop consistent conventions.
+            <b> Generators</b> - <code> rails new </code> is a generator for a new
+              project. For some projects (like this site, which is mainly HTML, CSS and JS),
+              this is nearly all the code the server needs in development mode. There
+              are also generators for models, controllers, database migrations,
+              <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and, my favorite, <code>scaffold</code>s, which produces a working
+              <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of laziness
+              but also because of their potential to facilitate metaprogramming. There's
+              even a project called <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a
+              web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar Javascript
+              tool for Javascript.
 
         <a href="http://www.sinatrarb.com/">Sinatra</a>
 
@@ -124,36 +120,40 @@
           Sinatra taught me that Rails is not the only smart choice for web development
           in Ruby. It's less 'opinionated' than Rails, and since projects are built more
           from-the-ground-up, theres less deconstruction required to change out core
-          components. It was in this context that I found <a href="http://datamapper.org/">DataMapper</a>,
-          a plug-n-play, migration-less alternative to Rails' <a href="http://guides.rubyonrails.org/active_record_basics.html">ActiveRecord</a>.
-          database library. I usally choose Rails for new projects, but learning Sinatra has inspired me
-          to take occasional forays into building minimalist Ruby web frameworks.
+          components. It was in this context that I found <a href="http://datamapper.org/">DataMapper</a>, a plug-n-play,
+          migration-less alternative to Rails' <a href="http://guides.rubyonrails.org/active_record_basics.html">ActiveRecord</a> database library. I usally
+          choose Rails for new projects, but learning Sinatra has inspired me to take
+          occasional forays into building minimalist Ruby web frameworks and
+          helped me appreciate the modular aspects of well-constructed Ruby gems.
 
         <a href="http://www.gembundle.com/">Gems</a>
 
-          Gems are Ruby's plugin system, managed with <a href="https://rvm.io/">RVM</a> (or <a href="https://github.com/sstephenson/rbenv">rbenv</a>), <a href="https://rubygems.org/">RubyGems</a>, and <a href="http://bundler.io/">Bundler</a>.
-          Interesting gems are constantly coming out (try <a href="http://gembundle.com">GemBundle</a> to find some).
+          Gems are Ruby's plugin system, managed with <a href="https://rvm.io/">RVM</a> (or <a href="https://github.com/sstephenson/rbenv">rbenv</a>), <a href="https://rubygems.org/">RubyGems</a>, <a href="http://bundler.io/">Bundler</a>, etc.
+          Interesting gems are constantly coming out. The site <a href="http://gembundle.com">GemBundle</a> is useful for
+          discovering them.
 
           Here's a few I especially like
         <span><span>
-            <a href="https://github.com/defunkt/colored">Colored</a> enables string methods like <code>"RED TEXT".red</code> or
-            <code>"WHITE ON RED".white_on_red</code>. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Codes</a> so the text appears.
-            colored when it's printed in the terminal. I always use this when making CLI
-            applications. There's also Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a>
-            which converts ANSI-encoded text into <code>span</code> elements with
-            corresponding CSS coloring. They're nifty when used together.
+            <a href="https://github.com/defunkt/colored">Colored</a>
+              This Gem enables string methods like <code>"RED TEXT".red</code>, <code>"text".bold.underline</code>,
+              <code>"WHITE ON RED".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Codes</a> so the text appears
+              colored when it's printed in the terminal. I usually use this when making CLI
+              applications. There's also Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a>
+              which converts ANSI-encoded text into <code>span</code> elements with
+              corresponding CSS coloring. Together they make a really easy way to define
+              styles from the server.
           </span><span>
             <a href="https://github.com/deivid-rodriguez/byebug">Byebug</a>
-            A debugger which puts <code>puts</code> to shame. Place breakpoints in
-            code and step through, inspecting values and running code in a REPL. There are also
-            powerful features I haven't used, such as changing source code on-the-fly.
+              A debugger which puts <code>puts</code> to shame. Place breakpoints in
+              code and step through, inspecting values and running code in a REPL. There are also
+              powerful features I haven't used, such as changing source code on-the-fly.
           </span><span>
             <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a>
-            This gem is built into Rails, but I frequently use it in non-Rails projects
-            with <code>require 'active_support/all'</code> so that I can use string methods like
-            <code>capitalize</code>, <code>pluralize</code>, <code>singularize</code>, and (especially) <code>constantize</code>.
-            For example:
-            <code>
+              This gem is built into Rails, but I frequently use it in non-Rails projects
+              with <code>require 'active_support/all'</code> so that I can use string methods like
+              <code>capitalize</code>, <code>pluralize</code>, <code>singularize</code>, and (especially) <code>constantize</code>.
+              For example:
+              <code>
   class Light
     def on
       puts "light is on"
@@ -163,27 +163,30 @@
   # => "light is on"
             </code>
 
-            It might seem pointless to do this instead of <code>Light.new.on</code>,
-            I'll concede that. but it is a versitile feature and it's good that it's
-            possible.
+              It might seem pointless to do this instead of <code>Light.new.on</code>,
+              I'll concede that. but it's a powerful way to trigger code from
+              user-supplied strings.
           </span><span>
-            <a href="http://opalrb.org/">Opal</a> -
-            I haven't actually used this much, but I think it's awesome. Opal compiles
-            Ruby to Javascript and can even compile to Javascript libraries like jQuery.
-            <a href="http://voltframework.com/">Volt</a> Is a framework built with Ruby that features <a href="http://stackoverflow.com/questions/13504906/what-is-two-way-binding">2-way-data binding</a>. Looking at
-            Volt again now, I think I ought to give it another try.
+            <a href="http://opalrb.org/">Opal</a>
+              I haven't actually used this much, but I think it's awesome. Opal compiles
+              Ruby to Javascript and can even compile to Javascript libraries like jQuery.
+              <a href="http://voltframework.com/">Volt</a> is a framework built with Opal that features <a href="http://stackoverflow.com/questions/13504906/what-is-two-way-binding">2-way-data binding</a>. Looking at
+              Volt again now, I think I ought to give it another try.
           </span><span>
-            <a href="https://github.com/rest-client/rest-client">Rest Client</a> - <code>RestClient.get</code>, <code>RestClient.post</code>, etc.
-            A gem isn't really necessary for this. Ruby's standard library has <code>open-uri</code> which I'm pretty sure I could have
-            used anywhere I used RestClient (the same goes for <a href="https://github.com/jnunemaker/httparty">HTTParty</a>.)
-            Most of the time I have used this in conjunction with Nokogiri, but I think
-            one could just use one of these types of gems for stuff like downloading images, blobs, etc.
-          </span>
-          <span>
-            <a href="https://github.com/nokogiri/nokogiri">Nokigiri</a> - Basically jQuery for the Ruby server
-            The <code>Nokigiri.parse(html).css</code> method allows for selecting objects from
-            the DOM like <code>$('.some-css-class')</code> does.
-            If I were to make a new web scraper, this is likely what I'd use.
+            <a href="https://github.com/rest-client/rest-client">Rest Client</a>
+              <code>RestClient.get</code>, <code>RestClient.post</code>, etc.
+              I'm not sure a Gem is really necessary for this functionality, since Ruby's
+              standard library has <code>open-uri</code> which I'm pretty sure I could have used anywhere
+              I used RestClient (the same goes for <a href="https://github.com/jnunemaker/httparty">HTTParty</a>).
+              Most of the time I have used this in conjunction with Nokogiri, but I think
+              one could just use one of these types of gems for downloading multiple
+              kinds of content from the web (text, certainly, and perhaps images).
+          </span> <span>
+            <a href="https://github.com/nokogiri/nokogiri">Nokigiri</a>
+              Basically jQuery for the Ruby server
+              The <code>Nokigiri.parse(html).css</code> method allows for selecting objects from
+              the DOM like <code>$('.some-css-class')</code> does. If I were to make
+              a new web scraper, this is likely what I'd use.
           </span>
         </span>
       </pre>
@@ -191,8 +194,7 @@
   </section>
 
   <section class="javascript" id="javascript">
-    <p><b>Javascript</b></p> <br>
-      <pre>
+    <p><b>Javascript</b></p> <br><pre>
         I've been learning & working with Javascript since soon after I began programming.
         Javascript offers some benefits and drawbacks in comparison to Ruby.
 
@@ -228,7 +230,7 @@
 
               <code>$.('.css-selector')</code>
               One can select using class, ID or attribute, replacing Javascript's
-              <code>document.selectElementByID</code> or <code>document.querySelector</code>.
+              <code>document.getElementByID</code>, <code>document.getElementsByClassName</code> or <code>document.querySelector</code>.
 
               <code>$(".some-element").on("some-event", function(event) { ... event code ... })</code>
               Event handlers. For <code>click</code>, <code>hover</code>, <code>submit</code>,
@@ -267,7 +269,8 @@
           HTML is the "skeleton" of a page. It contains unstyled content. Sometimes,
           with a bad internet connection, pages will fail to load CSS and users see the
           page's content, but everything is quite ugly. Content is usually stacked to
-          the left side of the screen, the background is white and text is black.
+          the left side of the screen, the background is white and text is black.This
+          is the HTML by itself.
 
           Websites are generally constructed with a HTML skeleton, CSS styles,
           and more complex interactivity in Javascript.
@@ -284,13 +287,17 @@
           There are a lot of nuances to good HTML code, and I tend to use libraries for
           these effects. As with Javascript and CSS, a big issue is compatibility between
           browsers. A "Shim" (particular command that, when commented out, is still
-          interpreted by older browsers) can be used for "<a href="#progressive-enhancement-url">progressive enhancement</a>".
-          There is also the issue of viewport resizing (key to "responsive" websites
+          interpreted by older browsers) can be used for "<a href="#progressive-enhancement-url">progressive enhancement</a>"
+          (or "<a href="#graceful-degredation-url">graceful degredation</a>", if the glass is half empty).
+          There is also the issue of viewport resizing, key to "responsive" websites
           which change the content's presentation depending on which size screen the
-          user's computer has). All CSS and Javascript are ultimately included through
+          user's computer has. All non-inline CSS and Javascript is ultimately included through
           the HTML document through requiring the files in <code>script</code> and <code>link</code> tags.
+          I know <a href="#polymer-url">Polymer</a> is a project to assist in making
+          custom HTML elements, and HTML is a very complex area I could learn more
+          about.
 
-          CSS isn't responsible for all "style" on the web - Javasacript is capable of making
+          CSS isn't responsible for all "style" on the web - Javascript is capable of making
           very complex visual effects (<a href="#d3-url">D3</a>, <a href="#canvas-url">Canvas</a>, etc.)
 
           Here is a good tutorial for learning CSS: <a href="#css-food-tutorial-url">Good CSS Tutorial</a>.
@@ -298,18 +305,31 @@
           CSS color names are useful, but also mildly entertaining: <a href="#css-color-names-url">CSS Color Names</a>.
 
           There are many libraries and programs which help write HTML and CSS.
-
           For CSS, there are preprocessors like <a href="#sass-url">Sass</a> and <a href="#less-url">Less</a>.
-
           I haven't looked much at Less, and I haven't found SASS to offer a substantial benefit over CSS,
           I understand that features such as nested styles and mixins are useful, but my troubles with
           CSS are generally the result of misunderstanding the effects of style rules, not with
           writing code that is too verbose.
 
           I find that with using CSS libraries found on the internet, it's often hard to refactor
-          or experiment with new features. This is why, for personal projects, I tend not to use CSS libraries / components
-          (such as <a href="#bootstrap-url">Bootstrap</a>). I understand the need to make sites
-          look good, though. It's easy to buy incredible CSS templates through sites like <a href="http://themeforest.net">ThemeForest</a>.
+          or experiment with new features. This is why, for personal projects, I tend
+          not to use CSS libraries / components (such as <a href="#bootstrap-url">Bootstrap</a>). I understand the
+          need to make sites look good, though. It's easy to buy incredible CSS
+          templates through sites like <a href="http://themeforest.net">ThemeForest</a>.
+
+          There's also many Javascript / jQuery plugins which work in conjunction with
+          HTML and CSS. I look at <a href="#unheap-url">Unheap</a> for these,
+          but also anywhere people are discussing new open-source projects.
+
+          <a href="#bootstrap-zero">Bootstrap-Zero</a> is a particularly good source
+          for free Bootstrap templates, in my opinion. The <a href="#bootstrap-zero-google-cards-url">Google Cards</a>
+          template is particularly impressive.
+
+          I am interested in moving more of my HTML / CSS (and JS) workflow to
+          WYSIWYG editors. There are companies which make excellent products for this.
+          One I've used is <a href="#weebly-url">Weebly</a>, which has a great
+          drag-and-drop editor for components. I'm not sure if apps like Dreamweaver
+          provide HTML / CSS export, but I'd definitely like to look more into tools that do.
 
           There are certain CSS features I find offer a lot of bang for the buck:
 
@@ -319,24 +339,108 @@
  .some-class {transition: all 1s ease; border: 1px solid black; width: 50px; height: 50px; }
  .some-class:hover {background: black}
           </code>
+          <style media="screen">
+            .some-class {
+              transition: all 1s ease;
+              border: 1px solid black;
+              width: 50px;
+              height: 50px;
+              position: relative;
+              left: 240px;
+              bottom: 20px;
+            }
+            .some-class:hover {background: black}
+          </style>
+          ===> (hover over this) <div class="some-class"></div>
 
           <code>Opacity</code>
           Example:
           <code>
-.some-class {opacity: .75}
+            .background-img {
+              background-image: http://www.aquariumdomain.com/images/fish_marine/shark_coralCatshark1.jpg;
+              width: 200px;
+              height: 200px;
+              padding:50px;
+            }
+            .opaque-overlay {
+              width: 100px;
+              height: 100px;
+              background-color: yellow;
+              opacity: 0.5;
+            }
           </code>
-
+          <style media="screen">
+          .background-img {
+            background: url("http://www.aquariumdomain.com/images/fish_marine/shark_coralCatshark1.jpg");
+            background-overflow: hide;
+            width: 100px;
+            height: 100px;
+            padding:50px;
+            position: relative;
+            left: 200px;
+            bottom: 20px;
+          }
+          .opaque-overlay {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            opacity: 0.5;
+          }
+          </style>
+          ==> See here:
+          <div class="background-img">
+            <div class="opaque-overlay"></div>
+          </div>
           <code>Inline-Block</code>
-          Example:
+          This helps inline attributes gain block traits without automatically taking up
+          a full line line blocks tend to. It can also be used for block elements to make
+          them appear inline. Here's an example of a span element styled using
+          inline-block:
           <code>
-.some-class {display: inline-block}
+            .inline-block-span {
+              display: inline-block;
+              border: 1px solid black;
+              padding: 2px;
+              background-color: lightgreen;
+            }
           </code>
+          <style media="screen">
+          .inline-block-span {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 2px;
+            background-color: lightgreen;
+          }
+          </style>
+            Some normal text - <span class="inline-block-span">I'm an inline block span</span> ... some more normal text
 
           <code>Box-Shadow, border-radius</code>
-          Example:
           <code>
-.some-class {border-radius: 20px; box-shadow: 0px 0px 20px red; }
+.sun {
+  border: 1px solid black;
+  border-radius: 50px;
+  box-shadow: 0px 0px 100px darkred;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 100px;
+  background-color: yellow
+}
+
           </code>
+          <style media="screen">
+          .sun {
+            border: 1px solid black;
+            border-radius: 50px;
+            box-shadow: 0px 0px 100px darkred;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 100px;
+            background-color: yellow
+          }
+          </style>
+          ==> <div class="sun"></div>
 
     </pre>
   </section>
@@ -358,10 +462,11 @@
       extensively explored. I have worked with Redis, though, in my work at Sobrr.life.
       As I understand it, Redis is quicker than SQL, but it is also in a sense more primitive, at
       least with the configuration I had. Perhaps "primitive" isn't the right word for it -
-      for example, <a href="#">this blog post</a> on the topic describes Redis
-      as critical for "atomic operations", which is specifically what we used it for at
+      for example, <a href="#">this blog post</a> on the topic describes how Redis' should
+      ideally be used for "atomic operations", which is specifically what we used it for at
       Sobrr.life - caching of "score" counters for members and posts (data which could be
-      recomputed but not conveniently).
+      recomputed but not conveniently). I have also started learning MongoDB in
+      the context of Meteor.
     </pre>
   </section>
   <section class="deployment" id="deployment">
@@ -370,9 +475,9 @@
       mostly deployed with Heroku, which makes it almost effortless to deploy with a
       postgres-configured Rails application. I'd also deployed my <a href="#asteroids-url">Asteroids</a> and
       <a href="#snake-url">Snake</a> HTML5 Canvas games on Github pages. Still, though, it was a really valuable
-      experience to practice working with a deployed app with a monthly userbase over 100,000.
+      experience working on a deployed app serving a monthly userbase over 100,000.
 
-      Specific areas I worked were mainly in the context of <a href="#aws-url">AWS</a>
+      Specific areas I worked were often in the context of <a href="#aws-url">AWS</a>
 
       For example:
 
@@ -382,16 +487,17 @@
 
       <b>Cloudwatch</b>
 
-      <b>ElastiCache</b>x
+      <b>ElastiCache</b>
 
     </pre>
   </section>
 
   <section class="testing" id="testing">
-
-    <p><b>Testing</b></p> <br>
+    <p><b>Testing</b></p>
 <pre>
-  Testing is the process of sending sample data through methods to insure
+
+
+  Testing is the process of sending sample data through methods to ensure
   that the application is working correctly. "Unit" tests focus on small areas of code
   in isolation, while "Integration" tests focus on the application's parts working in
   unison.
@@ -414,19 +520,23 @@
 
   <section class="linux" id="linux">
     <p><b>Linux</b></p><pre>
-  <span>To fair, I'm probably a Linux expert as much as the average Max developer is a
+  <span>To fair, I'm probably a Linux expert as much as the average Mac developer is a
   mac expert, but it so happens that I've used Linux for a few years. It is free,
   and installation is possible on many machines, and, anyway, I prefer the FOSS
-  "aesthetic" to mac's sleek, irreverent "minimalist" metal.</span>
+  "aesthetic" to mac's expensive "minimalism".</span>
 
-  <span>Unix commands are Linux commnads, for the most part, as far as I'm
-  concerned. </span>
+  <span>Unix commands are Linux commnads, for the most part. There's also the
+  <a href="#apt-url">APT</a> software repository specific to my favorited Linux "distribution",
+  Ubuntu. I'm not a sysadmin and I prefer <a href="#nano-url">Nano</a> to <a href="#vim-url">Vim</a>,
+  (make of that what you will) but I do enjoy learning about Linux commands and
+  programs. </span>
 
-  <span>Ruby is especially suited to shell programming automation, as any commands
-  within <code>``</code> backticks will be delegated to the system. </span>.
+  <span>Ruby is nicely suited to shell programming automation, as any commands
+  within <code>``</code> backticks will be delegated to the system. It's especially
+  useful in conjunction with string interpolation.</span>.
 
   <span>I'm currently using <a href="#awesome-url">Awesome Window Manager</a>,
-  which is a "tiling" window manager. It's great.
+  which is a "tiling" window manager. It's pretty cool.
   </span>
   <span>As of writing, I'm running Ubuntu 14.01 on a Chromebook using <a href="#crouton-url">Crouton</a>.
   </span>
@@ -453,6 +563,8 @@
         Brake Lights
         Obnoxious Noise
 
+      <b>Google Glass</b>
+        <i><b>synopsis</b>it's cool but leave the camera as an attachment.</i>
 
     </pre>
   </section>
@@ -460,13 +572,10 @@
   <section class="world" id="world">
     <p><b>The World at Large</b></p> <br>
     <pre>
-
       I maintain a Politics blog on <a href="#blogspot-politics-url">Blogspot</a>.
       I am interested in topics all over the place, but especially in war, class history,
       monetary symbolism, tech-enabled metaspatiality, physical politics, gender roles,
       and vehicular aggression.
-
-
     </pre>
   </section>
 </section>
@@ -474,16 +583,45 @@
 <section>
   <div class="experience" id="experience">
     <p><b>Experience</b></p> <br>
-    I worked at Sobrr.life
-    I also went to App Academy
-    I also have a Politics B.A.
+    <pre>
+      I grew up in San Francisco and went to UCSC for college.
+      I majored in Politics, but took classes in many other departments, especially
+      Linguistics, Humanties, Math and sciences.
+
+      After finishing college, I began learning programming.I found curriculum and
+      support through groups such as <a href="#odin-url">The Odin Project</a> (
+      also called "Viking School"), meetup.com. For a large part though, I worked off
+      curriculum found through web searches. When I was advancing through the
+      beginner Rails material, I felt I could benefit from an instructor. I took a small
+      online group class on Sinatra, then applied to App Academy, my "boot-camp" of
+      choice since it's reputable and there's no up-front tuition. To my great fortune I
+      got in, and was in the August-December cohort.
+
+      After finishing at App Academy, I began to work at <a href="http://sobrr.lift">Sobrr.life</a>,
+      which was a very rewarding product to work on. I was a core Rails Developer on a
+      small team, and the guidance I received combined with the production experience
+      I gained proved a quite invaluable experience. It's hard for me to summarize the app,
+      but some of the main features are:
+         - separate iOS and Android apps which are the main product.
+         - both communicate with a Rails back end
+         - the app is similar to Tinder, in that users are presented with images
+           and they "swipe" left or right. It faciliatates meeting people differently, though.
+           There's some features bearing similarity to SnapChat, like expiring friendships,
+           chats, and posts.
+          - International user-base, with an especially large number in China.
+      As a core developer with such a small group (my back end team was only 2 full time workers),
+      I gained experience in a lot of different areas of the web application development
+      and deployment cycle.
+    </pre>
   </div>
 </section>
 
 <section>
   <div class="links" id="links">
     <p><b>Links</b></p> <br>
-    <a href="http://github.com/maxpleaner">Github</a>
-    <a href="#"></a>
+    <a href="http://github.com/maxpleaner">Github</a> <br>
+    <a href="http://linkedin.com/in/maxpleaner">LinkedIn</a> <br>
+    <a href="#blog-1-url">Blog1</a> <br>
+    <a href="#blog-2-urk">Blog2</a>
   </div>
 </section>
