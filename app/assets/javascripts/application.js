@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require ansi_up
 //= require turbolinks
 //= require_tree .
 
@@ -62,6 +63,12 @@ pageReady = function (){
   var routeParts = route.slice(1).split("/")
   routeParts.forEach(function(part){
     $((".clickable" + "[data-target='" + part + "']")).trigger("click")
+  });
+
+  // ANSI Up (https://github.com/drudru/ansi_up)
+  var $ansi_text = $('.ansi')
+  $ansi_text.each(function(index, el){
+    $(el).html(ansi_up.ansi_to_html(el.innerHTML))
   });
 
 }

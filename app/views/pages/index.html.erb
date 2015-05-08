@@ -48,10 +48,10 @@
 <!--  .skill-details -->
 <section class="skill-details">
   <section class="ruby" id="ruby">
-    <p><b>Ruby</b></p>
+    <p><b>Ruby</b></p> <br>
     <p>
       <pre>
-        Ruby was the language with which I learned the basics of programming
+        Ruby was the language with which I learned many programming basics
         and I've been learning and using it since.
 
         I recall when I was just starting out programming when I read that the Ruby
@@ -64,7 +64,8 @@
         The friendiness of hugs reflects the readability of Ruby. I haven't learned
         Java or C, but I haven't seen any such code that maintains a poetic natural
         language sensibility in the way Ruby does. Some insist that this comes at a
-        price. For example, Ruby's "duck-typing" system can be seen as allowing
+        price. For example, Ruby's "<a href="http://en.wikipedia.org/wiki/Duck_typing
+">duck-typing</a>" system can be seen as allowing
         errors to propagate unnecessarily farther than their origins. It allows
         for a lot less redundancy, though, if the reader/author can keep track of
         variable types. I've found Ruby's stack traces to be quite comprehendable,
@@ -83,22 +84,25 @@
 
         <i><b>A list of some tools I use when writing Ruby:</b></i>
 
-        <b><a href="http://rubyonrails.org/">Rails</a><br></b>
+        <b><a href="http://rubyonrails.org/">Rails</a></b>
 
           Rails is the web framework I'm quickest and most fluent in.
-          I don't think Rails is the end-all for web development. A fluent Node framework
-          developer may likely write complex single-page-apps faster than I, although
-          I'm learning these skills, but for everything besides asynchronous
-          server calls and client-side page navigation, I'm quickest with Rails.
+          I don't think Rails is the end-all for web development. With more fluency, I'm sure I could
+          write a complex single-page app faster with a Node framework. For mostly everything besides
+          asynchronous server calls and client-side page navigation, though, I'm quickest with Rails.
 
           A few topics of Rails development worth highlighting:
 
-            <b> Auth </b> - at App Academy we learned to roll our own Auth in a 15
-              minute exam (using <a href="http://en.wikipedia.org/wiki/Bcrypt">Bcrypt</a>). There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a>
-              which add this functionality, and OAuth libraries for many providers.
+            <b> Auth </b>- Session tokens, authenticity tokens, and encrypted passwords can be be added
+              to Rails rather quickly - One App Academy assessment was to set the system up within 15
+              mininutes. There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a> which add this functionality,
+              and OAuth libraries for many providers. I'm also interested
+              to try the more minimalist <a href="https://github.com/NoamB/sorcery">Sorcery</a> Auth library. There can be a
+              lot that goes into a complex auth system - email confirmation, password retrieval,
+              etc. Gems like Devise help with this.
 
             <b> Code Organization</b> -  At first, the default Rails project directory structure struck
-              me as a bit large, especially for sections relating to features I wasn't sure I'd use.
+              me as somewhat daunting, especially for sections relating to features I wasn't sure I'd use.
               I still have this sense a little, but I've come to appreciate the 'convention
               over configuration' approach and it does create a good level of portability for
               moving components between projects.
@@ -111,20 +115,22 @@
               <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of laziness
               but also because of their potential to facilitate metaprogramming. There's
               even a project called <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a
-              web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar Javascript
-              tool for Javascript.
+              web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a
+              similar tool for Javascript.
 
         <a href="http://www.sinatrarb.com/">Sinatra</a>
 
           Sinatra shares a lot in common with Rails but is much more minimalist. Learning
           Sinatra taught me that Rails is not the only smart choice for web development
           in Ruby. It's less 'opinionated' than Rails, and since projects are built more
-          from-the-ground-up, theres less deconstruction required to change out core
+          from-the-ground-up, there's less deconstruction required to change out core
           components. It was in this context that I found <a href="http://datamapper.org/">DataMapper</a>, a plug-n-play,
           migration-less alternative to Rails' <a href="http://guides.rubyonrails.org/active_record_basics.html">ActiveRecord</a> database library. I usally
           choose Rails for new projects, but learning Sinatra has inspired me to take
           occasional forays into building minimalist Ruby web frameworks and
           helped me appreciate the modular aspects of well-constructed Ruby gems.
+          Sinatra's routing pattern, <code>get ("/") { puts "hello world" }</code>, is found
+          in lots of Ruby's web "microframeworks".
 
         <a href="http://www.gembundle.com/">Gems</a>
 
@@ -132,26 +138,33 @@
           Interesting gems are constantly coming out. The site <a href="http://gembundle.com">GemBundle</a> is useful for
           discovering them.
 
-          Here's a few I especially like
+          Here are a few I like:
         <span><span>
             <a href="https://github.com/defunkt/colored">Colored</a>
-              This Gem enables string methods like <code>"RED TEXT".red</code>, <code>"text".bold.underline</code>,
-              <code>"WHITE ON RED".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Codes</a> so the text appears
-              colored when it's printed in the terminal. I usually use this when making CLI
-              applications. There's also Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a>
+              This Gem enables string methods like <code>"string".red</code>, <code>"string".bold.underline</code>,
+              <code>"string".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Codes</a> so the text appears
+              colored when it's printed in the terminal. The actual text saved to file, though, is wrapped in
+              escape codes (i.e. <code>"string".red</code> would produce <code>\e[31mstring\e[0m</code>). I use this mostly any time
+              I make CLI applications. There's also a Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a>
               which converts ANSI-encoded text into <code>span</code> elements with
-              corresponding CSS coloring. Together they make a really easy way to define
+              corresponding CSS coloring. Together they make an easy way to define
               styles from the server.
+              
+              Examples:
+                <span class="ansi"><%= ".red_on_yellow".red_on_yellow %></span>
+                <span class="ansi"><%= ".green_on_black".green_on_black %></span>
           </span><span>
             <a href="https://github.com/deivid-rodriguez/byebug">Byebug</a>
-              A debugger which puts <code>puts</code> to shame. Place breakpoints in
-              code and step through, inspecting values and running code in a REPL. There are also
-              powerful features I haven't used, such as changing source code on-the-fly.
+              This makes it possible to place breakpoints in code and step through, inspecting values and running
+              code in a REPL. It is similar to the "<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger">debugger</a>" breakpoint tool for Javascript in major browsers.
+              There are also powerful features I haven't used, such as changing source code on-the-fly.
+              It's vast improvement to debugging with "puts" statements.
           </span><span>
             <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a>
               This gem is built into Rails, but I frequently use it in non-Rails projects
               with <code>require 'active_support/all'</code> so that I can use string methods like
-              <code>capitalize</code>, <code>pluralize</code>, <code>singularize</code>, and (especially) <code>constantize</code>.
+              <code>capitalize</code>, <code>pluralize</code>, <code>singularize</code>, and <code>constantize</code>.
+              
               For example:
               <code>
   class Light
@@ -164,29 +177,42 @@
             </code>
 
               It might seem pointless to do this instead of <code>Light.new.on</code>,
-              I'll concede that. but it's a powerful way to trigger code from
-              user-supplied strings.
+              but there are other use-cases for these methods. Methods can be activated from
+              symbols (via <code>send</code>), and any string can be converted to symbol
+              (<code>:"Some #{'long_string'} Symbol"</code> is still a symbol, in fact).
+              Strings can also be passed to get and set instance variables, like
+              <code>User.new.send("@#{'name'}=", "Max")</code> (which will set the User's
+              'name' instance variable to Max. Such tools might seem flashy instead of useful,
+              but the Ruby language favors the <a href="http://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">tmtowtdi</a> approach (there's more than one way
+              to do it), and despite their cryptic looking syntax, metaprogramming methods can
+              help write <a href="http://en.wikipedia.org/wiki/Domain-specific_language">Domain Specific Langauges</a> which are even more
+              readable than regular Ruby code.
           </span><span>
             <a href="http://opalrb.org/">Opal</a>
-              I haven't actually used this much, but I think it's awesome. Opal compiles
-              Ruby to Javascript and can even compile to Javascript libraries like jQuery.
-              <a href="http://voltframework.com/">Volt</a> is a framework built with Opal that features <a href="http://stackoverflow.com/questions/13504906/what-is-two-way-binding">2-way-data binding</a>. Looking at
-              Volt again now, I think I ought to give it another try.
+              I haven't actually used this much, but I think it's very interesting.
+              Opal compiles Ruby to Javascript and can even compile to Javascript
+              libraries like jQuery. <a href="http://voltframework.com/">Volt</a> is a framework built with Opal that
+              features <a href="http://stackoverflow.com/questions/13504906/what-is-two-way-binding">2-way-data binding</a> and that I'm eager to look into more.
           </span><span>
             <a href="https://github.com/rest-client/rest-client">Rest Client</a>
-              <code>RestClient.get</code>, <code>RestClient.post</code>, etc.
+            HTTP requests and responses carry the data which is interpreted
+            by browsers to interpret websites' code on users' (clients')
+            computers. Users normally have no reason to compose HTTP requests, but
+            developers often do as a means of communicating with the
+            web without a browser. RestClient helps configure HTTP
+            Methods (and <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">REST</a>), parameters, headers, etc.
+            A basic example is <code>RestClient.get("http://wikipedia.com")</code>, which will give a text version
+            of the file a browser would receive if the url were entered in the address bar.
               I'm not sure a Gem is really necessary for this functionality, since Ruby's
               standard library has <code>open-uri</code> which I'm pretty sure I could have used anywhere
               I used RestClient (the same goes for <a href="https://github.com/jnunemaker/httparty">HTTParty</a>).
-              Most of the time I have used this in conjunction with Nokogiri, but I think
-              one could just use one of these types of gems for downloading multiple
-              kinds of content from the web (text, certainly, and perhaps images).
+              Most of the time I have used this in conjunction with Nokogiri, but it's itself useful as
+              an alternative to Curl.
           </span> <span>
             <a href="https://github.com/nokogiri/nokogiri">Nokigiri</a>
               Basically jQuery for the Ruby server
               The <code>Nokigiri.parse(html).css</code> method allows for selecting objects from
-              the DOM like <code>$('.some-css-class')</code> does. If I were to make
-              a new web scraper, this is likely what I'd use.
+              the DOM like <code>$('.some-css-class')</code> does. It's useful for web scraping.
           </span>
         </span>
       </pre>
@@ -219,8 +245,8 @@
           A very useful abstraction for DOM methods. As I understand it, anything
           in jQuery can be written with plain Javascript without <i> too </i> much
           more effort (some are adament that jQuery should be avoided) - see
-          <a href="http://youmightnotneedjquery.com">here</a> for jQuery / Javascript equivalents, but I haven't found much
-          compelling reason not to use it. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> reports that it's used by 60% of
+          <a href="http://youmightnotneedjquery.com">here</a> for jQuery / Javascript equivalents, but I (and many others) find it a
+          valuable time-saver. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> reports that it's used by 60% of
           the top 100,000 websites.
 
           Some features I find particularly useful:
@@ -237,11 +263,11 @@
               window scrolling, etc.
 
               <code>$(".some-element").hide().show().fadeOut().fadeIn()</code>
-              CSS effects & transitions. jQuery seems to maintain a virtual DOM, since <code>clone()</code>
-              followed by <code>empty()</code> will not necessarily remove the cloned
-              elements from memory unless they are cached and <code>remove()</code>
-              is called on them.
-
+              CSS effects & transitions.
+              
+              <code>clone()</code>, <code>remove()</code>, and <code>empty()</code>
+              are among the many other useful methods.
+          
         <b>
           <a href="#coffeescript-url">Coffeescript</a>
         </b>
@@ -337,7 +363,7 @@
           Example:
           <code>
  .some-class {transition: all 1s ease; border: 1px solid black; width: 50px; height: 50px; }
- .some-class:hover {background: black}
+ .some-class:hover {background: grey}
           </code>
           <style media="screen">
             .some-class {
@@ -346,10 +372,10 @@
               width: 50px;
               height: 50px;
               position: relative;
-              left: 240px;
+              left: 280px;
               bottom: 20px;
             }
-            .some-class:hover {background: black}
+            .some-class:hover {background: grey}
           </style>
           ===> (hover over this) <div class="some-class"></div>
 
@@ -584,44 +610,84 @@
   <div class="experience" id="experience">
     <p><b>Experience</b></p> <br>
     <pre>
-      I grew up in San Francisco and went to UCSC for college.
-      I majored in Politics, but took classes in many other departments, especially
-      Linguistics, Humanties, Math and sciences.
-
-      After finishing college, I began learning programming.I found curriculum and
-      support through groups such as <a href="#odin-url">The Odin Project</a> (
-      also called "Viking School"), meetup.com. For a large part though, I worked off
-      curriculum found through web searches. When I was advancing through the
-      beginner Rails material, I felt I could benefit from an instructor. I took a small
-      online group class on Sinatra, then applied to App Academy, my "boot-camp" of
-      choice since it's reputable and there's no up-front tuition. To my great fortune I
-      got in, and was in the August-December cohort.
-
-      After finishing at App Academy, I began to work at <a href="http://sobrr.lift">Sobrr.life</a>,
-      which was a very rewarding product to work on. I was a core Rails Developer on a
-      small team, and the guidance I received combined with the production experience
-      I gained proved a quite invaluable experience. It's hard for me to summarize the app,
-      but some of the main features are:
-         - separate iOS and Android apps which are the main product.
-         - both communicate with a Rails back end
-         - the app is similar to Tinder, in that users are presented with images
-           and they "swipe" left or right. It faciliatates meeting people differently, though.
-           There's some features bearing similarity to SnapChat, like expiring friendships,
-           chats, and posts.
-          - International user-base, with an especially large number in China.
-      As a core developer with such a small group (my back end team was only 2 full time workers),
-      I gained experience in a lot of different areas of the web application development
-      and deployment cycle.
+    I'm from San Francisco, and went to UC Santa Cruz for college.
+    I was undeclared for a while with the intention of choosing
+    a STEM major, then switched to Linguistics before finally
+    switching to Politics. After finishing college, I started
+    studying computer programming with an emphasis on web
+    development.
+    
+    Prior to programming, I had a lot of professional experience
+    in the non-profit / politics realm. I did canvassing to
+    fundraise for nonprofits, gathered signatures for dozens
+    of California ballot initialitives, polled voters for
+    a mayoral campaign, and staffed a City Council member's office in
+    Santa Cruz. I scoped ice cream and made sandwiches, too.
+    
+    When I returned to San Francisco after graduating, I was
+    discovered that there were a lot of community resources
+    for beginning to study web development. I was interested in
+    the "boot camps", but I was also confident in my independent
+    learning abilities and wanted to explore the field more
+    independently at first. I followed free curriculums which
+    introduced me to Ruby, HTML, CSS, Javascript, Git, Unix, etc.
+    such as <a href="#odin-url">The Odin Project</a>.
+    
+    Eventually I started to feel like my questions were becoming
+    more nuanced and I could benefit from more dialog with
+    a teacher. I was still a bit ambivalent about the bootcamps
+    because I wasn't sure the pressure of an 80+ hour work week
+    was worth it. It had been nearly a year since I began studying
+    full-time, though, and although I was eager to work, I felt
+    as though I still needed some more educational experience
+    before I dove into the job market.
+    I joined <a href="#codeunion-url">CodeUnion</a>'s first
+    class. It appealed to me for a few reasons. It was a 6 person
+    group with 2 teachers, one of whom wrote much of the curriculum
+    for DevBootcamp, a reputable bootcamp. It would teach <a href="https://sinatrarb.com">Sinatra</a>,
+    which, unlike Rails, would be completely new to me. It was
+    a great class and the positive experience gave me the confidence
+    to apply to a some of the most reputable bootcamps.
+    
+    I got into App Academy, my top choice since it has a good
+    reputation and a progressive tuition model (based on
+    the post-graduation salary achieved). In my three months there, I
+    found that my independent education experience was really
+    valuable, but I learned tons and gained a way more "comprehensive
+    "full-stack" skillset.
+    
+    My first developer job was at Sobrr.life, a small, seed-funded
+    startup in San Francisco. The app itself was for the iOS and
+    Android mobile platforms only, and I was on the back end team
+    programming the Rails server which communicated data to the
+    mobile apps. I also managed the database, deploys, built
+    Javascript features for the promotional website, and was the
+    main programmer for server-side app logic updates.
+    
+    Many tasks required collaboration between the mobile developers
+    and the back end team. I configured REST endpoints, pagination
+    cursors, JSON responses, language detection, and moderation
+    rules. I set up delayed jobs (via the <a href="#Resque-url">Resque</a> Redis queueing
+    library for sending automated chats and MPN push notifications at
+    scheduled times. I added a Javascript-powered administration
+    interface for the website in addition to infinite-scroll and
+    a responsive grid for <a href="http://app.sobrr.life/presentation/around_feeds">the promotional site</a>.
+    I did a lot more. Every day was different and the experience
+    was invaluable. The company's development operations have since
+    relocated overseas.
+    
+    I've recently relocated to Portland from San Francisco and I'm
+    currently seeking new work here.
     </pre>
-  </div>
+    </div>
 </section>
 
 <section>
   <div class="links" id="links">
     <p><b>Links</b></p> <br>
-    <a href="http://github.com/maxpleaner">Github</a> <br>
-    <a href="http://linkedin.com/in/maxpleaner">LinkedIn</a> <br>
-    <a href="#blog-1-url">Blog1</a> <br>
-    <a href="#blog-2-urk">Blog2</a>
+    &bull; <a href="http://github.com/maxpleaner">Github</a> <br> <br>
+    &bull; <a href="http://linkedin.com/in/maxpleaner">LinkedIn</a> <br><br>
+    <!--&bull; <a href="#blog-1-url">Blog1</a> <br><br>-->
+    <!--&bull; <a href="#blog-2-urk">Blog2</a>-->
   </div>
 </section>
