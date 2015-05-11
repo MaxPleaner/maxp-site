@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-require 'colored'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
@@ -10,6 +9,12 @@ gem 'rails', '4.2.1'
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
+
+# custom
+gem 'colored'
+
+# gem 'mail_form'
+# requires configuring mail provider
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

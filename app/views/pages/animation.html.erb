@@ -1,0 +1,31 @@
+<% screens = [] %>
+
+<% sequences = Proc.new do %>
+
+  <!-- Configuration -->
+  <% base_char = "888" %>
+  <% base_background = "blue" %>
+  <% colors = [:white, :red, :green] %>
+  
+  <!-- "line" method -->
+  <% line = Proc.new do |i| %>
+    <% 40.times do |i| %>
+      <span class="ansi">
+        <%= base_char.send((colors.sample.to_s + "_on_#{base_background}").to_sym) %>
+      </span>
+    <% end %>
+  <% end %>
+  
+  <!-- Calling of line-->
+  <% 20.times do %>
+    <% screens << line.call %>
+  <% end %>
+  
+<% end %>
+
+
+<% 2.times { sequences.call } %>
+
+<span class="ansi">
+  <% screens[0] %>
+</span>
