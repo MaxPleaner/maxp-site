@@ -19,18 +19,16 @@
 
 pageReady = function (){
 
-  //  a warning message will display if this doesn't work
+  //  JS warning
   $('.js-test-hidden').hide();
 
   //  hide all togglable sections
-  //  use JS instead of CSS for graceful degredation / progressive enhancement
   $('.skills, .skill-details, .experience, .links').hide()
 
   // event listeners for primary links
-  // cache reference to clone to prevent virtual reference duplication
-  // no need to prevent default - using fragment links + ids
   window.$sectionClone = undefined;
   $(".primary-links .clickable").click(function(e){
+    e.preventDefault()
     $el = $(e.currentTarget)
     !!$sectionClone && $sectionClone.remove();
     window.location.hash = $el.attr("href");
@@ -41,21 +39,24 @@ pageReady = function (){
     $sectionClone.fadeIn();
     $("*").removeClass("selected")
     $el.addClass("selected")
+  e.returnValue = false
   });
 
   // event Listeners for Skills sections
-  // cache reference to clone to prevent virtual reference duplication
-  // no need to prevent default - using fragment links + ids
   window.$skillsClone = undefined;
   $('.skills .clickable').click(function(e){
+    e.preventDefault()
     !!$skillsClone && $skillsClone.remove();
     $el = $(e.currentTarget);
+    $(".skills .clickable").removeClass("clicked")
+    $el.addClass("clicked")
     window.location.hash = $el.attr("href");
     $target = $(("." + $el.attr("data-target")));
     $skillsClone = $target.clone(true, true);
     $(".focus-area-2").empty().append($skillsClone)
     $skillsClone.fadeIn();
     $("*").removeClass("selected")
+    e.returnValue = false
   })
 
   // Routing

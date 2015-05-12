@@ -1,0 +1,91 @@
+* {box-sizing: border-box !important;}
+
+a, .clickable { outline: none }
+
+.clickable {
+  color: grey;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.selected {
+  box-shadow: 0px 0px 10px black !important;
+  border: 0px solid black;
+}
+
+code {
+  display: inline-block;
+  border: 1px solid black;
+  background: lightgrey
+}
+
+.header {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  .intro {
+    i { color: black  ; }
+  }
+
+  .primary-links {
+    .clickable { }
+  }
+}
+
+.focus-area-1 {
+  margin: 0px 0px 0px 40px;
+}
+
+.focus-area-2 {
+  margin: 0px 0px 0px 0px;
+}
+
+.focus-area-2 > section > p > b {
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.skills {
+  p { }
+  .clickable.clicked {
+      border: 1px solid darkblue;
+      box-shadow: 0 0 1px darkblue;
+  }
+}
+
+.skill-details  {
+  /*(nx) .<skill>*/
+  section p b {color: red}
+    * p { }
+    pre { }
+}
+
+.experience  {
+  p { }
+  pre { }
+}
+
+.links  {
+  p { }
+  pre { }
+}
+
+* { transition: all 1s ease}
+
+.skills .clickable:hover {
+  background-color: #B4E0E8;
+}
+
+.skills .clickable {
+  border: 1px solid black;
+  padding: 20px;
+  display: inline-block;
+  margin: 5px 0;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}

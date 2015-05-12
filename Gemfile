@@ -13,9 +13,6 @@ gem 'rails_12factor', group: :production
 # custom
 gem 'colored'
 
-# gem 'mail_form'
-# requires configuring mail provider
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

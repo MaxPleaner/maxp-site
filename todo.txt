@@ -1,0 +1,51 @@
+------------------------------------------
+DOM Map
+------------------------------------------
+
+body
+  header
+    .intro
+    i
+    .primary-links
+      (3x) .clickable, data-target="link"
+  .focus-area-1
+    <[skill, experience, links]>
+  .focus-area-2
+    <skill-detail>
+  .skills
+    p
+    (nx) .clickable
+  .skill-details
+    (nx) .<skill>
+      p
+      pre
+  .experience
+    p
+    pre
+  .links
+    p
+    pre
+------------------------------------------
+Priorities
+------------------------------------------
+
+Fix transition listener
+
+What does header contain?
+
+DOM structure map
+
+------------------------------------------
+Concepts
+------------------------------------------
+
+Selected gains box shadow
+
+Code block style
+
+.clickable
+  :hover
+
+.skills -
+  .clickable
+  .clickable:hover
