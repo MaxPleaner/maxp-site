@@ -30,7 +30,8 @@ code {
   }
 
   .primary-links {
-    .clickable { }
+    .clickable { transition: text-shadow 1s ease}
+    .clickable:hover { text-shadow: 0 0 5px lightblue}
   }
 }
 

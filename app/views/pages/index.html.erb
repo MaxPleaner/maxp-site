@@ -47,23 +47,22 @@
     <p>
       <pre>
         I recall when I was just starting out programming when I read that the Ruby
-        community was the type to give a lot of hugs. I think this is a little far fetched,
-        but does illustrate some characteristics of the language. The coziness of hugs
-        reflects the smaller size of Ruby's developer community, not just in
-        comparison to C and Java but also Python, the latter of which Ruby shares a
-        very similar syntax with.
+        community was the type to give a lot of hugs. I think this is a little far
+        fetched, but does illustrate some characteristics of the language. The
+        coziness of hugs reflects the smaller size of Ruby's developer community,
+        not just in comparison to C and Java but also Python, the latter of which
+        Ruby shares a very similar syntax with.
 
-        The friendiness of hugs reflects the readability of Ruby. I haven't learned
-        Java or C, but I haven't seen any such code that maintains a poetic natural
-        language sensibility in the way Ruby does. Some insist that this comes at a
-        price. For example, Ruby's "<a href="http://en.wikipedia.org/wiki/Duck_typing
-">duck-typing</a>" system can be seen as allowing
-        errors to propagate unnecessarily farther than their origins. It allows
-        for a lot less redundancy, though, if the reader/author can keep track of
-        variable types. I've found Ruby's stack traces to be quite comprehendable,
-        though.
+        The friendiness of hugs reflects the readability of Ruby. I haven't seen any
+        such code that maintains a poetic natural language sensibility in the way Ruby
+        does. Some insist that this comes at a price. For example, Ruby's "<a href="http://en.wikipedia.org/wiki/Duck_typing
+">duck-typing</a>"
+        system can be seen as allowing errors to propagate unnecessarily farther
+        than where they originated. It allows for a lot less redundancy, though,
+        if the reader/author can keep track of variable types. I've found Ruby's
+        stack traces to be quite comprehendable, though.
 
-        <a href="https://news.ycombinator.com/item?id=682101">Here</a> is an interesting Hacker News thread about Python vs Ruby. There's a lot
+        <a href="https://news.ycombinator.com/item?id=682101">Here</a> is a Hacker News thread comparing Python with Ruby. There's a lot
         of bickering about minute syntax details, but I think there's a salient
         differentiation described between Python's "conservative" nature and Ruby's
         "experimental" one. I think this partly reflects Python's age and history
@@ -79,36 +78,37 @@
         <b><a href="http://rubyonrails.org/">Rails</a></b>
 
           Rails is the web framework I'm quickest and most fluent in.
-          I don't think Rails is the end-all for web development. With more fluency, I'm sure I could
-          write a complex single-page app faster with a Node framework. For mostly everything besides
-          asynchronous server calls and client-side page navigation, though, I'm quickest with Rails.
+          I don't think Rails is the end-all for web development. With more fluency,
+          I'm sure I could write a complex single-page app faster with a Node framework.
+          For mostly everything besides asynchronous server calls and client-side page
+          navigation, though, I'm quickest with Rails.
 
           A few topics of Rails development worth highlighting:
 
-            <b> Auth </b>- Session tokens, authenticity tokens, and encrypted passwords can be be added
-              to Rails rather quickly - One App Academy assessment was to set the system up within 15
-              mininutes. There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a> which add this functionality,
-              and OAuth libraries for many providers. I'm also interested
-              to try the more minimalist <a href="https://github.com/NoamB/sorcery">Sorcery</a> Auth library. There can be a
-              lot that goes into a complex auth system - email confirmation, password retrieval,
-              etc. Gems like Devise help with this.
+            <b> Auth </b>- Session tokens, authenticity tokens, and encrypted passwords
+              can be be added to Rails rather quickly - One App Academy assessment was
+              to set the system up within 15 minutes. There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a>
+              which add this functionality, and OAuth libraries for many providers. I'm
+              also interested to try the more minimalist <a href="https://github.com/NoamB/sorcery">Sorcery</a> auth library.
+              There can be a lot that goes into a complex auth system - email confirmation,
+              password retrieval, etc. Gems like Devise help with this.
 
-            <b> Code Organization</b> -  At first, the default Rails project directory structure struck
-              me as somewhat daunting, especially for sections relating to features I wasn't sure I'd use.
-              I've since come to appreciate the 'convention
-              over configuration' approach,  which enhances components' portability
-              among projects.
+            <b> Code Organization</b> -  At first, the default Rails project directory
+              structure struck me as somewhat daunting, especially for sections relating
+              to features I wasn't sure I'd use. I've since come to appreciate the
+              'convention over configuration' approach,  which enhances components'
+              portability among projects.
 
             <b> Generators</b> - <code> rails new </code> is a generator for a new
-              project. For some projects (like this site, which is mainly HTML, CSS and JS),
-              this is nearly all the code the server needs in development mode. There
-              are also generators for models, controllers, database migrations,
-              <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and, my favorite, <code>scaffold</code>s, which produce a working
-              <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of laziness
-              but also because of their potential to facilitate metaprogramming. There's
-              even a project called <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a
-              web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a
-              similar tool for Javascript.
+              project. For some projects (like this site, which is mainly HTML, CSS
+              and JS), this is nearly all the code the server needs in development
+              mode. There are also generators for models, controllers, database
+              migrations, <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and, my favorite, <code>scaffold</code>s, which produce
+              a working <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of
+              laziness but also because of their potential to facilitate
+              metaprogramming. There's even a project called <a href="http://prelang.com/">Prelang</a> which
+              lets you describe your app's specs in a web interface and generates
+              a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar tool for Javascript.
 
         <a href="http://www.sinatrarb.com/">Sinatra</a>
 
@@ -136,23 +136,26 @@
               This Gem enables string methods like <code>"string".red</code>, <code>"string".bold.underline</code>,
               <code>"string".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Escape Codes</a> (ANSI stands for
               American National Standards Institute) so the text appears
-              colored when it's printed in the terminal. The actual text saved to file, though, is wrapped in
-              characters which aren't meant to by read my people. For example,
-              <code>"string".red</code> would produce <code>\e[31mstring\e[0m</code>). Most of the time when I make CLI applications, I use this gem.
-              There's also a Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a>
-              which converts ANSI-encoded text into <code>span</code> elements with
-              corresponding CSS coloring. Together they make an easy way to define
-              styles from the server.
+              colored when it's printed in the terminal. The actual text saved
+              to file, though, is wrapped in characters which aren't meant to
+              be read my people. For example, <code>"string".red</code> would produce <code>\e[31mstring\e[0m</code>).
+              Most of the time when I make CLI applications, I use this gem.
+              There's also a Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a> which converts
+              ANSI-encoded text into <code>span</code> elements with corresponding
+              CSS coloring. Together they make an easy way to define styles
+              from the server.
 
               Examples:
                 <span class="ansi"><%= ".red_on_yellow".red_on_yellow %></span>
                 <span class="ansi"><%= ".green_on_black".green_on_black %></span>
           </span><span>
             <a href="https://github.com/deivid-rodriguez/byebug">Byebug</a>
-              This makes it possible to place breakpoints in code and step through, inspecting values and running
-              code in a REPL. It is similar to the "<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger">debugger</a>" breakpoint tool for Javascript in major browsers.
-              There are also powerful features I haven't used, such as changing source code on-the-fly.
-              It's vast improvement to debugging with "puts" statements.
+              This makes it possible to place breakpoints in code and step
+              through, inspecting values and running code in a REPL. It is
+              similar to the "<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger">debugger</a>" breakpoint tool for Javascript
+              in major browsers. There are also powerful features I haven't
+              used, such as changing source code on-the-fly. It's vast
+              improvement to debugging with "puts" statements.
           </span><span>
             <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a>
               This gem is built into Rails, but I frequently use it in non-Rails projects
@@ -171,14 +174,15 @@
             </code>
 
               It might seem pointless to do this instead of <code>Light.new.on</code>,
-              but there are other use-cases for these methods. Methods can be activated from
-              symbols (via <code>send</code>), and any string can be converted to symbol
-              (<code>:"Some #{'long_string'} Symbol"</code> is still a symbol, in fact).
-              Strings can also be passed to get and set instance variables, like
-              <code>User.new.send("@name=", "Max")</code> (which will set the User's
-              'name' instance variable to Max. Such tools might seem flashy instead of useful,
-              but the Ruby language favors the <a href="http://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">tmtowtdi</a> approach (there's more than one way
-              to do it), and despite their cryptic looking syntax, metaprogramming methods can
+              but there are other use-cases for these methods. Methods can be
+              activated from symbols (via <code>send</code>), and any string can be
+              converted to symbol (<code>:"Some #{'long_string'} Symbol"</code> is 
+              still a symbol, in fact). Strings can also be passed to get and set
+              instance variables, like <code>User.new.send("@name=", "Max")</code>
+              (which will set the User's 'name' instance variable to Max. Such
+              tools might seem flashy instead of useful, but the Ruby language favors
+              the <a href="http://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">tmtowtdi</a> approach (there's more than one way to do it),
+              and despite their cryptic looking syntax, metaprogramming methods can 
               help write <a href="http://en.wikipedia.org/wiki/Domain-specific_language">Domain Specific Langauges</a> which are even more
               readable than regular Ruby code.
           </span><span>
@@ -194,16 +198,16 @@
             computers. Users normally have no reason to compose HTTP requests, but
             developers often do as a means of communicating with the
             web without a browser. RestClient helps configure HTTP
-            methods (with an emphasis on the  <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">Reptrasentational State Transfer</a>) design pattern),
-            including parameters, headers, etc.
+            methods (with an emphasis on the  <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">Representational State Transfer</a> 
+            design pattern), including parameters, headers, etc.
 
-            A basic example is <code>RestClient.get("http://wikipedia.com")</code>, which will give a text version
-            of the file a browser would receive if the url were entered in the address bar.
-              I'm not sure a Gem is really necessary for this functionality, since Ruby's
-              standard library has <code>open-uri</code> which I'm pretty sure I could have used anywhere
-              I used RestClient (the same goes for <a href="https://github.com/jnunemaker/httparty">HTTParty</a>).
-              Most of the time I have used this in conjunction with Nokogiri, but it's itself useful as
-              an alternative to Curl.
+            A basic example is <code>RestClient.get("http://wikipedia.com")</code>, which
+            will give a text version of the file a browser would receive if the url were
+            entered in the address bar. I'm not sure a Gem is really necessary for this
+            functionality, since Ruby's standard library has <code>open-uri</code> which I'm
+            pretty sure I could have used anywhere I used RestClient (the same goes for
+            <a href="https://github.com/jnunemaker/httparty">HTTParty</a>). Most of the time I have used this in conjunction with Nokogiri, but
+            it's itself useful as an alternative to Curl.
           </span> <span>
             <a href="https://github.com/nokogiri/nokogiri">Nokigiri</a>
               Basically jQuery for the Ruby server
