@@ -1,3 +1,18 @@
+body {
+  background-color: lighten(salmon, 28%);
+}
+
+pre {
+  margin: 10%;
+  border: 1px solid black;
+  white-space: pre-wrap;
+  max-width: 1000px;
+}
+
+code {
+  white-space: pre-wrap;
+}
+
 * {box-sizing: border-box !important;}
 
 a, .clickable { outline: none }
@@ -36,7 +51,7 @@ code {
 }
 
 .focus-area-1 {
-  margin: 0px 0px 0px 40px;
+  margin: 0px 5% 0px 5%;
 }
 
 .focus-area-2 {
