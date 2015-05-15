@@ -3,10 +3,10 @@ body {
 }
 
 pre {
-  margin: 10%;
-  border: 1px solid black;
+  margin: 5% 10%;
+  # border: 1px solid black;
   white-space: pre-wrap;
-  max-width: 1000px;
+  max-width: 750px;
 }
 
 code {
@@ -25,8 +25,8 @@ a, .clickable { outline: none }
 }
 
 .selected {
-  box-shadow: 0px 0px 10px black !important;
-  border: 0px solid black;
+  // box-shadow: 0px 0px 10px black !important;
+  // border: 0px solid black;
 }
 
 code {
@@ -45,8 +45,13 @@ code {
   }
 
   .primary-links {
-    .clickable { transition: text-shadow 1s ease}
-    .clickable:hover { text-shadow: 0 0 5px lightblue}
+    .clickable {
+      transition: background-color 1s ease;
+      border: 1px solid black;
+      margin: 20px;
+      display: inline-block;
+    }
+    .clickable:hover { background-color: lightblue; }
   }
 }
 
@@ -59,12 +64,13 @@ code {
 }
 
 .focus-area-2 > section > p > b {
-  margin-left: 40px;
+  margin-left: 10%;
   display: inline-block;
 }
 
 .skills {
-  p { }
+  
+  p {}
   .clickable.clicked {
       border: 1px solid darkblue;
       box-shadow: 0 0 1px darkblue;
