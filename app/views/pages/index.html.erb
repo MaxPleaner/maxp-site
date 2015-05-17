@@ -32,7 +32,6 @@
   <p><b>Skills</b></p> <br>
   <a class="clickable" data-target="ruby" href="#skills/ruby">Ruby</a>
   <a class="clickable" data-target="javascript" href="#skills/javascript">Javascript</a>
-  <a class="clickable" data-target="css" href="#skills/css">HTML/ CSS</a>
   <a class="clickable" data-target="databases" href="#skills/databases">Databases</a>
   <a class="clickable" data-target="deployment" href="#skills/deployment">Deployment</a>
   <a class="clickable" data-target="testing" href="#skills/testing">Testing</a>
@@ -183,24 +182,6 @@ More broadly, though, a Grunt task could perform arbitrary tasks like a shell sc
 
   </section>
 
-  <section class="css" id="css">
-    <p><b>HTML / CSS</b></p><pre>
-HTML is the 'skeleton' of a page, providing mostly unstyled content. Sometimes, with a bad internet connection, pages will fail to load CSS and users see the page's content, but everything is quite ugly. Content is usually stacked to the left side of the screen, the background is white and text is black. Some content shows up, but much doesn't. This is the HTML without Javascript or CSS.
-
-CSS behavior is largely dependenent on the default styles of HTML elements. For example, the <code>pre</code> tag signifies "preformatted" text - text in this tag will have newlines and indentation preserved. Most of the content on this site is contained in pre tags since hard-coding too much structure into malleable text sections is futile.
-
-As with Javascript and CSS, a big issue is compatibility between browsers. 'Responsive' websites change their content's presentation depending on which size screen the user's computer has. Percentages can be used instead of pixels to calculate distances, and <code>@media</code> queries can be used to set screen-size 'breakpoints' for style rules. Poorly-crafted sites without 'responsivity' will have a buggy UI on mobile devices.
-
-There are many libraries and programs which help write HTML and CSS. For CSS, there are preprocessors like <a href="#sass-url">SASS</a> and <a href="#less-url">Less</a>. I like using SASS for nested styles, and color effects like <code>lighten(salmon, 28%)</code>.
-
-<a href="#css-color-names-url">CSS Color Names</a> are useful, but also mildly entertaining.
-
-<a href="#unheap-url">Unheap</a> is a good site for finding jQuery plugins which often include CSS.
-
-<a href="#bootstrap-zero">Bootstrap-Zero</a> is a good source for free Twitter Bootstrap templates.
-    </pre>
-  </section>
-
   <section class="databases" id="databases">
     <p><b>Databases</b></p><pre>
 A simple storage system is Ruby's <a href="#pstore-url">PStore</a>, which is included in the Standard Library and provides an interface for saving the state of a Hash to file.
@@ -208,6 +189,10 @@ A simple storage system is Ruby's <a href="#pstore-url">PStore</a>, which is inc
 I'm also familiar with some SQL and NoSQL.
 
 Ive used SQL with databases like <a href="#postgres-url">Postgres</a>, <a href="MySQL">MySQL</a>, and <a href="SQLite">SQLite</a>.
+
+At Sobrr.life, I administered databases with large data-sets. I optimized queries, migrated data, and cached via Redis.
+
+NoSQL systems I've worked with include <a href="http://www.infoworld.com/article/2608293/nosql/how-json-sparked-nosql----and-will-return-to-the-rdbms-fold.html"></a>, <a href="http://yaml.org/">YAML</a>, <a href="http://redis.io/">Redis</a>, and some <a href="https://www.mongodb.org/">MongoDB</a>. I've also used <a href="https://github.com/resque/resque">Resque</a>, an application process queueing system built on Redis.
 
 Ruby's <a href="#arel-url">Arel</a>-based <a href="#arel-url">ActiveRecord</a> is a Ruby library for abstracting vendor-specific SQL syntax. It's queries are far more human-readable queries than SQL's, but are still highly optimizable.
 
