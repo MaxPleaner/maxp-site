@@ -46,7 +46,6 @@
     <p><b>Ruby</b></p>
     <p>
       <pre>
-
 I haven't seen any such code that maintains a poetic natural language sensibility in the way Ruby does. Some insist that this comes at a price. For example, Ruby's "<a href="http://en.wikipedia.org/wiki/Duck_typing ">duck-typing</a>" system can be seen as allowing errors to propagate unnecessarily farther than where they originated. It allows for a lot less redundancy, though, if the reader/author can keep track of variable types. I've found Ruby's stack traces to be quite comprehendable and helpful.
 
 <b><a href="http://rubyonrails.org/">Rails</a></b>
@@ -73,7 +72,7 @@ Gems are Ruby's plugin system, managed with <a href="https://rvm.io/">RVM</a> (o
 
 Here are a few I like:
 <span><span>
-<a href="https://github.com/defunkt/colored">Colored</a> - This Gem enables string methods like <code>"string".red</code>, <code>"string".bold.underline</code>, <code>"string".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Escape Codes</a> (ANSI stands for American National Standards Institute) so the text appears colored when it's printed in the terminal. The actual text saved to file, though, is wrapped in encoding characters. For example, <code>"string".red</code> would produce <code>\e[31mstring\e[0m</code>. Most of the time when I make CLI applications, I use this gem. There's also a Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a> which converts ANSI-encoded text into <code>span</code> elements with corresponding CSS coloring. Together they make an easy way to define styles from the server.
+<a href="https://github.com/defunkt/colored">Colored</a> - This Gem enables string methods like <code>"string".red</code>, <code>"string".bold.underline</code>, <code>"string".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Escape Codes</a> (ANSI stands for American National Standards Institute) so the text appears colored when it's printed in the terminal. The actual text saved to file, though, is wrapped in encoding characters. For example, <code>"string".red</code> would produce <code>\e[31mstring\e[0m</code>. Most of the time when I make CLI applications, I use this gem. There's also a Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a> which converts ANSI-encoded text into <code>span</code> elements with corresponding CSS coloring. Together they make a handy way to define styles from the server.
 
 Examples:
 <span class="ansi"><%= ".red_on_yellow".red_on_yellow %></span>
@@ -86,9 +85,9 @@ Examples:
 </span><span>
 <a href="https://github.com/rest-client/rest-client">Rest Client</a> - helps configure HTTP methods (with an emphasis on the  <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">Representational State Transfer</a> design pattern), including parameters, headers, etc.
 
-A basic example is <code>RestClient.get "http://wikipedia.com"</code> which will give a text version of the file a browser would receive if the url were entered in the address bar. I'm not sure a Gem is really necessary for this functionality, since Ruby's standard library has <code>open-uri</code> which I'm pretty sure I could have used anywhere I used RestClient (the same goes for <a href="https://github.com/jnunemaker/httparty">HTTParty</a>). Most of the time I have used this in conjunction with Nokogiri.
+A basic example is <code>RestClient.get "http://wikipedia.com"</code> which will give a text version of the file a browser would receive if that url were entered in the address bar.
 </span> <span>
-<a href="https://github.com/nokogiri/nokogiri">Nokigiri</a> - Basically jQuery for the Ruby server.<code>Nokigiri.parse(html).css</code> allows for selecting objects from the DOM like <code>$('.some-css-class')</code> does. It's useful for web scraping.
+<a href="https://github.com/nokogiri/nokogiri">Nokigiri</a> - DOM parsing for the Ruby server.<code>Nokigiri.parse(html).css</code> allows for selecting objects from the DOM like <code>$('.some-css-class')</code> does in jQuery. It's useful for web scraping.
 </span>
 </span>
 
@@ -106,9 +105,9 @@ Javascript has a better system for passing around functions as arguments (callba
 
 Javascript also provides a ubiquitous interface with the browser DOM. A conventional complex web app will certainly use Javascript for the front-end.
 
-<b> <a href="#jquery-url">jQuery</a></b> - A very useful abstraction for DOM methods. One <i>could</i> write Javascript equivalents for jQuery methods (<a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a>). <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
+<b> <a href="#jquery-url">jQuery</a></b> - A very useful abstraction for DOM methods. One could write Javascript equivalents for jQuery methods (<a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a>), but I find it a useful abstraction. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
 
-<code>$.AJAX</code>,  <code>$.get</code>, <code>$.post</code>, etc. can be used for making AJAX calls to the server.
+<code>$.ajax</code>,  <code>$.get</code>, <code>$.post</code>, etc. can be used for making AJAX calls to the server.
 
 <code>$.('.css-selector')</code> can be used to select DOM elements using class, ID or attribute. This replaces Javascript's <code>getElementByID</code>, <code>getElementsByClassName</code> or <code>querySelector</code> methods on the <code>document</code> object.
 
@@ -135,11 +134,11 @@ Backbone is a client-side Javascript MVC.
 
 - The <a href="#backbone-on-rails-url">backbone-on-rails</a> Ruby gem provides a <code>rails generate backbone:install</code> command which sets up a basic directory structure and some boilerplate code for consuming Rails' JSON API as a backend for Backbone
 - Backbone has it's own router, with routes navigatable via <code>#</code>the url fragment.
-- HTML templates benefit from <a href="#ejs-url">EJS</a> (embedded Javascript), which provides an <a href="#erb-url">ERB</a>-like syntax for programmatic control over HTML.
+- HTML templates can use <a href="#ejs-url">EJS</a> (embedded Javascript), which provides an <a href="#erb-url">ERB</a>-like syntax for programmatic control over HTML.
 - Events are registered in a clean DSL, <code>events: {"click button.upvote": sendUpvote }</code>.
 - Subviews can add a lot of modular control over front-end components. Libraries like <a href="#marionette-url">Marionette</a> are built for subviews, but I've preferred a hand-rolled system written as part of the App Acadamey curriculum.
 
-A major main benefit of single-page-apps is the ability for clients to interact with servers without the need for  full page reloads, like websites traditionally have. AJAX (or WebSockets, etc) is used to send HTTP requests in the background. This brings the behavior of native apps to the web.
+A major main benefit of single-page-apps is the ability for clients to interact with servers without the need for  full page reloads, like websites traditionally have. AJAX (or WebSockets, etc) is used to send HTTP requests in the background. This is more efficient, more user-friendly, and enables web apps to function more like native apps.
 </b>
 <b>
 <a href="#meteor-url">Meteor</a>
@@ -192,7 +191,7 @@ Ive used SQL with databases like <a href="#postgres-url">Postgres</a>, <a href="
 
 At Sobrr.life, I administered databases with large data-sets. I optimized queries, migrated data, and cached via Redis.
 
-NoSQL systems I've worked with include <a href="http://www.infoworld.com/article/2608293/nosql/how-json-sparked-nosql----and-will-return-to-the-rdbms-fold.html"></a>, <a href="http://yaml.org/">YAML</a>, <a href="http://redis.io/">Redis</a>, and some <a href="https://www.mongodb.org/">MongoDB</a>. I've also used <a href="https://github.com/resque/resque">Resque</a>, an application process queueing system built on Redis.
+NoSQL systems I've worked with include <a href="http://www.infoworld.com/article/2608293/nosql/how-json-sparked-nosql----and-will-return-to-the-rdbms-fold.html">JSON</a>, <a href="http://yaml.org/">YAML</a>, <a href="http://redis.io/">Redis</a>, and some <a href="https://www.mongodb.org/">MongoDB</a>. I've also used <a href="https://github.com/resque/resque">Resque</a>, an application process queueing system built on Redis.
 
 Ruby's <a href="#arel-url">Arel</a>-based <a href="#arel-url">ActiveRecord</a> is a Ruby library for abstracting vendor-specific SQL syntax. It's queries are far more human-readable queries than SQL's, but are still highly optimizable.
 
@@ -256,7 +255,7 @@ I'm running Ubuntu 14.01 on a Chromebook using <a href="#crouton-url">Crouton</a
   <section class="world" id="world">
     <p><b>The World at Large</b></p>
     <pre>
-I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of mine. I will be eventually filling a blog at <a href="http://maxpleaner.ghost.io">maxpleaner.ghost.io</a> with thoughts on current events. I'm interested in pacifism, social stratification, urbanization, <a href="http://en.wikipedia.org/wiki/World-systems_theory">world systems</a>, and the normalization of virtual reality.
+I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of mine. I will be eventually filling a blog at <a href="http://maxpleaner.ghost.io">maxpleaner.ghost.io</a> with thoughts on current events. I've been recently thinking about urbanization, <a href="http://en.wikipedia.org/wiki/World-systems_theory">world systems</a>, and <a href="http://en.wikipedia.org/wiki/Computer-mediated_reality">Computer-mediated reality</a>.
   </pre>
   </section>
 </section>
