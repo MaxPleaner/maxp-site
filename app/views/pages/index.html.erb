@@ -47,11 +47,8 @@
     <p><b>Ruby</b></p>
     <p>
       <pre>
-I recall when I was just starting out programming when I read that the Ruby community was the type to give a lot of hugs. I think this is a little far fetched, but does illustrate some characteristics of the language. The coziness of hugs reflects the smaller size of Ruby's developer community, not just in comparison to C and Java but also Python, the latter of which Ruby shares a very similar syntax with.
 
-The friendiness of hugs reflects the readability of Ruby. I haven't seen any such code that maintains a poetic natural language sensibility in the way Ruby does. Some insist that this comes at a price. For example, Ruby's "<a href="http://en.wikipedia.org/wiki/Duck_typing ">duck-typing</a>" system can be seen as allowing errors to propagate unnecessarily farther than where they originated. It allows for a lot less redundancy, though, if the reader/author can keep track of variable types. I've found Ruby's stack traces to be quite comprehendable, though.
-
-<a href="https://news.ycombinator.com/item?id=682101">Here</a> is a Hacker News thread comparing Python with Ruby. There's a lot of bickering about minute syntax details, but I think there's a salient differentiation described between Python's "conservative" nature and Ruby's "experimental" one. I think this partly reflects Python's age and history of integration with enterprise / non-web application in comparison to Ruby's more particular association with the web, since Ruby became popular with Rails. I've began learing Python, but for what I'm mainly using Ruby for, web apps, I'm generally finding myself using my time to learn Node and Javascript instead. Node's "cutting edge" sentiment aside, single-page-app features have become an expected convenience for users.
+I haven't seen any such code that maintains a poetic natural language sensibility in the way Ruby does. Some insist that this comes at a price. For example, Ruby's "<a href="http://en.wikipedia.org/wiki/Duck_typing ">duck-typing</a>" system can be seen as allowing errors to propagate unnecessarily farther than where they originated. It allows for a lot less redundancy, though, if the reader/author can keep track of variable types. I've found Ruby's stack traces to be quite comprehendable and helpful.
 
 <b><a href="http://rubyonrails.org/">Rails</a></b>
 
@@ -59,15 +56,15 @@ Rails is the web framework I'm quickest and most fluent in. I don't think Rails 
 
 A few topics of Rails development:
 
-<b>Auth </b>- Session tokens, authenticity tokens, and encrypted passwords can be be added to Rails rather quickly - One App Academy assessment was to set the system up within 15 minutes. There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a> which add this functionality, and OAuth libraries for many providers. There can be a lot that goes into a complex auth system - email confirmation, password retrieval, etc. Gems like Devise help with this.
+<b>Auth </b>- Session tokens, authenticity tokens, and encrypted passwords can be be added to Rails rather quickly. There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a> which add this functionality, and OAuth libraries for many providers like Github, Twitter, etc.. There can be a lot that goes into a complex auth system, such as email confirmation, password retrieval
 
-<b>Code Organization</b> -  At first, the default Rails project directory structure struck me as somewhat daunting, especially for sections relating to features I wasn't sure I'd use. I've since come to appreciate the 'convention over configuration' approach,  which enhances components' portability among projects and helped me get productive on a large codebase like Sobrr.life quickly.
+<b>Code Organization</b> - I've since come to appreciate the 'convention over configuration' approach,  which enhances components' portability among projects and helped me get productive on a large codebase like Sobrr.life quickly.
 
-<b>Generators</b> - <code> rails new </code> is a generator for a new - project. For some projects (like this site, which is mainly HTML, CSS and JS), this is nearly all the code the server needs in development mode. There are also generators for models, controllers, database migrations, <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and, my favorite, scaffolds, which produce a working <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of laziness but also because of their potential to facilitate metaprogramming. There's even a project called <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar tool for Javascript.
+<b>Generators</b> - <code> rails new </code> is a generator for a new project. For some projects (like this site, which is mainly HTML, CSS and JS), this is nearly all the code the server needs in development mode. There are also generators for models, controllers, database migrations, <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and, my favorite, scaffolds, which produce a working <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of laziness but also because of their potential to facilitate metaprogramming. There's even a project called <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar tool for Javascript.
 
 <a href="http://www.sinatrarb.com/">Sinatra</a>
 
-Sinatra shares a lot in common with Rails but is much more minimalist. Learning Sinatra taught me that Rails is not the only smart choice for web development in Ruby. It's less 'opinionated' than Rails, and since projects are built more from-the-ground-up, there's less deconstruction required to change out core components. It was in this context that I found <a href="http://datamapper.org/">DataMapper</a>, a plug-n-play, migration-less alternative to Rails' <a href="http://guides.rubyonrails.org/active_record_basics.html">ActiveRecord</a> database library. I usally prefer Rails for new projects, but learning Sinatra has inspired me to take occasional forays into building minimalist Ruby web frameworks and helped me appreciate the modular aspects of well-constructed Ruby gems. Sinatra's routing pattern, <code>get ("/") do
+Sinatra shares a lot in common with Rails but is much more minimalist. It's less 'opinionated' than Rails, and since projects are built more from-the-ground-up, there's less deconstruction required to change out core components. Sinatra's routing pattern, <code>get ("/") do
   puts "hello world"
 end</code>, is found in lots of Ruby's web "microframeworks".
 
@@ -77,7 +74,7 @@ Gems are Ruby's plugin system, managed with <a href="https://rvm.io/">RVM</a> (o
 
 Here are a few I like:
 <span><span>
-<a href="https://github.com/defunkt/colored">Colored</a> - This Gem enables string methods like <code>"string".red</code>, <code>"string".bold.underline</code>, <code>"string".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Escape Codes</a> (ANSI stands for American National Standards Institute) so the text appears colored when it's printed in the terminal. The actual text saved to file, though, is wrapped in characters which aren't meant to be read my people. For example, <code>"string".red</code> would produce <code>\e[31mstring\e[0m</code>. Most of the time when I make CLI applications, I use this gem. There's also a Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a> which converts ANSI-encoded text into <code>span</code> elements with corresponding CSS coloring. Together they make an easy way to define styles from the server.
+<a href="https://github.com/defunkt/colored">Colored</a> - This Gem enables string methods like <code>"string".red</code>, <code>"string".bold.underline</code>, <code>"string".white_on_red</code>, etc. It uses <a href="http://en.wikipedia.org/wiki/ANSI_escape_code">ANSI Escape Codes</a> (ANSI stands for American National Standards Institute) so the text appears colored when it's printed in the terminal. The actual text saved to file, though, is wrapped in encoding characters. For example, <code>"string".red</code> would produce <code>\e[31mstring\e[0m</code>. Most of the time when I make CLI applications, I use this gem. There's also a Javascript library called <a href="https://github.com/drudru/ansi_up">Ansi Up</a> which converts ANSI-encoded text into <code>span</code> elements with corresponding CSS coloring. Together they make an easy way to define styles from the server.
 
 Examples:
 <span class="ansi"><%= ".red_on_yellow".red_on_yellow %></span>
@@ -85,34 +82,10 @@ Examples:
 </span><span>
 <a href="https://github.com/deivid-rodriguez/byebug">Byebug</a> - This makes it possible to place breakpoints in code and step through, inspecting values and running code in a REPL. It is similar to the "<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger">debugger</a>" breakpoit tool for Javascript in major browsers. There are also powerful features I haven't used, such as changing source code on-the-fly. It's vast improvement to debugging with "puts" statements.
 </span><span>
-<a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a> This gem is built into Rails, but I frequently use it in non-Rails projects with <code>require 'active_support/all'</code> so that I can use string methods like <code>capitalize</code>, <code>pluralize</code>, <code>singularize</code>, and <code>constantize</code>.
 
-For example:
-<code>class Light
-  def on
-    puts "light is on"
-  end
-end
-"lights"
-  .singularize
-  .capitalize
-  .constantize
-  .new
-  .on
-# => "light is on"
-</code>
-
-It might seem pointless to do this instead of <code>Light.new.on</code>, but there are other use-cases for these methods. Methods can be activated from symbols (via <code>send</code>), and any string can be converted to symbol. <code>:"Some #{'long_string'} Symbol"</code> is still a symbol, in fact. Strings can also be passed to get and set instance variables, like
-<code>User
-  .new
-  .instance_variable_set(
-    "@name=", "Max"
-  )
-</code> (which will set the User's 'name' instance variable to Max. Such tools might seem flashy instead of useful, but the Ruby language favors the <a href="http://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">tmtowtdi</a> approach (there's more than one way to do it), and despite their cryptic looking syntax, metaprogramming methods can help write <a href="http://en.wikipedia.org/wiki/Domain-specific_language">Domain Specific Langauges</a> which are even more readable than regular Ruby code.
-</span><span>
 <a href="http://opalrb.org/">Opal</a> - Opal compiles Ruby to Javascript and can even compile to Javascript libraries like jQuery. <a href="http://voltframework.com/">Volt</a> is a framework built with Opal that features <a href="http://stackoverflow.com/questions/13504906/what-is-two-way-binding">2-way-data binding</a>. I'm eager to look into these tools more.
 </span><span>
-<a href="https://github.com/rest-client/rest-client">Rest Client</a> - HTTP requests and responses carry the data which is used by browsers to interpret websites' code on users' (clients') computers. Users normally have no reason to compose HTTP requests, but developers often do as a means of communicating with the web without a browser. RestClient helps configure HTTP methods (with an emphasis on the  <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">Representational State Transfer</a> design pattern), including parameters, headers, etc.
+<a href="https://github.com/rest-client/rest-client">Rest Client</a> - helps configure HTTP methods (with an emphasis on the  <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">Representational State Transfer</a> design pattern), including parameters, headers, etc.
 
 A basic example is <code>RestClient.get "http://wikipedia.com"</code> which will give a text version of the file a browser would receive if the url were entered in the address bar. I'm not sure a Gem is really necessary for this functionality, since Ruby's standard library has <code>open-uri</code> which I'm pretty sure I could have used anywhere I used RestClient (the same goes for <a href="https://github.com/jnunemaker/httparty">HTTParty</a>). Most of the time I have used this in conjunction with Nokogiri.
 </span> <span>
@@ -120,31 +93,25 @@ A basic example is <code>RestClient.get "http://wikipedia.com"</code> which will
 </span>
 </span>
 
-
-
       </pre>
     </p>
   </section>
 
   <section class="javascript" id="javascript">
     <p><b>Javascript</b></p><pre>
-I've been learning & working with Javascript since soon after I began programming. Javascript offers some benefits and drawbacks in comparison to Ruby.
+I've been learning & working with Javascript since soon after I began programming.
 
-First, one drawback - the language is is some ways a bit more primitive than Ruby. Alot of convenience methods in Ruby (<code>map</code> and <code>reject</code> for example) aren't defined in plain JS. They are defined in libraries like <a href="#underscore-url">underscore</a>, though.
+The language in some ways seems more primitive than Ruby. Alot of convenience methods in Ruby (<code>map</code> and <code>reject</code> for example) aren't defined in plain JS. They are defined in libraries like <a href="#underscore-url">underscore</a>, though.
 
-Next, a benefit - Javascript has a better system for passing around functions as arguments ("callbacks"). In Ruby, there are special types / keywords for this - <code>yield</code>, <code>Proc</code>, <code>Lambda</code>, etc. In Javascript, though, what's passed around is identical to a normal method. Another benefit of Javascript is the open access to define attributes on arbitrary objects. It's be like if Objects in Ruby were by default <code>OpenStruct</code> objects.
+Javascript has a better system for passing around functions as arguments (callbacks), though. In Ruby, there are special types / keywords for this - <code>yield</code>, <code>Proc</code>, <code>Lambda</code>, etc. In Javascript, there's a single type (a 'function') . Another benefit of Javascript is the open access to define attributes on arbitrary objects. It's be like if Objects in Ruby were by default <code>OpenStruct</code> objects.
 
-Also, a less nuanced benefit is clearly the access JS has to the DOM. This is ubiquitous to Javascript, and a conventional complex web app will certainly use Javascript for the front-end.
+Javascript also provides a ubiquitous interface with the browser DOM. A conventional complex web app will certainly use Javascript for the front-end.
 
-Some topics in Javascript that I have experience with:
+<b> <a href="#jquery-url">jQuery</a></b> - A very useful abstraction for DOM methods. One <i>could</i> write Javascript equivalents for jQuery methods (<a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a>). <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
 
-<b> <a href="#jquery-url">jQuery</a></b> - A very useful abstraction for DOM methods. As I understand it, mostly anything in jQuery can be written with plain Javascript without <i> too </i> much more effort, and some are adament that jQuery should be avoided. <a href="http://youmightnotneedjquery.com">here</a> is a list of jQuery / Javascript equivalents. I find it a valuable time-saver, though. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
+<code>$.AJAX</code>,  <code>$.get</code>, <code>$.post</code>, etc. can be used for making AJAX calls to the server.
 
-Some features I find particularly useful:
-
-<code>$.AJAX</code>, or <code>$.get</code>, <code>$.post</code>, etc., for making AJAX calls to the server.
-
-<code>$.('.css-selector')</code> to select DOM elements using class, ID or attribute. This replaces Javascript's <code>getElementByID</code>, <code>getElementsByClassName</code> or <code>querySelector</code> methods on the <code>document</code> object.
+<code>$.('.css-selector')</code> can be used to select DOM elements using class, ID or attribute. This replaces Javascript's <code>getElementByID</code>, <code>getElementsByClassName</code> or <code>querySelector</code> methods on the <code>document</code> object.
 
 <code>$(".selector").on("event", function(event) { ... event code ... })</code> provides event handlers for <code>click</code>, <code>hover</code>, <code>submit</code>, window scrolling, etc.
 
@@ -165,19 +132,15 @@ Coffeescript's syntax is meant to be less verbose than Javascript's. It ends up 
 <b>
 <a href="#backbone-url">Backbone</a></b>
 
-Backbone is a client-side MVC which I have experience building on top of Rails for a number of apps. I learned Backbone at App Academy, and doing so dramatically improved my skills at building single-page-apps.
+Backbone is a client-side Javascript MVC.
 
-There are a lot of Javascript MVC frameworks, and Backbone seems to be a relatively minimalist, open-ended choice in comparison to Angular or Meteor.
-
-Here's how I use Backbone, in summary:
-
-- The <a href="#backbone-on-rails-url">backbone-on-rails</a> gem provides a <code>rails generate backbone:install</code> command which sets up a basic directory structure and some boilerplate code. Mostly everything lives in the app/assets/javascripts directory.
-- Routes are added to the Backbone router file. These routes are navigatable via the url fragment.
-- Views and templates are added. The templates are HTML, and <a href="#ejs-url">EJS</a> (embedded Javascript) provides an <a href="#erb-url">ERB</a>-like syntax for programmatic control over HTML.
+- The <a href="#backbone-on-rails-url">backbone-on-rails</a> Ruby gem provides a <code>rails generate backbone:install</code> command which sets up a basic directory structure and some boilerplate code for consuming Rails' JSON API as a backend for Backbone
+- Backbone has it's own router, with routes navigatable via <code>#</code>the url fragment.
+- HTML templates benefit from <a href="#ejs-url">EJS</a> (embedded Javascript), which provides an <a href="#erb-url">ERB</a>-like syntax for programmatic control over HTML.
 - Events are registered in a clean DSL, <code>events: {"click button.upvote": sendUpvote }</code>.
 - Subviews can add a lot of modular control over front-end components. Libraries like <a href="#marionette-url">Marionette</a> are built for subviews, but I've preferred a hand-rolled system written as part of the App Acadamey curriculum.
 
-A major main benefit of single-page-apps is the ability for clients to interact with servers (and see the effects in their browsers) in a stateful manner - eliminating the need for a full page reload whenever a button is clicked, for example. AJAX (or WebSockets, etc) is used to send HTTP requests in the background, and rather than having to reload the entire site (caching via something like <a href="#turbolinks-url">Turbolinks</a> aside), only the updated information is changed. This brings the behavior of native apps to the web.
+A major main benefit of single-page-apps is the ability for clients to interact with servers without the need for  full page reloads, like websites traditionally have. AJAX (or WebSockets, etc) is used to send HTTP requests in the background. This brings the behavior of native apps to the web.
 </b>
 <b>
 <a href="#meteor-url">Meteor</a>
@@ -185,7 +148,6 @@ A major main benefit of single-page-apps is the ability for clients to interact 
 I've began learning and building with Meteor since it offers an integrated server-client system which is intended for single-page-app development.
 
 This certainly isn't unique to Meteor. The <a href="#mean-url">MEAN</a> stack is more widely used and integrates an <a href="#angular-url">Angular</a> front-end with <a href="#express">Express</a> / <a href="#mongo-url">MongoDB</a> backend running on Node. Meteor entices me becuase of it's comprehensive approach (everything "in the box", though, and emphasis on reducing boilerplate for client-server communication and <a href="#dom-url">DOM</a> updates. Meteor's team made it's own <a href="ddp-url">DDP</a>) data communiction protocol for <a href="#2-way-binding-url">two-way data binding</a>.
-
 
 The single-page-app development toolset is growing rapidly and is accompanied by the emergence of new frameworks. I can't help but pay attention to the seeming politics of them. Angular's development is funded <a href="#angular-funding-url">by Google</a>, and React <a href="#react-url">by Facebook</a>. Meteor comes across as trying to insulate the developer from a myriad of options. They offer freemium hosting and there is a Meteor-only package manager built on top of NPM called <a href="#meteorite-url">Meteorite</a>. In the competitive atmosphere, though, surely frameworks will continue to "one-up" each other for some time.
 
@@ -197,17 +159,15 @@ Still, Meteor's packages are strikingly effortless to set up. To add authenticat
 <a href="#npm">NPM</a>
 </b>
 
-NPM stands for "Node Package Manager" and is akin Ruby Gems in many ways. "Installing packages" installs software to the computer. For some packages, this is as simple as downloading a small directory of Javascript files. As with Ruby Gems, others require deeper integration with the host operating system and <a href="#native-extensions">Native Extensions</a> are required.
+NPM, 'Node Package Manager', is akin Ruby Gems in many ways. 
 
-Packages are installed into a <code>.npm-packages</code> directory in a globally accessible path or local to a single project. <code>npm init</code> creates a <code>package.json</code> comparable to a Ruby project's Gemfile - it lists the packages required (including their versions and dependencies) and can distinguish package sets between environments like test, production, and development. Node projects are distributed with a specification file but don't include the bundled dependencies themselves. <code>npm install</code> installs the actual dependencies.
+Packages are installed into a <code>.npm-packages</code> directory globally or locally to a single project. <code>npm init</code> creates a <code>package.json</code> comparable to a Ruby project's Gemfile - it lists the packages required (including their versions and dependencies) and can distinguish package sets between environments like test, production, and development. Node projects are distributed with a specification file but don't include the bundled dependencies themselves. <code>npm install</code> installs the actual dependencies.
 
 NPM integrates with Node's <code>require</code> system to make including packages very quick and easy. <code>npm install jQuery</code> allows one to simply write <code>$ = require(jQuery)</code>.
 
-As with Ruby gems, there are many useful and interesting Node packages coming out. I'm less experienced with the Node's plugin ecosphere than Ruby's, but here are some I've tried:
+As with Ruby gems, there are many useful and interesting Node packages coming out:
 
-<a href="#yo-url">Yo</a> - generators for lots of Node projects. These generators aim to be really compresive. They often include build and deploy systems configured with the application. There are generators for most JS frameworks and for NPM package skeletons, jQuery plugins, Chrome extensions, some Ruby frameworks like Sinatra, etc.
-
-I've generated a bunch of projects with yo, but haven't gone on to build on the generated apps much. I have a lot to learn in the Node world, and there's a good educational benefit to adding components incrementally. Perhaps when my Node workflow becomes further streamlined I will be more effective with Yo.
+<a href="#yo-url">Yo</a> provides generators for lots of Node projects. They often include build and deploy systems configured with the application. There are generators for most JS frameworks and for NPM package skeletons, jQuery plugins, Chrome extensions, some Ruby frameworks like Sinatra, etc.
 
 <a href="#grunt-url">Grunt</a> is a "build system" / automated task runner. Here are some tasks Grunt might be used for:
 - Running a test suite and automated code review
@@ -229,12 +189,7 @@ HTML is the 'skeleton' of a page, providing mostly unstyled content. Sometimes, 
 
 CSS behavior is largely dependenent on the default styles of HTML elements. For example, the <code>pre</code> tag signifies "preformatted" text - text in this tag will have newlines and indentation preserved. Most of the content on this site is contained in pre tags since hard-coding too much structure into malleable text sections is futile.
 
-There are a lot of nuances to good HTML code, and I tend to use libraries for these effects. As with Javascript and CSS, a big issue is compatibility between browsers. A 'shim' is a commented command sequence that is still interpreted by older browsers. In HTML, one can be used for "<a href="#progressive-enhancement-url">progressive enhancement</a>" or "<a href="#graceful-degredation-url">graceful degredation</a>".
-
-'Responsive' websites change their content's presentation depending on which size screen the user's computer has. Percentages can be used instead of pixels to calculate distances, and <code>@media</code> queries can be used to set screen-size 'breakpoints' for style rules. Poorly-crafted sites without 'responsivity' will have a buggy UI on mobile devices.
-
-CSS isn't responsible for all "style" on the web - Javascript is capable of making
-very complex visual effects via tools like <a href="#canvas-url">Canvas</a> and <a href="#d3-url">D3</a>.
+As with Javascript and CSS, a big issue is compatibility between browsers. 'Responsive' websites change their content's presentation depending on which size screen the user's computer has. Percentages can be used instead of pixels to calculate distances, and <code>@media</code> queries can be used to set screen-size 'breakpoints' for style rules. Poorly-crafted sites without 'responsivity' will have a buggy UI on mobile devices.
 
 There are many libraries and programs which help write HTML and CSS. For CSS, there are preprocessors like <a href="#sass-url">SASS</a> and <a href="#less-url">Less</a>. I like using SASS for nested styles, and color effects like <code>lighten(salmon, 28%)</code>.
 
@@ -243,148 +198,6 @@ There are many libraries and programs which help write HTML and CSS. For CSS, th
 <a href="#unheap-url">Unheap</a> is a good site for finding jQuery plugins which often include CSS.
 
 <a href="#bootstrap-zero">Bootstrap-Zero</a> is a good source for free Twitter Bootstrap templates.
-
-There are a number of programs for 'drawing' web pages and exporting generated code. This is certainly useful for making prototypes, but I'm less confident that such tools produce extensible, modifiable code.
-There are certain CSS features I find offer a lot of bang for the buck:
-
-<code>transitions</code>
-
-Example:
-<code> .some-class {
-  transition: all 1s ease;
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;
-}
-.some-class:hover {
-  background: grey
-}
-</code>
-<style media="screen">
-.some-class {
-  transition: all 1s ease;
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;
-  # position: relative;
-  # left: 280px;
-  # bottom: 20px;
-}
-.some-class:hover {background: grey}
-</style>
-which produces:
-
-<div class="some-class"></div>
-
-<code>Opacity</code>
-
-Example:
-<code>.background-img {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  padding:50px;
-}
-.opaque-overlay {
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  opacity: 0.5;
-}
-</code>
-<style media="screen">
-.background-img {
-background-color: red;
-background-overflow: hide;
-width: 100px;
-height: 100px;
-padding:20px;
-# position: relative;
-# left: 100px;
-# bottom: 20px;
-}
-.opaque-overlay {
-width: 50px;
-height: 50px;
-background-color: white;
-opacity: 0.5;
-}
-</style>
-which produces this:
-
-<div class="background-img">
-<div class="opaque-overlay"></div>
-</div>
-  (The smaller square is partly transparent ,so it's 'white' background color shows up as pink):
-
-<code>Inline-Block</code>
-
-This helps inline attributes gain block traits without automatically taking up a full line line like blocks tend to. It can also be used for block elements to make them appear inline. Here's an example of a span element styled using inline-block:
-
-<code>
-.inline-block-span {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 2px;
-  background-color: lightgreen;
-}
-</code>
-<style media="screen">
-.inline-block-span {
-display: inline-block;
-border: 1px solid black;
-padding: 2px;
-background-color: lightgreen;
-}
-</style>
-Some normal text - <span class="inline-block-span">I'm an inline block span</span> ... some more normal text
-
-
-<code>Box-Shadow, border-radius</code>
-
-Box shadow is used to give a shadow effect on boxes.
-
-Border radius is used to round rectangles into circles.
-
-<code>
-
-.sun {
-  border: 1px solid black;
-  border-radius: 100px;
-  box-shadow: 0px 0px 100px black;
-  width: 100px;
-  height: 100px;
-  position: relative;
-  left: 10%;
-  background-color: yellow;
-  border: 10px solid red;
-}
-
-</code>
-<style media="screen">
-.sun {
-border: 1px solid black;
-border-radius: 100px;
-box-shadow: 0px 0px 100px black;
-width: 100px;
-height: 100px;
-position: relative;
-left: 10%;
-background-color: yellow;
-border: 10px solid red;
-}
-.sun-box {
-width: 80%;
-height: 200px;
-background: orange;
-padding: 50px;
-}
-</style>
-which will produce the following, surrounded by an orange div to emphasize the box-shadow color transition effect:
-
-<div class="sun-box">
-<div class="sun"></div>
-</div>
     </pre>
   </section>
 
@@ -392,25 +205,23 @@ which will produce the following, surrounded by an orange div to emphasize the b
     <p><b>Databases</b></p><pre>
 A simple storage system is Ruby's <a href="#pstore-url">PStore</a>, which is included in the Standard Library and provides an interface for saving the state of a Hash to file.
 
-I'm familiar with some SQL and NoSQL.
+I'm also familiar with some SQL and NoSQL.
 
 Ive used SQL with databases like <a href="#postgres-url">Postgres</a>, <a href="MySQL">MySQL</a>, and <a href="SQLite">SQLite</a>.
 
 Ruby's <a href="#arel-url">Arel</a>-based <a href="#arel-url">ActiveRecord</a> is a Ruby library for abstracting vendor-specific SQL syntax. It's queries are far more human-readable queries than SQL's, but are still highly optimizable.
 
-Besides SQL, there's NoSQL which is a realm I haven't too extensively explored. I have worked with Redis, though, in my work at Sobrr.life. As I understand it, Redis is quicker than SQL, but it is also in a sense more primitive, at least with the configuration I had. Perhaps "primitive" isn't the right word for it - for example, <a href="#">this blog post</a> on the topic describes how Redis' should ideally be used for "atomic operations", which is specifically what we used it for at Sobrr.life - caching of "score" counters for members and posts (data which could be recomputed but not conveniently). I have also started learning MongoDB in the context of Meteor.
-
     </pre>
   </section>
   <section class="deployment" id="deployment">
     <p><b>Deployment</b></p><pre>
-I got a lot of experience with deployment when working at Sobrr.life. Before I had mostly deployed with Heroku (for personal projects). I've also deployed on Github pages -  <a href="#asteroids-url">Asteroids</a> and <a href="#snake-url">Snake</a> HTML5 Canvas games and a (inactive) jekyll blog.
+Before working at Sobrr.life, I had mostly deployed with Heroku for personal projects. I'd also deployed on Github pages - <a href="#asteroids-url">Asteroids</a> and <a href="#snake-url">Snake</a> HTML5 Canvas games and a (inactive) jekyll blog.
 
 At Sobrr.life, we used <a href="#aws-url">AWS</a> to serve 100,000 monthly users and thousands of daily users.
 
 Some AWS services we used:
 
-<a href="#ec2-url">EC2</a> - "instances" of machines that the app is installed on. These can be SSHd into. Limiting CPU consumption on these machines was important for managing the performance of resource-intensive operations such as data migrations.
+<a href="#ec2-url">EC2</a> - "instances" of machines that the app is installed on. These can be SSHd into. Limiting CPU consumption on these machines was important at Sobrr.life for managing the performance of resource-intensive operations such as data migrations.
 
 <a href="#s3-url">S3</a> - Asset hosting, e.g. images for user posts. A major feature of the Sobrr app is expiring photo posts.
 
@@ -453,7 +264,6 @@ Since Linux and Mac are both built on Unix, for the most part one can use the sa
 </span><span>Ruby is nicely suited to shell programming automation, as any commands within <code>``</code> backticks will be delegated to the system.
 
 I'm running Ubuntu 14.01 on a Chromebook using <a href="#crouton-url">Crouton</a>. ChromeOS is built with Linux and offers performant virtualization for other Linux systems. With this setup, one can switch between the ChromeOS and Ubuntu GUIs with a keyboard shortcut, connect to the Ubuntu CLI from a browser tab in ChromeOS and access Ubuntu port processes (e.g. local HTTP servers) from ChromeOS. I'm currently trying the <a href="#awesome-url">Awesome Window Manager</a> 'tiling' desktop environment.
-
 </pre>
   </section>
 
@@ -508,7 +318,6 @@ I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of
 - The company's development operations have since relocated overseas.
 
 - I've recently relocated to Portland from San Francisco and I'm currently seeking new work here or virtually. See the <a href="http://maxp-homepage.heroku.com/#links">Links</a> page to contact me.
-
 
     </pre>
     </div>
