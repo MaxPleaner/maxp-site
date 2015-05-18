@@ -54,11 +54,11 @@ Rails is the web framework I'm quickest and most fluent in. I don't think Rails 
 
 A few topics of Rails development:
 
-<b>Auth </b>- Session tokens, authenticity tokens, and encrypted passwords can be be added to Rails rather quickly. There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a> which add this functionality, and OAuth libraries for many providers like Github, Twitter, etc.. There can be a lot that goes into a complex auth system, such as email confirmation, password retrieval
+<b>Auth </b>- Session tokens, authenticity tokens, and encrypted passwords can be be added to Rails rather quickly. There are also gems like <a href="https://github.com/plataformatec/devise">Devise</a> which add this functionality, and <a href="http://oauth.net/">OAuth</a> libraries for many providers like Github, Twitter, etc.. There can be a lot that goes into a complex auth system, such as email confirmation, password retrieval
 
 <b>Code Organization</b> - I've since come to appreciate the 'convention over configuration' approach,  which enhances components' portability among projects and helped me get productive on a large codebase like Sobrr.life quickly.
 
-<b>Generators</b> - <code> rails new </code> is a generator for a new project. For some projects (like this site, which is mainly HTML, CSS and JS), this is nearly all the code the server needs in development mode. There are also generators for models, controllers, database migrations, <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and, my favorite, scaffolds, which produce a working <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of laziness but also because of their potential to facilitate metaprogramming. There's even a project called <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar tool for Javascript.
+<b>Generators</b> - <code> rails new </code> is a generator for a new project. For some projects (like this site, which is mainly HTML, CSS and JS), this is nearly all the code the server needs in development mode. There are also generators for models, controllers, database migrations, <a href="http://en.wikipedia.org/wiki/Rake_%28software%29">rake tasks</a>, and, my favorite, scaffolds, which produce a working <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> app with front-end. Generators excite me not just because of laziness but also because of their potential to facilitate metaprogramming. There's a project called <a href="http://prelang.com/">Prelang</a> which lets you describe your app's specs in a web interface and generates a rails project for you. <a href="http://www.meteorkitchen.com/">Meteor Kitchen</a> is a similar tool for Javascript.
 
 <a href="http://www.sinatrarb.com/">Sinatra</a>
 
@@ -99,13 +99,13 @@ A basic example is <code>RestClient.get "http://wikipedia.com"</code> which will
     <p><b>Javascript</b></p><pre>
 I've been learning & working with Javascript since soon after I began programming.
 
-The language in some ways seems more primitive than Ruby. Alot of convenience methods in Ruby (<code>map</code> and <code>reject</code> for example) aren't defined in plain JS. They are defined in libraries like <a href="#underscore-url">underscore</a>, though.
+The language in some ways seems more primitive than Ruby. Alot of convenience methods in Ruby (<code>map</code> and <code>reject</code> for example) aren't defined in plain JS. They are defined in libraries like <a href="http://oauth.net/">underscore</a>, though.
 
 Javascript has a better system for passing around functions as arguments (callbacks), though. In Ruby, there are special types / keywords for this - <code>yield</code>, <code>Proc</code>, <code>Lambda</code>, etc. In Javascript, there's a single type (a 'function') . Another benefit of Javascript is the open access to define attributes on arbitrary objects. It's be like if Objects in Ruby were by default <code>OpenStruct</code> objects.
 
 Javascript also provides a ubiquitous interface with the browser DOM. A conventional complex web app will certainly use Javascript for the front-end.
 
-<b> <a href="#jquery-url">jQuery</a></b> - A very useful abstraction for DOM methods. One could write Javascript equivalents for jQuery methods (<a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a>), but I find it a useful abstraction. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
+<b><a href="#jquery-url">jQuery</a></b> - A very useful abstraction for DOM methods. One could write Javascript equivalents for jQuery methods (<a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a>), but I find it a useful abstraction. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
 
 <code>$.ajax</code>,  <code>$.get</code>, <code>$.post</code>, etc. can be used for making AJAX calls to the server.
 
@@ -118,43 +118,41 @@ Javascript also provides a ubiquitous interface with the browser DOM. A conventi
 <code>clone()</code>, <code>remove()</code>, and <code>empty()</code> are among the many other useful methods.
 
 <b>
-<a href="#coffeescript-url">Coffeescript</a> </b>
+<a href="http://coffeescript.org/">Coffeescript</a> </b>
 
-Coffeescript compiles to Javascript. Unlike SASS, which compiles to CSS but accepts any CSS as valid, plain Javascript wouldn't be valid in Coffeescipt. It's easy to convert back and forth between the formats, though, even with <a href="#js-coffee-converter-url">a web client</a>.
-
-Coffeescript's syntax is meant to be less verbose than Javascript's. It ends up looking more similar to Python or Ruby. Features distinguishing it from Javascript include:
+Coffeescript compiles to Javascript. Unlike SASS, which compiles to CSS but accepts any CSS as valid, plain Javascript wouldn't be valid in Coffeescipt. Coffeescript's syntax is meant to be less verbose than Javascript's. It ends up looking more similar to Python or Ruby. Features distinguishing it from Javascript include:
 - many <code>()</code> parentheses are optional, and so are curly <code>{}</code> brackets.
 - Indentation is used to delimit blocks / scope (as in Python).
 - There is a shorthand for functions that is similar to Ruby's lambda shorthand: <code> ->(args) { ... }</code>
 </b>
 <b>
-<a href="#backbone-url">Backbone</a></b>
+<a href="http://backbonejs.org/">Backbone</a></b>
 
 Backbone is a client-side Javascript MVC.
 
-- The <a href="#backbone-on-rails-url">backbone-on-rails</a> Ruby gem provides a <code>rails generate backbone:install</code> command which sets up a basic directory structure and some boilerplate code for consuming Rails' JSON API as a backend for Backbone
+- The <a href="https://github.com/meleyal/backbone-on-rails">backbone-on-rails</a> Ruby gem provides a <code>rails generate backbone:install</code> command which sets up a basic directory structure and some boilerplate code for consuming Rails' JSON API as a backend for Backbone
 - Backbone has it's own router, with routes navigatable via <code>#</code>the url fragment.
-- HTML templates can use <a href="#ejs-url">EJS</a> (embedded Javascript), which provides an <a href="#erb-url">ERB</a>-like syntax for programmatic control over HTML.
+- HTML templates can use <a href="http://www.embeddedjs.com/">EJS</a> (embedded Javascript), which provides an <a href="http://en.wikipedia.org/wiki/ERuby">ERB</a>-like syntax for programmatic control over HTML.
 - Events are registered in a clean DSL, <code>events: {"click button.upvote": sendUpvote }</code>.
-- Subviews can add a lot of modular control over front-end components. Libraries like <a href="#marionette-url">Marionette</a> are built for subviews, but I've preferred a hand-rolled system written as part of the App Acadamey curriculum.
+- Subviews can add a lot of modular control over front-end components. Libraries like <a href="http://marionettejs.com/">Marionette</a> are built for subviews, but I've preferred a hand-rolled system written as part of the App Acadamey curriculum.
 
 A major main benefit of single-page-apps is the ability for clients to interact with servers without the need for  full page reloads, like websites traditionally have. AJAX (or WebSockets, etc) is used to send HTTP requests in the background. This is more efficient, more user-friendly, and enables web apps to function more like native apps.
 </b>
 <b>
-<a href="#meteor-url">Meteor</a>
+<a href="https://www.meteor.com/">Meteor</a>
 </b>
 I've began learning and building with Meteor since it offers an integrated server-client system which is intended for single-page-app development.
 
-This certainly isn't unique to Meteor. The <a href="#mean-url">MEAN</a> stack is more widely used and integrates an <a href="#angular-url">Angular</a> front-end with <a href="#express">Express</a> / <a href="#mongo-url">MongoDB</a> backend running on Node. Meteor entices me becuase of it's comprehensive approach (everything "in the box", though, and emphasis on reducing boilerplate for client-server communication and <a href="#dom-url">DOM</a> updates. Meteor's team made it's own <a href="ddp-url">DDP</a>) data communiction protocol for <a href="#2-way-binding-url">two-way data binding</a>.
+This certainly isn't unique to Meteor. The <a href="http://mean.io/#!/">MEAN</a> stack is more widely used and integrates an <a href="https://angularjs.org/">Angular</a> front-end with <a href="http://expressjs.com/">Express</a> / <a href="https://www.mongodb.org/">MongoDB</a> backend running on Node. Meteor entices me becuase of it's comprehensive scope and emphasis on reducing boilerplate code for client-server communication and DOM updates. Meteor's team made it's own <a href="https://www.meteor.com/ddp">DDP</a>) data communiction protocol for two-way data binding.
 
-The single-page-app development toolset is growing rapidly and is accompanied by the emergence of new frameworks. I can't help but pay attention to the seeming politics of them. Angular's development is funded <a href="#angular-funding-url">by Google</a>, and React <a href="#react-url">by Facebook</a>. Meteor comes across as trying to insulate the developer from a myriad of options. They offer freemium hosting and there is a Meteor-only package manager built on top of NPM called <a href="#meteorite-url">Meteorite</a>. In the competitive atmosphere, though, surely frameworks will continue to "one-up" each other for some time.
+The single-page-app development toolset is growing rapidly and is accompanied by the emergence of new frameworks. I can't help but pay attention to the seeming politics of their hierarchy. Angular's development is funded <a href="#angular-funding-url">by Google</a>, and React <a href="#react-url">by Facebook</a>. Meteor comes across as trying to insulate the developer from a myriad of options. They offer freemium hosting and there is a Meteor-only package manager built on top of NPM called <a href="#meteorite-url">Meteorite</a>. In the competitive atmosphere, though, surely frameworks will continue to "one-up" each other for some time.
 
 Still, Meteor's packages are strikingly effortless to set up. To add authentication via password or OAuth provider, simply adding a meteor package like <code>meteor add accounts-password</code> or <code>meteor add accounts-github</code> will set up the backend and one can add a front-end with only <code>meteor add accounts-ui</code> and <code>{{>loginButtons }}</code>.
 
 
 </b>
 <b>
-<a href="#npm">NPM</a>
+<a href="https://www.npmjs.com/">NPM</a>
 </b>
 
 NPM, 'Node Package Manager', is akin Ruby Gems in many ways. 
@@ -165,9 +163,9 @@ NPM integrates with Node's <code>require</code> system to make including package
 
 As with Ruby gems, there are many useful and interesting Node packages coming out:
 
-<a href="#yo-url">Yo</a> provides generators for lots of Node projects. They often include build and deploy systems configured with the application. There are generators for most JS frameworks and for NPM package skeletons, jQuery plugins, Chrome extensions, some Ruby frameworks like Sinatra, etc.
+<a href="http://yeoman.io/">Yo</a> provides generators for lots of Node projects. They often include build and deploy systems configured with the application. There are generators for most JS frameworks and for NPM package skeletons, jQuery plugins, Chrome extensions, some Ruby frameworks like Sinatra, etc.
 
-<a href="#grunt-url">Grunt</a> is a "build system" / automated task runner. Here are some tasks Grunt might be used for:
+<a href="http://gruntjs.com/">Grunt</a> is a "build system" / automated task runner. Here are some tasks Grunt might be used for:
 - Running a test suite and automated code review
 - Running preprocessors (Coffeescript to Javascript,SASS to CSS, Markdown to HTML, etc)
 - Minifying and compressing assets (CSS, JS, images)
@@ -183,39 +181,39 @@ More broadly, though, a Grunt task could perform arbitrary tasks like a shell sc
 
   <section class="databases" id="databases">
     <p><b>Databases</b></p><pre>
-A simple storage system is Ruby's <a href="#pstore-url">PStore</a>, which is included in the Standard Library and provides an interface for saving the state of a Hash to file.
+A simple storage system is Ruby's <a href="http://ruby-doc.org/stdlib-2.1.2/libdoc/pstore/rdoc/PStore.html">PStore</a>, which is included in the Standard Library and provides an interface for saving the state of a Hash to file.
 
 I'm also familiar with some SQL and NoSQL.
 
-Ive used SQL with databases like <a href="#postgres-url">Postgres</a>, <a href="MySQL">MySQL</a>, and <a href="SQLite">SQLite</a>.
+Ive used SQL with databases like <a href="http://www.postgresql.org/">Postgres</a>, <a href="https://www.mysql.com/">MySQL</a>, and <a href="https://www.sqlite.org/">SQLite</a>.
 
 At Sobrr.life, I administered databases with large data-sets. I optimized queries, migrated data, and cached via Redis.
 
 NoSQL systems I've worked with include <a href="http://www.infoworld.com/article/2608293/nosql/how-json-sparked-nosql----and-will-return-to-the-rdbms-fold.html">JSON</a>, <a href="http://yaml.org/">YAML</a>, <a href="http://redis.io/">Redis</a>, and some <a href="https://www.mongodb.org/">MongoDB</a>. I've also used <a href="https://github.com/resque/resque">Resque</a>, an application process queueing system built on Redis.
 
-Ruby's <a href="#arel-url">Arel</a>-based <a href="#arel-url">ActiveRecord</a> is a Ruby library for abstracting vendor-specific SQL syntax. It's queries are far more human-readable queries than SQL's, but are still highly optimizable.
+Ruby's <a href="https://github.com/rails/arel">Arel</a>-based <a href="https://github.com/rails/rails/tree/master/activerecord">ActiveRecord</a> is a Ruby library for abstracting vendor-specific SQL syntax. It's queries are far more human-readable queries than SQL's, but are still highly optimizable.
 
     </pre>
   </section>
   <section class="deployment" id="deployment">
     <p><b>Deployment</b></p><pre>
-Before working at Sobrr.life, I had mostly deployed with Heroku for personal projects. I'd also deployed on Github pages - <a href="#asteroids-url">Asteroids</a> and <a href="#snake-url">Snake</a> HTML5 Canvas games and a (inactive) jekyll blog.
+Before working at Sobrr.life, I had mostly deployed with Heroku for personal projects. I'd also deployed on Github pages - <a href="https://maxpleaner.github.io/asteroids">Asteroids</a> and <a href="https://maxpleaner.github.io/snake">Snake</a> HTML5 Canvas games and a (inactive) jekyll blog.
 
-At Sobrr.life, we used <a href="#aws-url">AWS</a> to serve 100,000 monthly users and thousands of daily users.
+At Sobrr.life, we used <a href="http://aws.amazon.com/">AWS</a> to serve 100,000 monthly users and thousands of daily users.
 
 Some AWS services we used:
 
-<a href="#ec2-url">EC2</a> - "instances" of machines that the app is installed on. These can be SSHd into. Limiting CPU consumption on these machines was important at Sobrr.life for managing the performance of resource-intensive operations such as data migrations.
+<a href="http://aws.amazon.com/ec2/">EC2</a> - "instances" of machines that the app is installed on. These can be SSHd into. Limiting CPU consumption on these machines was important at Sobrr.life for managing the performance of resource-intensive operations such as data migrations.
 
-<a href="#s3-url">S3</a> - Asset hosting, e.g. images for user posts. A major feature of the Sobrr app is expiring photo posts.
+<a href="http://aws.amazon.com/s3/">S3</a> - Asset hosting, e.g. images for user posts. A major feature of the Sobrr app is expiring photo posts.
 
-<a href="#eb-url">Elastic Beanstalk</a> - Autoscaling and groupings of EC2 instances for Sandbox, Staging, and Production environments.
+<a href="http://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a> - Autoscaling and groupings of EC2 instances for Sandbox, Staging, and Production environments.
 
-<a href="#cloudwatch-url">Cloudwatch</a> - For storing & visualizing metrics
+<a href="http://aws.amazon.com/cloudwatch/">Cloudwatch</a> - For storing & visualizing metrics
 
-<a href="#elasticache-url">ElastiCache</a> - Redis for caching and queueing.
+<a href="http://aws.amazon.com/elasticache/">ElastiCache</a> - Redis for caching and queueing.
 
-<a href="#rds-url">RDS</a> - Relational Database Service. We used MySQL with a hierarchichal <a>replication</a> system (also known by the term "master-slave", still common despite being voted the most politically incorrect word <a href="http://www.seattlepi.com/national/article/Master-slave-named-mos -politically-incorrect-1161133.php">in 2004</a> by the Global Language Monitor).
+<a href="http://aws.amazon.com/rds/">RDS</a> - Relational Database Service. We used MySQL with a hierarchichal <a>replication</a> system (also known by the term "master-slave", still common despite being voted the most politically incorrect word <a href="http://www.seattlepi.com/national/article/Master-slave-named-mos -politically-incorrect-1161133.php">in 2004</a> by the Global Language Monitor).
 
 
     </pre>
@@ -225,15 +223,15 @@ Some AWS services we used:
     <p><b>Testing</b></p>
 <pre>For tests, I mainly have experience in Ruby, but also a bit in Javascript. In Ruby, here are a few of the tools that I have used:
 
-<a href="#rspec-url">RSpec</a>
+<a href="http://rspec.info/">RSpec</a>
 
-<a href="#selenium-url">Selenium</a>
+<a href="http://www.seleniumhq.org/">Selenium</a>
 
-<a href="#cucumber-url">Cucumber</a>
+<a href="https://cucumber.io/">Cucumber</a>
 
-In Javscript, I have used <a href="#jasmine-url">Jasmime</a>.
+In Javascript, I have used <a href="http://jasmine.github.io/">Jasmime</a>.
 
-TDD (<a href="#tdd-url">Test Driven Development</a>) was valued at Sobrr.life (my last employer). I think the biggest benefit of tests is their ability to confirm that existing features aren't broken by being refactored or added to.
+TDD (<a href="http://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a>) was valued at Sobrr.life (my last employer). I think the biggest benefit of tests is their ability to confirm that existing features aren't broken by being refactored or added to.
 
 </pre>
 
@@ -243,11 +241,11 @@ TDD (<a href="#tdd-url">Test Driven Development</a>) was valued at Sobrr.life (m
     <p><b>Linux</b></p><pre>
 I've used Linux for a few years, since right around when I began programming. It is free, installation is possible on many machines and there's lots of great software for programming and non-programming alike.
 
-Since Linux and Mac are both built on Unix, for the most part one can use the same commands on each of them. The <a href="#apt-url">APT</a> software repository specific to my systems' Linux distribution, Ubuntu, makes installing lots of programs easy.
+Since Linux and Mac are both built on Unix, for the most part one can use the same commands on each of them. The <a href="http://en.wikipedia.org/wiki/Advanced_Packaging_Tool">APT</a> software repository specific to my systems' Linux distribution, Ubuntu, makes installing lots of programs easy.
 
 </span><span>Ruby is nicely suited to shell programming automation, as any commands within <code>``</code> backticks will be delegated to the system.
 
-I'm running Ubuntu 14.01 on a Chromebook using <a href="#crouton-url">Crouton</a>. ChromeOS is built with Linux and offers performant virtualization for other Linux systems. With this setup, one can switch between the ChromeOS and Ubuntu GUIs with a keyboard shortcut, connect to the Ubuntu CLI from a browser tab in ChromeOS and access Ubuntu port processes (e.g. local HTTP servers) from ChromeOS.
+I'm running Ubuntu 14.01 on a Chromebook using <a href="https://github.com/dnschneid/crouton">Crouton</a>. ChromeOS is built with Linux and offers performant virtualization for other Linux systems. With this setup, one can switch between the ChromeOS and Ubuntu GUIs with a keyboard shortcut, connect to the Ubuntu CLI from a browser tab in ChromeOS and access Ubuntu port processes (e.g. local HTTP servers) from ChromeOS.
 
 </pre>
   </section>
@@ -274,11 +272,11 @@ I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of
 
 - After finishing college, I started studying web development
 
-- I followed free curriculums which introduced me to Ruby, HTML, CSS, Javascript, Git, Unix, etc. such as <a href="#odin-url">The Odin Project</a>.
+- I followed free curriculums which introduced me to Ruby, HTML, CSS, Javascript, Git, Unix, etc. such as <a href="http://www.theodinproject.com/">The Odin Project</a>.
 
 - Eventually I began to feel like my questions were becoming more nuanced and I could benefit from more extensive dialog with a teacher.
 
-- I joined <a href="#codeunion-url">CodeUnion</a>'s first class.
+- I joined <a href="http://codeunion.io/">CodeUnion</a>'s first class.
 
 - I learned <a href="https://sinatrarb.com">Sinatra</a>, which, unlike Rails, was totally new to me.
 
@@ -296,9 +294,9 @@ I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of
 
 &bull; Javascript features for the promotional website - an administration interface and infinite-scroll with a responsive pinterest-style grid (see <a href="http://app.sobrr.life/presentation/around_feeds">the site</a>).
 
-&bull; delayed jobs (via the <a href="#Resque-url">Resque</a> Redis queueing library) for scheduling chats and MPN push notifications.
+&bull; delayed jobs (via the <a href="https://github.com/resque/resque">Resque</a> Redis queueing library) for scheduling chats and MPN push notifications.
 
-&bull; caching using <a href="#redis-url">Redis</a> built on ActiveRecord, including rake tasks for data migration.
+&bull; caching using <a href="http://redis.io">Redis</a> built on ActiveRecord, including rake tasks for data migration.
 
 - The company's development operations have since relocated overseas.
 
