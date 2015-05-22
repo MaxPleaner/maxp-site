@@ -1,4 +1,4 @@
-<!--  hidden by JS -->
+<Links!--  hidden by JS -->
 <!--  .js-test-hidden -->
 <div class="js-test-hidden">
   <h1>YOU DON"T HAVE JAVASCRIPT, WHICH IS REQUIRED FOR FUNCTIONAL LINKS & CONTENT REORDERING</h1>
@@ -98,13 +98,13 @@ A basic example is <code>RestClient.get "http://wikipedia.com"</code> which will
     <p><b>Javascript</b></p><pre>
 I've been learning & working with Javascript since soon after I began programming.
 
-The language in some ways seems more primitive than Ruby. Alot of convenience methods in Ruby (<code>map</code> and <code>reject</code> for example) aren't defined in plain JS. They are defined in libraries like <a href="http://underscorejs.org">underscore</a>, though.
+The language in some ways seems more primitive than Ruby. Alot of convenience methods in Ruby (<code>map</code> and <code>reject</code> for example) aren't defined in plain JS. They are defined in libraries like <a href="http://oauth.net/">underscore</a>, though.
 
-Javascript has a better system for passing around functions as arguments (callbacks), though. In Ruby, there are special types / keywords for this - <code>yield</code>, <code>Proc</code>, <code>Lambda</code>, etc. In Javascript, there's a single type (a 'function'). Another benefit of Javascript is the open access to define attributes on arbitrary objects. It's be like if Objects in Ruby were by default <code>OpenStruct</code> objects.
+Javascript has a better system for passing around functions as arguments (callbacks), though. In Ruby, there are special types / keywords for this - <code>yield</code>, <code>Proc</code>, <code>Lambda</code>, etc. In Javascript, there's a single type (a 'function') . Another benefit of Javascript is the open access to define attributes on arbitrary objects. It's be like if Objects in Ruby were by default <code>OpenStruct</code> objects.
 
 Javascript also provides a ubiquitous interface with the browser DOM. A conventional complex web app will certainly use Javascript for the front-end.
 
-<b><a href="http://jquery.com">jQuery</a></b> - A very useful abstraction for DOM methods. One could write Javascript equivalents for jQuery methods (<a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a>), but It's a widely used time-saver. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
+<b><a href="http://jquery.com">jQuery</a></b> - A very useful abstraction for DOM methods. One could write Javascript equivalents for jQuery methods (<a href="http://youmightnotneedjquery.com">youmightnotneedjquery.com</a>), but I find it a useful abstraction. <a href="http://blog.jquery.com/2014/01/13/the-state-of-jquery-2014">jQuery's blog</a> says that it's used by 60% of the top 100,000 websites.
 
 <code>$.ajax</code>, <code>$.get</code>, <code>$.post</code>, etc. can be used for making AJAX calls to the server.
 
@@ -144,7 +144,7 @@ I've began learning and building with Meteor since it offers an integrated serve
 
 This certainly isn't unique to Meteor. The <a href="http://mean.io/#!/">MEAN</a> stack is more widely used and integrates an <a href="https://angularjs.org/">Angular</a> front-end with <a href="http://expressjs.com/">Express</a> / <a href="https://www.mongodb.org/">MongoDB</a> backend running on Node. Meteor entices me becuase of it's comprehensive scope and emphasis on reducing boilerplate code for client-server communication and DOM updates. Meteor's team made it's own <a href="https://www.meteor.com/ddp">DDP</a> data communiction protocol for two-way data binding.
 
-The world of single-page-apps is growing rapidly and is accompanied by the emergence of new frameworks. Angular's development is funded by Google and React by Facebook. Meteor comes across as trying to insulate the developer from a myriad of options. They offer freemium hosting and there is a Meteor-only package manager built on top of NPM called <a href="https://atmospherejs.com">Meteorite</a>. In the competitive atmosphere, though, surely frameworks will continue to "one-up" each other for some time.
+The world of single-page-apps is growing rapidly and is accompanied by the emergence of new frameworks. I can't help but pay attention to the seeming politics of their hierarchy. Angular's development is funded <a href="#angular-funding-url">by Google</a>, and React <a href="#react-url">by Facebook</a>. Meteor comes across as trying to insulate the developer from a myriad of options. They offer freemium hosting and there is a Meteor-only package manager built on top of NPM called <a href="#meteorite-url">Meteorite</a>. In the competitive atmosphere, though, surely frameworks will continue to "one-up" each other for some time.
 
 Still, Meteor's packages are strikingly effortless to set up. To add authentication via password or OAuth provider, simply adding a meteor package like <code>meteor add accounts-password</code> or <code>meteor add accounts-github</code> will set up the backend and one can add a front-end with only <code>meteor add accounts-ui</code> and <code>{{>loginButtons }}</code>.
 
@@ -222,15 +222,15 @@ Some AWS services we used:
     <p><b>Testing</b></p>
 <pre>For tests, I mainly have experience in Ruby, but also a bit in Javascript. In Ruby, here are a few of the tools that I have used:
 
-<a href="http://rspec.info/">RSpec</a>, a behavior-driven-development framework.
+<a href="http://rspec.info/">RSpec</a> as the basis for tests.
 
-<a href="https://github.com/jnicklas/capybara">Capybara</a> is used for integration tests and browser automation.
+<a href="https://github.com/jnicklas/capybara">Capybara</a> for browser automation.
 
-<a href="https://cucumber.io/">Cucumber</a> is used for acceptance tests and for utmost readability.
+<a href="https://cucumber.io/">Cucumber</a> for integration tests.
 
 In Javascript, I have used <a href="http://jasmine.github.io/">Jasmime</a>.
 
-TDD (<a href="http://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a>) was valued at Sobrr.life (my last employer). Tests were especially valuable to confirm that existing features weren't broken by being refactored or added to.
+TDD (<a href="http://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a>) was valued at Sobrr.life (my last employer). I think the biggest benefit of tests is their ability to confirm that existing features aren't broken by being refactored or added to.
 
 </pre>
 
@@ -244,7 +244,7 @@ Since Linux and Mac are both built on Unix, for the most part one can use the sa
 
 </span><span>Ruby is nicely suited to shell programming automation, as any commands within <code>``</code> backticks will be delegated to the system.
 
-I'm running Ubuntu 14.01 on a Chromebook using <a href="https://github.com/dnschneid/crouton">Crouton</a>. ChromeOS is built with Linux and offers performant virtualization for other Linux systems. With this setup, one can switch between the ChromeOS and Ubuntu GUIs with a keyboard shortcut, connect to the Ubuntu CLI from a browser tab in ChromeOS and access Ubuntu port processes (e.g. local HTTP servers) from ChromeOS. I also sometimes use cloud machines like <a href="http://nitrous.io">Nitrous.io</a> or <a href="http://c9.io">Cloud9</a>.
+I'm running Ubuntu 14.01 on a Chromebook using <a href="https://github.com/dnschneid/crouton">Crouton</a>. ChromeOS is built with Linux and offers performant virtualization for other Linux systems. With this setup, one can switch between the ChromeOS and Ubuntu GUIs with a keyboard shortcut, connect to the Ubuntu CLI from a browser tab in ChromeOS and access Ubuntu port processes (e.g. local HTTP servers) from ChromeOS. I also sometimes use cloud machines like <a href="nitrous.io">Nitrous.io</a>.
 
 </pre>
   </section>
@@ -252,7 +252,7 @@ I'm running Ubuntu 14.01 on a Chromebook using <a href="https://github.com/dnsch
   <section class="world" id="world">
     <p><b>The World at Large</b></p>
     <pre>
-I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of mine. I will be eventually filling a blog at <a href="http://maxpleaner.ghost.io">maxpleaner.ghost.io</a> with thoughts on current events. My interests span a wide range of topics including urbanization, <a href="http://en.wikipedia.org/wiki/World-systems_theory">world systems</a>, and <a href="http://en.wikipedia.org/wiki/Computer-mediated_reality">computer-mediated reality</a>.
+I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of mine. I will be eventually filling a blog at <a href="http://maxpleaner.ghost.io">maxpleaner.ghost.io</a> with thoughts on current events. I've been recently thinking about urbanization, <a href="http://en.wikipedia.org/wiki/World-systems_theory">world systems</a>, and <a href="http://en.wikipedia.org/wiki/Computer-mediated_reality">computer-mediated reality</a>.
   </pre>
   </section>
 </section>
@@ -261,7 +261,7 @@ I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of
   <div class="experience" id="experience">
     <p><b>Experience</b></p> <br>
     <pre>
-- I'm from San Francisco.
+- I'm from San Francisco
 
 - Prior to programming, I had a lot of professional experience in the non-profit / politics area.
 
@@ -269,7 +269,7 @@ I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of
 
 - I got a Politics B.A. from UC Santa Cruz for college.
 
-- After finishing college, I started studying web development.
+- After finishing college, I started studying web development
 
 - I followed free curriculums which introduced me to Ruby, HTML, CSS, Javascript, Git, Unix, etc. such as <a href="http://www.theodinproject.com/">The Odin Project</a>.
 
@@ -279,13 +279,13 @@ I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of
 
 - I learned <a href="https://sinatrarb.com">Sinatra</a>, which, unlike Rails, was totally new to me.
 
-- Soon after, I attended <a href="http://appacademy.io/#p-curriculum">App Academy</a>. In my three months there, I gained a more comprehensive 'full-stack' skillset.
+- Soon after, I attended <a href="http://appacademy.io/#curriculum">App Academy</a>. In my three months there, I gained a more comprehensive 'full-stack' skillset.
 
-- I then began my first developer job at Sobrr.life, a social media startup in San Francisco.
+- I then began my first developer job at Sobrr.life, a small, seed-funded startup in San Francisco.
 
 - I was the main programmer for logic updates on the Rails back end team, configuring data sent to to iOS and Android apps (with thousands of daily active users).
 
-- The development cycle was rapid, and often multiple features would be deployed each day. The features I worked on include:
+- The development cycle was rapid, but some of the features I worked on were:
 
 &bull; REST endpoints, pagination cursors, JSON responses, language detection, and moderation rules.
 
@@ -311,8 +311,6 @@ I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of
     <pre><a href="http://github.com/maxpleaner">Github</a>
     
 <a href="http://linkedin.com/in/maxpleaner">LinkedIn</a>
-
-Email: <a href="mailto:maxpleaner@gmail.com">maxpleaner@gmail.com</a>
     <!--  <a href="#blog-1-url">Blog1</a> <br><br>-->
     <!--  <a href="#blog-2-urk">Blog2</a>-->
     </pre>
