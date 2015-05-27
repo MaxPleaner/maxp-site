@@ -10,5 +10,9 @@ class PagesController < ApplicationController
     pdf_filename = File.join(Rails.root, "public/MaxPleanersResume.pdf")
     send_file(pdf_filename, :filename => "your_document.pdf", :disposition => "inline", :type => "application/pdf")
   end
+  
+  def portfolio
+    redirect_to "http://maxpleaner.com/#links"
+  end
 
 end
