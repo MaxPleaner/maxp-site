@@ -50,7 +50,7 @@ Loading Javascript
 
 I've been working with Rails since not long after I began programming (in June 2013). 
 
-I've come to appreciate Rails' "convention over configuration" approach, which enhances components' portability among projects and helps reduce keystrokes.
+I've come to appreciate Rails' "convention over configuration" approach.
 
 <a href="http://www.sinatrarb.com/">Sinatra</a>
 
@@ -104,8 +104,6 @@ As with Ruby gems, there are many useful and interesting Node packages coming ou
 Ive used SQL with databases like <a href="http://www.postgresql.org/">Postgres</a>, <a href="https://www.mysql.com/">MySQL</a>, and <a href="https://www.sqlite.org/">SQLite</a> in addition to non-SQL storage systems like JSON, YAML,
 PStore, Redis, and MongoDB. 
 
-At Sobrr.life, I optimized queries, migrated data, and used Redis-based caching / queueing systems.
-
 Ruby's <a href="https://github.com/rails/arel">Arel</a>-based <a href="https://github.com/rails/rails/tree/master/activerecord">ActiveRecord</a> is a Ruby library for abstracting vendor-specific SQL syntax. It's queries are far more human-readable queries than SQL's, but are still highly optimizable.
 
     </pre>
@@ -116,12 +114,12 @@ Before working at Sobrr.life, I had mostly deployed with Heroku for personal pro
 
 At Sobrr.life, we used <a href="http://aws.amazon.com/">AWS</a>. 
 
-<a href="http://aws.amazon.com/ec2/">EC2</a> - virtual 'instances' the app is installed on. These can be SSHd into. Some resource-intensive operations such as data migrations required that these machines' CPU consumption be optimized.
-<a href="http://aws.amazon.com/s3/">S3</a> - Asset hosting, e.g. images for user posts. A major feature of the Sobrr app is expiring photo posts.
-<a href="http://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a> - Autoscaling and groupings of EC2 instances (for Sandbox, Staging, and Production environments).
-<a href="http://aws.amazon.com/cloudwatch/">Cloudwatch</a> - For storing & visualizing metrics
-<a href="http://aws.amazon.com/elasticache/">ElastiCache</a> - Redis for caching and queueing.
-<a href="http://aws.amazon.com/rds/">RDS</a> - Relational Database Service. We used MySQL with a hierarchichal <a>replication</a> system (also known by the term "master-slave", still common despite being voted the most politically incorrect word <a href="http://www.seattlepi.com/national/article/Master-slave-named-mos -politically-incorrect-1161133.php">in 2004</a> by the Global Language Monitor).
+<a href="http://aws.amazon.com/ec2/">EC2</a> - virtual 'instances' the app is installed on. These can be SSHd into.
+<a href="http://aws.amazon.com/s3/">S3</a> - Asset hosting, e.g. images
+<a href="http://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a> - Autoscaling and groupings of EC2 instances (i.e. Sandbox, Staging, and Production environments).
+<a href="http://aws.amazon.com/cloudwatch/">Cloudwatch</a> - storing & visualizing metrics
+<a href="http://aws.amazon.com/elasticache/">ElastiCache</a> - Redis / Memcached for caching and queueing.
+<a href="http://aws.amazon.com/rds/">RDS</a> - Relational Database Service, i.e. MySQL or Postgres. We used a hierarchichal <a>replication</a> system at Sobrr.life
 
 
     </pre>
@@ -131,10 +129,11 @@ At Sobrr.life, we used <a href="http://aws.amazon.com/">AWS</a>.
     <p><b>Testing</b></p>
 <pre>For tests, I mainly have experience in Ruby, but also in Javascript. In Ruby, here are a few of the tools that I have used:
 
-<a href="http://rspec.info/">RSpec</a>, a behavior-driven-development framework.
-<a href="https://github.com/jnicklas/capybara">Capybara</a> is used for integration tests and browser automation.
-<a href="https://cucumber.io/">Cucumber</a> is used for acceptance tests and for added readability.
-In Javascript, I learned <a href="http://jasmine.github.io/">Jasmime</a> at App Academy.
+<a href="http://rspec.info/">RSpec</a>,"behavior-driven-development"
+<a href="https://github.com/jnicklas/capybara">Capybara</a> ("integration tests") - browser automation.
+<a href="https://cucumber.io/">Cucumber</a> ("acceptance tests") - added readability, natural language syntax
+
+For Javascript, I've used <a href="http://jasmine.github.io/">Jasmime</a>.
 
 </pre>
 
@@ -142,9 +141,9 @@ In Javascript, I learned <a href="http://jasmine.github.io/">Jasmime</a> at App 
 
   <section class="linux" id="linux">
     <p><b>Linux</b></p><pre>
-I've used Linux for a few years, since right around when I began programming. It is free, installation is possible on many machines and there's lots of great software for programming and non-programming alike.
+I've used Linux for a few years, since right around when I began programming. 
 
-Until recently, I was running Ubuntu 14.01 on a Chromebook using <a href="https://github.com/dnschneid/crouton">Crouton</a>. ChromeOS is built with Linux and has built-in virtualization capability for other Linux systems. it's possible to the Linux CLI from a browser tab in ChromeOS and access port processes (e.g. local HTTP servers) from ChromeOS. I've also made use of virtual machines like <a href="http://nitrous.io">Nitrous.io</a> (which is shutting down it's free tier), AWS and <a href="http://c9.io">Cloud 9</a>.
+Until recently, I was running Ubuntu 14.01 on a Chromebook using <a href="https://github.com/dnschneid/crouton">Crouton</a>.
 
 I've sinced bought a windows HP laptop and I'm running <a href="http://http://linuxmint.com/">Linux Mint</a> on it. 
 
@@ -156,11 +155,9 @@ I'm gradually learning more about Unix / Linux administration.
   <section class="world" id="world">
     <p><b>Politics</b></p>
     <pre>
-I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of mine. I'm really interested in building apps and services which offer ubiquitous benefits for society, especially with non-profit models. 
+I have a B.A. in Politics from UC Santa Cruz, and it's still a major interest of mine.
 
-A lot of my pre-programming experience is in Politics. I canvassed donations for non profits like <a href="http://savethechildren.org">Save the Children</a> and <a href="http://eqca.org">Equality California</a>, and while I enjoyed the public outreach, I tired of fundraising. I began petitioning for a wide range of ballot initiatives which needed signatures to get on the ballot (pay-per-signature jobs). I also performed phone polling for Leland Yee's campaign for San Francisco Mayor in 2011. When studying Politics at UCSC, I had an internship with a City Council Member that gave me valuable experience in community organizing and policy analysis.
-
-While I began programming after finishing college and haven't had much continued my Politics work, I am looking forward to opportunites to combine my skillsets. 
+A lot of my pre-programming experience is in Politics. I canvassed donations for non profits like <a href="http://savethechildren.org">Save the Children</a> and <a href="http://eqca.org">Equality California</a>. I petitioning for a wide range of initiatives which needed signatures to get on the ballot. I also performed phone polling for Leland Yee's campaign for San Francisco Mayor in 2011. When studying Politics at UCSC, I had an internship with a City Council Member.
   </pre>
   </section>
 </section>
@@ -175,21 +172,17 @@ I canvassed to fundraise for nonprofits, gathered signatures for dozens of Calif
 
 I got a Politics B.A. from UC Santa Cruz for college. After finishing college, I started studying web development. I followed free curriculums which introduced me to Ruby, HTML, CSS,  Javascript, Git, Unix, etc. such as <a href="http://www.theodinproject.com/"> The Odin Project</a>.
 
-Eventually I began to feel like my questions were becoming more nuanced and  I could benefit from more extensive dialog with a teacher. I joined <a href="http://codeunion.io/">CodeUnion</a>'s first class. I learned web dev fundamentals using <a href="https://sinatrarb.com">Sinatra</a>.
+I joined <a href="http://codeunion.io/">CodeUnion</a>'s first class. I learned web dev fundamentals using <a href="https://sinatrarb.com">Sinatra</a>.
 
-Soon after, I attended <a href="http://appacademy.io/#p-curriculum">App Academy</a>. In my three months there, I gained a more comprehensive 'full-stack' skillset. I then began my first developer job at Sobrr.life, a social media startup in  San Francisco.
+I then attended <a href="http://appacademy.io/#p-curriculum">App Academy</a>. In my three months there, I gained a more comprehensive 'full-stack' skillset in Javascript (+ Node, jQuery, Backbone, etc.), Ruby, SQL, etc. I then began my first developer job at Sobrr.life, a social media startup in  San Francisco.
   
-I was the main programmer for logic updates on the Rails back end team, configuring data sent to to iOS and Android apps.
+I was on the Rails back end team, working on the API which served the iOS and Android apps. Since it was a small team, I wore many hats, including DBA, Devops, and Javascript developer. 
 
-The features I worked on include:
+Examples:
 
-&bull; REST endpoints, pagination cursors, JSON responses, language detection, and moderation rules.
-&bull; managed databases and deploys
 &bull; Javascript features for the promotional website - an administration interface and infinite-scroll with a responsive pinterest-style grid (see <a href="http://app.sobrr.life/presentation/around_feeds">the site</a>).
 &bull; delayed jobs (via the <a href="https://github.com/resque/resque">Resque</a> Redis queueing library) for scheduling chats and MPN push notifications.
 &bull; caching using <a href="http://redis.io">Redis</a> built on ActiveRecord, including rake tasks for data migration.
-
-I'm currently looking for contract or full-time work. See the <a href="http://maxp-homepage.heroku.com/#links">Links</a> page to contact me.
 
     </pre>
     </div>
@@ -206,9 +199,9 @@ Email: <a href="mailto:maxpleaner@gmail.com">maxpleaner@gmail.com</a>
 
 Portfolio pieces:
 
-<a href="http://app.sobrr.life/presentation/around_feeds">Sobrr.Life promotional page</a>. I implemented the responsive pinterest-style vertical columns layout using <a href="http://masonry.desandro.com/">Masonry</a> and integrated it with an infinite scroll system written from scratch.
+<a href="http://app.sobrr.life/presentation/around_feeds">Sobrr.Life promotional page</a>. I implemented the responsive pinterest-style vertical columns layout using <a href="http://masonry.desandro.com/">Masonry</a> and added infinite scroll.
 
-<a href="http://maxp-logbot.herokuapp.com/">Logbot</a>, an IRC chat logging bot with a web interface.
+<a href="http://maxp-logbot.herokuapp.com/">Logbot</a>, an IRC chat logging bot with a Sinatra web interface.
 
 <a href="http://maxp-trello.herokuapp.com/#boards/1">Trello</a> clone, made with Backbone.js and Rails.
 
@@ -223,8 +216,6 @@ Portfolio pieces:
 <a href="https://github.com/maxpleaner/maxp-site">This site</a> (Github link) - Single page site built with jQuery + Rails
 
 <a href=""></a>
-
-
     <!--  <a href="#blog-1-url">Blog1</a> <br><br>-->
     <!--  <a href="#blog-2-urk">Blog2</a>-->
     </pre>
