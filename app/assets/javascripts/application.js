@@ -18,8 +18,5 @@
 //= require_tree .
 
 pageReady = function (){
-  //  JS warning
-  $('.js-test-hidden').hide();
-}
 
 $(function () { pageReady() })
