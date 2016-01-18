@@ -1,8 +1,6 @@
-<section class="intro">
-  <b> Max Pleaner </b> <br><br>
-  <i> <small>Web Developer / Software Engineer </small></i>
-</section>
+forthcoming revision
 <br>
+<<<<<<< HEAD
 <hr>
 <br>
 
@@ -23,9 +21,9 @@ remember and have a record of).
 
 Portfolio pieces:
 
-<a href="http://app.sobrr.life/presentation/around_feeds">Sobrr.Life promotional page</a>.<br>
+<a href="http://app.sobrr.life/presentation/around_feeds">Sobrr.Life promotional page</a>. I added a (hidden) Javascript admin interface, <br>
 a responsive pinterest-style <br>vertical columns layout using <a href="http://masonry.desandro.com/">Masonry</a> and added infinite scroll.
-I also added a web admin panel with Javascript. I was mainly a backend / API developer at Sobrr though.
+I was mainly a backend / API developer at Sobrr though.
 
 <a href="http://github.com/maxpleaner/socket_helpers">Socket helpers</a>: a gem I wrote for quickly
 <br> putting together websocket / Rails apps.
@@ -49,8 +47,8 @@ job applications and responses. Uses ActiveRecord without Rails
 
 <a href="https://github.com/maxpleaner/gems">Gems</a> - a Ruby CLI script to show the latest 
 updated Ruby Gems from rubygems.org 
+=======
+12 / 14 / 15
+>>>>>>> 36896dcd8db45732a2cf75cd02c16f220c07ae37
 
-<a href="https://github.com/maxpleaner/find_job_listings">Find Job Listings</a>. A Ruby program to find job listings using APIs.
-It can use Indeed,Stackoverflow, and Jobberwocky
-(for App Academy students). Uses the Mechanize,
-Nokogiri, and JSON gems. 
+<marquee><b><a href="github.com/maxpleaner">github</a></b> --- <b><a href='http://linkedin.com/in/maxpleaner>linkedin</a></b> --- </marquee>
