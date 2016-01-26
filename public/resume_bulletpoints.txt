@@ -1,0 +1,22 @@
+
+
+
+- Ruby
+  - command line interfaces
+  - system tasks
+
+- Databases
+  - SQL: Postgresql, Mysql3, SQLite
+  - NoSQL: Redis, JSON, YAML, CSV, etc.
+  - Caching: Resque, LRU
+
+- Sinatra
+  - rapid prototyping
+  - 
+- Websockets
+- Javscript
+- jQuery
+- Backbone
+- Node
+- Linux
+- 

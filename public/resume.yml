@@ -1,0 +1,82 @@
+Contact:
+  Max Pleaner
+  San Francisco, CA
+  maxpleaner@gmail.com
+
+Summary:
+  Software Developer
+  Web      Developer
+
+Employment history / education:
+  2016 (4 months): Timeset
+    - 4-8 person team building a photo-sharing social network for mobile platforms
+    - Sole builder of Rails API and AWS deployment   
+  2015 (6 months): Sobrr (company moved to China)
+    - 5-10 person team building photo-sharing social network for mobile platforms
+    - I was one of three working on the Rails API with AWS deployment and MySQL database
+    - The site had thousands of daily active users
+  2014 (6 months): App Academy web dev school
+    - 3 months full-day classes
+    - tuition dependent on post-graduation salary
+  2013 through 2014: Independent programming study
+                     CodeUnion web dev school
+    - Studied from online curriculums such as the Odin Project
+    - 3 month CodeUnion course was co-led by Dev Bootcamp co-founder and curriculum author
+  June 2013: Politics BA at UC Santa Cruz
+  2007 through 2015: Freelance political work
+    - canvassing donations and gathering signatures
+    - polling and registering voters
+    - head staff for santa cruz city council member (2013)
+
+Project Examples:
+  Sobrr promotional page:
+    - a responsive pinterest style layout using Masonry and infinite scroll
+    - includes a hidden admin interface
+    - loads content through ajax and infinite scroll
+  Socket helpers: 
+    - a gem I wrote for realtime features in rails
+  Logbot:
+    - project built at CodeUnion
+    - Runs an IRC bot and Sinatra app on the same Heroku server using Rack
+    - Shares database between components and presents data as HTML
+  Trello clone:
+    - App Academy project using Backbone and jQuery UI with a Rails API.
+  Snake and Asteroids:
+    - App academy projects - browser games with Canvas (each built in a day with a parter)
+  Job application tracker:
+    - A database-backed command line interface for managing job applications and events
+    - uses ActiveRecord without Rails
+  Music downloader scripts:
+    - for Bandcamp and Youtube
+
+
+Main skills:
+  HTML
+  CSS
+  Linux
+  Git
+  Mobile notifications
+  Automated testing
+  Web data extraction
+  websockets
+  Ruby
+    Rails
+    Sinatra
+    Resque (process queues)
+    caching (lru, counters)
+  Javascript
+    jQuery
+    Backbone
+    AJAX
+    NPM
+    Browserify
+  AWS
+    S3
+    Elasticbeanstalk / EC2
+  SQL
+    MySQL
+    Postgres
+  noSql
+    JSON
+    YAML (the format of this resume)
+    Redis
