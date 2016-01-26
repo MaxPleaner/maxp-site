@@ -1,0 +1,12 @@
+/* line 1, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+body {
+  background-color: #fffcfc;
+}
+
+/* line 5, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+pre {
+  width: 100%;
+  margin-left: 0;
+  overflow-x: scroll;
+  word-wrap: none;
+}
