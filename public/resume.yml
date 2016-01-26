@@ -50,6 +50,11 @@ Project Examples:
   Job application tracker:
     - A database-backed command line interface for managing job applications and events
     - uses ActiveRecord without Rails
+  Job listing CLI:
+    - Find job listing URLS from the command line
+    - uses Nokogiri to parse RSS from Indeed.com
+    - parses JSON from Stack Overflow jobs
+    - Uses 'mechanize' to authenticate with App Academy's API for listing tech companies
   Music downloader scripts:
     - for Bandcamp and Youtube
   Self-hosting open source projects:
@@ -58,7 +63,6 @@ Project Examples:
     - Opentape (mixtape)
     - Ghost (blog)
     - Telescope (RSS viewer)
-
 
 Main skills:
   HTML
