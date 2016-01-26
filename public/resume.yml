@@ -35,11 +35,14 @@ Project Examples:
     - loads content through ajax and infinite scroll
   Socket helpers: 
     - a gem I wrote for realtime features in rails
+  News Blender:
+    - App academy final project
+    - Feedly clone - RSS feed reader and organizer
   Logbot:
     - project built at CodeUnion
     - Runs an IRC bot and Sinatra app on the same Heroku server using Rack
     - Shares database between components and presents data as HTML
-  Trello clone:
+   Trello clone:
     - App Academy project using Backbone and jQuery UI with a Rails API.
   Snake and Asteroids:
     - App academy projects - browser games with Canvas (each built in a day with a parter)
@@ -48,6 +51,12 @@ Project Examples:
     - uses ActiveRecord without Rails
   Music downloader scripts:
     - for Bandcamp and Youtube
+  Self-hosting open source projects:
+    - Errbit (error reporting)
+    - Redash (HTML interface to database)
+    - Opentape (mixtape)
+    - Ghost (blog)
+    - Telescope (RSS viewer)
 
 
 Main skills:
