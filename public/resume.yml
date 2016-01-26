@@ -31,7 +31,7 @@ Employment history / education:
 
 Project Examples:
   Sobrr promotional page:
-    - a responsive pinterest style layout using Masonry and infinite scroll
+    - a responsive pinterest style layout with jQuery's Masonry plugin
     - HTML admin interface
     - loads content through ajax and infinite scroll
   Socket helpers: 
