@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   end
   
   def resume
-    @resume = File.read(Rails.root.join("public", "resume_export.html"))
+    @resume = File.read(Rails.root.join("public", "resume_export.html")).html_safe
     # pdf_filename = File.join(Rails.root, "public/MaxPleanersResume.pdf")
     # send_file(pdf_filename, :filename => "your_document.pdf", :disposition => "inline", :type => "application/pdf")
   end

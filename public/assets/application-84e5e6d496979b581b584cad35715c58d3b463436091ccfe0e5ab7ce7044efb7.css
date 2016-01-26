@@ -1,0 +1,119 @@
+/* line 1, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+body {
+  background-color: #fffcfc;
+}
+
+/* line 5, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+pre {
+  margin: 5% 10%;
+  /* border: 1px solid black; */
+  white-space: pre-wrap;
+  /* max-width: 750px; */
+}
+
+/* line 12, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+code {
+  white-space: pre-wrap;
+}
+
+/* line 16, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+* {
+  box-sizing: border-box !important;
+}
+
+/* line 18, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+a, .clickable {
+  outline: none;
+}
+
+/* line 20, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.clickable {
+  color: black;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+/* line 32, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+code {
+  display: inline-block;
+  border: 1px solid black;
+  background: lightgrey;
+}
+
+/* line 38, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.header {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+}
+/* line 44, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.header .intro i {
+  color: black;
+}
+/* line 48, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.header .primary-links .clickable {
+  transition: background-color 1s ease;
+  border: 1px solid black;
+  margin: 20px;
+  display: inline-block;
+}
+/* line 54, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.header .primary-links .clickable:hover {
+  background-color: lightblue;
+}
+
+/* line 58, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.focus-area-1 {
+  margin: 0px 5% 0px 5%;
+}
+
+/* line 62, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.focus-area-2 {
+  margin: 0px 0px 0px 0px;
+}
+
+/* line 66, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.focus-area-2 > section > p > b {
+  margin-left: 10%;
+  display: inline-block;
+}
+
+/* line 74, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.skills .clickable.clicked {
+  border: 1px solid darkblue;
+  box-shadow: 0 0 1px darkblue;
+}
+
+/* line 80, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.skill-details {
+  /*(nx) .<skill>*/
+}
+/* line 82, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.skill-details section p b {
+  color: red;
+}
+
+/* line 97, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+* {
+  transition: all 1s ease;
+}
+
+/* line 99, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.skills .clickable:hover {
+  background-color: #B4E0E8;
+}
+
+/* line 103, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.skills .clickable {
+  border: 1px solid black;
+  padding: 20px;
+  display: inline-block;
+  margin: 5px 0;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
