@@ -32,7 +32,7 @@ Employment history / education:
 Project Examples:
   Sobrr promotional page:
     - a responsive pinterest style layout using Masonry and infinite scroll
-    - includes a hidden admin interface
+    - HTML admin interface
     - loads content through ajax and infinite scroll
   Socket helpers: 
     - a gem I wrote for realtime features in rails
