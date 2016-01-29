@@ -43,7 +43,7 @@ Project Examples:
     - project built at CodeUnion
     - Runs an IRC bot and Sinatra app on the same Heroku server using Rack
     - Shares database between components and presents data as HTML
-   Trello clone:
+  Trello clone:
     - App Academy project using Backbone and jQuery UI with a Rails API.
   Snake and Asteroids:
     - App academy projects - browser games with Canvas (each built in a day with a parter)
@@ -65,32 +65,16 @@ Project Examples:
     - Telescope (RSS viewer)
 
 Main skills:
-  HTML
-  CSS
-  Linux
-  Git
-  Mobile notifications
-  Automated testing
-  Web data extraction
-  websockets
+  HTML, CSS3
+  Linux, Git
   Ruby
-    Rails
-    Sinatra
-    Resque (process queues)
-    caching (lru, counters)
+    Rails, Sinatra, Resque, websockets, RSpec, Mechanize,
+    mobile notifications, metaprogramming, APIs, emails
   Javascript
-    jQuery
-    Backbone
-    AJAX
-    NPM
-    Browserify
+    jQuery, Backbone, Pub/Sub, AJAX, NPM, Browserify, PhantomJS
   AWS
-    S3
-    Elasticbeanstalk / EC2
+    S3, Elastic Beanstalk, SSL certs, EC2, RDBS, Cloudwatch
   SQL
-    MySQL
-    Postgres
+    MySQL, Postgres
   noSql
-    JSON
-    YAML (the format of this resume)
-    Redis
+    JSON, YAML (the format of this resume), Redis, PStore
