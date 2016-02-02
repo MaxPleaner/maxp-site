@@ -55,23 +55,22 @@ Project Examples:
     - uses Nokogiri to parse RSS from Indeed.com
     - parses JSON from Stack Overflow jobs
     - Uses 'mechanize' to authenticate with App Academy's API for listing tech companies
-  Music downloader scripts:
-    - for Bandcamp and Youtube
+  Music downloader scripts
   Self-hosting open source projects:
     - Errbit (error reporting)
     - Redash (HTML interface to database)
     - Opentape (mixtape)
     - Ghost (blog)
-    - Telescope (RSS viewer)
+    - Telescope (RSS reader)
 
-Main skills:
+skills:
   HTML, CSS3
   Linux, Git
   Ruby
     Rails, Sinatra, Resque, websockets, RSpec, Mechanize,
     mobile notifications, metaprogramming, APIs, emails
   Javascript
-    jQuery, Backbone, Pub/Sub, AJAX, NPM, Browserify, PhantomJS
+    jQuery, Backbone, AJAX, Node, Browserify, PhantomJS
   AWS
     S3, Elastic Beanstalk, SSL certs, EC2, RDBS, Cloudwatch
   SQL
