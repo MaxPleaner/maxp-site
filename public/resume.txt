@@ -7,38 +7,38 @@ Contact:
 
 Skills (summary):
 
-  - HTML, CSS, Single page apps
-  - Javascript, jQuery, Backbone, NPM, etc
-  - Bash, CLIs, Database (SQL, Redis)
-  - Heroku, AWS hosting - S3, EB, RDBS, Cloudwatch, SSL
-  - Automated testing - RSpec, Jasmine, Mechanize, PhantomJS
-  - Ruby: Sinatra, Rails (with websockets), various gems
-  - Email, mobile notifications, AJAX, etc
+  HTML, CSS, Single page apps
+  Javascript, jQuery, Backbone, NPM, etc
+  Bash, CLIs, Database (SQL, Redis)
+  Heroku, AWS hosting - S3, EB, RDBS, Cloudwatch, SSL
+  Automated testing - RSpec, Jasmine, Mechanize, PhantomJS
+  Ruby, Sinatra, Rails (with websockets), various gems
+  Email, mobile notifications, AJAX, etc
 
 Employment history and education:
 
   2015-2016 (4 months): Timeset
-    - A social network for geolocated photos
-    - Sole builder of Rails JSON API and AWS deployment   
+    A social network for geolocated photos.
+    Sole builder of Rails JSON API and AWS deployment.
 
   2015 (5 months): Sobrr
-    - An ephemeral social network with thousands of daily users
-    - Rails JSON API with AWS deployment
+    An ephemeral social network with thousands of daily users.
+    Rails JSON API with AWS deployment.
 
   2014 (3 months): App Academy web dev school
-    - 3 months full-day classes
+    3 months full-day classes.
 
   2013-2014: Independent programming study / CodeUnion web dev school
-    - Studied from online curriculums such as the Odin Project
-    - 3 month CodeUnion course from DevBootcamp cofounder
+    Studied from online curriculums such as the Odin Project.
+    3 month CodeUnion course from DevBootcamp cofounder.
 
   2008-2013: Politics BA, UC Santa Cruz
-    - Concentrated in International Relations
-    - Also took Linguistics classes
+    Concentrated in International Relations.
+    Also took Linguistics classes.
 
   2007-2015: Freelance political work
-    - Canvassing, signatures, polling, registering voters
-    - Head staff for Santa Cruz city council member (2013)
+    Canvassing, signatures, polling, registering voters.
+    Head staff for Santa Cruz city council member (2013).
 
 Project Examples:
 
@@ -78,16 +78,16 @@ Project Examples:
 
   Job application tracker
     "http://github.com/maxpleaner/job_tracker_cli"
-    A commmand line interface for tracking job applications and events
+    A commmand line interface for tracking job applications and events.
 
   Job listing CLI: "http://github.com/maxpleaner/find_job_listings"
-    - find job listings using APIs and scraping
-    - queries StackOverflow, Indeed, and more
+    Find job listings using APIs and scraping.
+    Queries StackOverflow, Indeed, and more.
 
   Music downloader scripts
-    Youtube  - "http://github.com/maxpleaner/youtube-audio-downloader"
-    Bandcamp - "http://github.com/maxpleaner/bandcamp_downloader"
+    Youtube: "http://github.com/maxpleaner/youtube-audio-downloader"
+    Bandcamp: "http://github.com/maxpleaner/bandcamp_downloader"
 
   Self-hosting open source projects:
-    - Errbit (error reporting), Redash (HTML interface to database),
+    Errbit (error reporting), Redash (HTML interface to database),
       Opentape (mixtape), Ghost (blog), Telescope (RSS reader)
