@@ -2,80 +2,67 @@ Contact:
   Max Pleaner
   San Francisco, CA
   maxpleaner@gmail.com
+  415 706-0904
 
-Summary:
-  Software Developer
-  Web      Developer
+Skills (summary):
+  - HTML, CSS, Single page apps
+  - Javascript, jQuery, Backbone, NPM, Browserify, Bower
+  - Linux command line
+  - AWS hosting - S3, EB, RDBS, Cloudwatch, SSL
+  - Database (SQL, Redis)
+  - Automated testing - RSpec, Jasmine, Mechanize, PhantomJS  
+  - Ruby: Sinatra, Rails (with websockets)
+  - Email, mobile notifications, AJAX
 
-Employment history / education:
-  2016 (4 months): Timeset
-    - 4-8 person team building a photo-sharing social network for mobile platforms
+Employment history and education:
+  2015-2016 (4 months): Timeset
     - Sole builder of Rails API and AWS deployment   
-  2015 (6 months): Sobrr (company moved to China)
-    - 5-10 person team building photo-sharing social network for mobile platforms
-    - I was one of three working on the Rails API with AWS deployment and MySQL database
-    - The site had thousands of daily active users
-  2014 (6 months): App Academy web dev school
+    - social network for geolocated photos
+  2015 (6 months): Sobrr
+    - Rails API with AWS deployment and MySQL database
+    - ephemeral social network, thousands of daily users
+  2014: App Academy web dev school
     - 3 months full-day classes
     - tuition dependent on post-graduation salary
-  2013 through 2014: Independent programming study
-                     CodeUnion web dev school
+  2013-2014: Independent programming study / CodeUnion web dev school 
     - Studied from online curriculums such as the Odin Project
-    - 3 month CodeUnion course was co-led by Dev Bootcamp co-founder and curriculum author
-  June 2013: Politics BA at UC Santa Cruz
-             also took classes in Linguistics
-  2007 through 2015: Freelance political work
-    - canvassing donations and gathering signatures
-    - polling and registering voters
-    - head staff for santa cruz city council member (2013)
+    - 3 month CodeUnion course from DevBootcamp cofounder
+  2013: Politics BA, UC Santa Cruz
+    - also took Linguistics classes
+  2007-2015: Freelance political work
+    - canvassing, signatures, polling, registering voters
+    - head staff for Santa Cruz city council member (2013)
 
 Project Examples:
-  Sobrr promotional page:
-    - a responsive pinterest style layout with jQuery's Masonry plugin
-    - HTML admin interface
-    - loads content through ajax and infinite scroll
-  Socket helpers: 
+  Sobrr promotional page: http://app.sobrr.life/presentation/around_feeds.html
+    - infinite scroll, pinterest-style layout, HTML admin interface
+  Socket helpers: http://github.com/maxpleaner/socket_helpers
     - a gem I wrote for realtime features in rails
-  News Blender:
+  News Blender: http://maxp-feedly.herokuapp.com
     - App academy final project
     - Feedly clone - RSS feed reader and organizer
-  Logbot:
+  Logbot: http://maxp-logbot.herokuapp.com 
     - project built at CodeUnion
     - Runs an IRC bot and Sinatra app on the same Heroku server using Rack
     - Shares database between components and presents data as HTML
-  Trello clone:
+  Trello clone: http://maxp-trello.herokuapp.com
     - App Academy project using Backbone and jQuery UI with a Rails API.
-  Snake and Asteroids:
+  Snake and Asteroids: http://maxpleaner.github.com/snake
     - App academy projects - browser games with Canvas (each built in a day with a parter)
-  Job application tracker:
+  Job application tracker: http://github.com/maxpleaner/job_tracker_cli
     - A database-backed command line interface for managing job applications and events
-    - uses ActiveRecord without Rails
-  Job listing CLI:
     - Find job listing URLS from the command line
+    - uses ActiveRecord without Rails
+  Job listing CLI: http://github.com/maxpleaner/find_job_listings
     - uses Nokogiri to parse RSS from Indeed.com
     - parses JSON from Stack Overflow jobs
     - Uses 'mechanize' to authenticate with App Academy's API for listing tech companies
-  Music downloader scripts
-    bandcamp, youtube
+  Music downloader scripts - http://github.com/maxpleaner/youtube-audio-downloader,
+                             http://github.com/maxpleaner/bandcamp_downloader
   Self-hosting open source projects:
     - Errbit (error reporting)
     - Redash (HTML interface to database)
     - Opentape (mixtape)
     - Ghost (blog)
     - Telescope (RSS reader)
-
-skills:
-  HTML, CSS3
-  Linux, Git
-  Functional programming
-  Test driven development
-  Ruby
-    Rails, Sinatra, Resque, websockets, RSpec, Mechanize,
-    mobile notifications, APIs, emails
-  Javascript
-    jQuery, Backbone, AJAX, Node, Browserify, PhantomJS
-  AWS
-    S3, Elastic Beanstalk, SSL certs, EC2, RDBS, Cloudwatch
-  Data
-    MySQL, Postgres, noSql, JSON, Redis, YAML
 
