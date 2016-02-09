@@ -76,7 +76,7 @@ Project Examples:
     "http://maxpleaner.github.com/asteroids"
     Browser games with HTML5 Canvas. App academy projects.
 
-  Job application tracker
+  Job application tracker:
     "http://github.com/maxpleaner/job_tracker_cli"
     A commmand line interface for tracking job applications and events.
 
@@ -84,7 +84,7 @@ Project Examples:
     Find job listings using APIs and scraping.
     Queries StackOverflow, Indeed, and more.
 
-  Music downloader scripts
+  Music downloader scripts:
     Youtube: "http://github.com/maxpleaner/youtube-audio-downloader"
     Bandcamp: "http://github.com/maxpleaner/bandcamp_downloader"
 
