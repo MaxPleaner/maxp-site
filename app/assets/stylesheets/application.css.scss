@@ -1,10 +1,45 @@
-xbody {
-  background-color: lighten(salmon, 28%);
+body {
+  background: lighten(teal, 65%);
 }
 
 pre {
-  width: 100%;
+  // width: 100%;
   margin-left: 0;
   overflow-x: scroll;
-  word-wrap: none;
+  // word-wrap: none;
+}
+
+.link {
+  display: inline-block;
+  border: 1px solid grey;
+  background: darken(white, 10%);
+  padding: 7px;
+  margin-bottom: 10px;
+  transition: background .5s ease-in;
+}
+.link:hover {
+  background: darken(white, 20%);
+} 
+
+.section {
+  border: 1px solid darken(white, 20%);
+  padding: 15px;
+}
+
+.subsection {
+  border: 1px solid darken(white, 20%);
+  padding: 15px;
+  margin: -10px 0;
+}
+
+.section, .subsection {
+  background: rgba(0, 0, 0, 0.1)
+}
+
+p {
+  margin: 0;
+}
+
+.intro {
+  text-align: center;
 }
