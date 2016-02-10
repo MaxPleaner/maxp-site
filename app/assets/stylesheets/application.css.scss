@@ -1,7 +1,12 @@
+
+
 body {
   background: lighten(teal, 70%);
   font-size: 20px;
-  width: 700px;
+}
+
+body > .section {
+  background: lighten(teal, 70%);
 }
 
 pre {
@@ -11,12 +16,12 @@ pre {
   // word-wrap: none;
 }
 
+
 .link {
   display: inline-block;
   font-family: monospace;
   border: 1px solid black;
   border-radius: 20px;
-  font-size: 1.5em;
   background: darken(white, 10%);
   padding: 15px;
   margin-bottom: 10px;
@@ -32,28 +37,30 @@ pre {
 .section {
   border: 1px solid darken(white, 20%);
   padding: 15px;
-  width: 100%;
-
-  .section {
-    width: 90%
-  }
 }
 
 .minisection {
   border: 1px solid lighten(red, 30%);
-  padding: 5px;
+  padding: 10px;
   display: inline-block;
   margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.page-container {
+  height: 100% !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+  border: 1px solid black;
 }
 
 .subsection {
   border: 1px solid darken(white, 20%);
   padding: 15px;
-  width: 90%;
   margin: -10px 0;
 }
 
-.section, .subsection {
+.section, .subsection, .minisection {
   background: rgba(0, 0, 0, 0.1)
 }
 
