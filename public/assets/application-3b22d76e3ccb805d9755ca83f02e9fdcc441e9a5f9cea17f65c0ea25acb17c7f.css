@@ -1,0 +1,72 @@
+/* line 1, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+body {
+  background: #e6ffff;
+  font-size: 20px;
+  width: 700px;
+}
+
+/* line 7, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+pre {
+  margin-left: 0;
+  overflow-x: scroll;
+}
+
+/* line 14, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.link {
+  display: inline-block;
+  font-family: monospace;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 1.5em;
+  background: #e6e6e6;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 27, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.link:hover {
+  background: #cccccc;
+  box-shadow: 0 0 20px yellow;
+}
+
+/* line 32, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.section {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  width: 100%;
+}
+/* line 37, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.section .section {
+  width: 90%;
+}
+
+/* line 42, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.minisection {
+  border: 1px solid #ff9999;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* line 49, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.subsection {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  width: 90%;
+  margin: -10px 0;
+}
+
+/* line 56, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.section, .subsection {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 60, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+p {
+  margin: 0;
+}
+
+/* line 64, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.intro {
+  text-align: center;
+}
