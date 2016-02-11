@@ -21,8 +21,8 @@ Skills:
 
 I'm learning:
 
-  Meteor.js, HTML5 Canvas, semantic filesystems,
-  C++ (enrolled at CCSF), chiptunes, generated music
+  Meteor.js, HTML5 Canvas, semantic filesystems, ImageMagick,
+  C++ (enrolled at CCSF), chiptunes, generated music,
 
 Employment history and education:
 
@@ -93,13 +93,5 @@ Project Examples:
   Self-hosting open source projects:
     Errbit (error reporting), Redash (HTML interface to database),
     Opentape (mixtape), Ghost (blog), Telescope (RSS reader)
-
-
-
-
-
-
-
-
 
 
