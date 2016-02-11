@@ -1,0 +1,78 @@
+/* line 3, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+body {
+  background: #e6ffff;
+  font-size: 20px;
+}
+
+/* line 8, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+body > .section {
+  background: #e6ffff;
+}
+
+/* line 12, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+pre {
+  margin-left: 0;
+  overflow-x: scroll;
+}
+
+/* line 20, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.link {
+  display: inline-block;
+  font-family: monospace;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: #e6e6e6;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 32, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.link:hover {
+  background: #cccccc;
+  box-shadow: 0 0 20px yellow;
+}
+
+/* line 37, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.section {
+  border: 1px solid #cccccc;
+  padding: 15px;
+}
+
+/* line 42, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.minisection {
+  border: 1px solid #ff9999;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* line 50, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.page-container {
+  height: 100% !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+  border: 1px solid black;
+}
+
+/* line 57, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.subsection {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin: -10px 0;
+}
+
+/* line 63, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.section, .subsection, .minisection {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 67, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+p {
+  margin: 0;
+}
+
+/* line 71, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss */
+.intro {
+  text-align: center;
+}
