@@ -59,6 +59,10 @@ Project Examples:
     "http://github.com/maxpleaner/socket_helpers"
     A gem I wrote for realtime features in rails using websockets.
 
+  Chiptune CLI:
+    "http://github.com/maxpleaner/chiptune-cli"
+    Auto-generates and plays chiptune music
+
   News Blender:
     "http://maxp-feedly.herokuapp.com"
      An RSS feed reader and organizer. App academy final project.
