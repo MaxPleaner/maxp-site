@@ -1,3 +1,6 @@
+2/16/16
+
+---------------------------------------------------------
 
 Contact:
 
@@ -6,92 +9,126 @@ Contact:
   maxpleaner@gmail.com
   415 706 0904
 
+---------------------------------------------------------
+
 Skills:
 
-  Ruby:>          RubyGems, Sinatra, Rails, RSpec, Mechanize, Resque
-  Javascript:>    NPM, jQuery, Backbone.js, Jasmine, Node, PhantomJS
-  Data:>          SQL, Redis, JSON, YAML, RSS
-  Realtime:>      Websockets, mobile notifications, AJAX
-  Design:>        HTML, CSS, Bootstrap, SASS, Weebly
-  Hosting:>       Heroku, AWS, SSL
-  APIs:>          oAuth, Google Maps/Calendar, Twitter, etc
-  UNIX:>          Bash, Ubuntu software
-  Devops:>        error reporting, admin interfaces, Cloudwatch
-  Mail:>          SMTP, SES, IRC
+  Ruby:>        RubyGems, Sinatra, Rails, RSpec, Mechanize, Resque
+  Javascript:>  NPM, jQuery, Backbone.js, Jasmine, Node, PhantomJS
+  Data:>        SQL, Redis, JSON, YAML, RSS
+  Realtime:>    Websockets, mobile notifications, AJAX
+  Design:>      HTML, CSS, Bootstrap, SASS, Weebly
+  Hosting:>     Heroku, AWS, SSL
+  APIs:>        oAuth, Google Maps/Calendar, Twitter, etc
+  UNIX:>        Bash, Ubuntu software
+  Devops:>      error reporting, admin interfaces, Cloudwatch
+  Mail:>        SMTP, SES, IRC
+
+---------------------------------------------------------
 
 I'm learning:
 
   Meteor.js, HTML5 Canvas, semantic filesystems, ImageMagick,
   C++ (enrolled at CCSF), chiptunes, generated music,
 
+---------------------------------------------------------
+
 Employment history and education:
 
-  2015-2016 (4 months): 'Timeset'
-    A social network for geolocated photos.
-    Sole builder of Rails JSON API and AWS deployment.
+   Timeset: '10/2015 - 2/2016'
+      'https://play.google.com/store/apps/details?id=timeset.com.timeset'
+      A social network for geolocated photos.
+      Sole builder of Rails JSON API and AWS deployment.
 
-  2015 (5 months): 'Sobrr'
-    An ephemeral social network with thousands of daily users.
-    Rails JSON API with AWS deployment.
+   Sobrr: '12/2014 - 6/2015'
+      'https://play.google.com/store/apps/details?id=com.digit4me.sobrr'
+      An ephemeral social network with thousands of daily users.
+      Rails JSON API with AWS deployment.
 
-  2014 (3 months): 'App Academy'
-    web dev school, 3 months full day classes.
+   App Academy: '8/2014 - 11/2014'
+      'http://www.appacademy.io/curriculum'
+      3 months full day web dev classes
+      tutition depends on eventual salary
+      Rails, Backbone.js, SQL, TDD, pairing, etc
 
-  2013-2014: 'CodeUnion' / 'Odin Project'
-    Studied from online curriculums such as the Odin Project.
-    3 month CodeUnion course with DevBootcamp cofounder.
+   CodeUnion / Odin Project: '2013 - 2014'
+      'http://codeunion.io/#workshops'
+      'http://www.theodinproject.com/courses?ref=home'
+      Studied from online curriculums such as the Odin Project.
+      3 month CodeUnion course with DevBootcamp cofounder.
 
-  2008-2013: 'Politics BA, UC Santa Cruz'
-    Concentrated in International Relations.
-    Also took Linguistics classes.
+   Politics BA, UC Santa Cruz: '2008 - 6/2013'
+      Concentrated in International Relations.
+      Also took multidisciplinary and Linguistics classes.
 
-  2007-2015: 'Freelance political work'
-    Canvassing, signatures, polling, registering voters.
-    Head staff for Santa Cruz city council member (2013).
+   Freelance political work: '2007-2015'
+      Canvassing, signatures, polling, registering voters.
+      Head staff for Santa Cruz city council member (2013)
+
+---------------------------------------------------------
 
 Project Examples:
 
-  Script-maker: 'http://github.com/maxpleaner/script-maker'
-    A web interface for writing and executing ruby scripts.
+  Script-maker:
+      'http://github.com/maxpleaner/script-maker'
+      A web interface for writing and executing ruby scripts.
+      Includes CMS for drafting HTML pages
 
-  Ruby-Cli-Skeleton: 'http://github.com/maxpleaner/ruby-cli-skeleton'
-    A Ruby command line application template.
-    Implements a REPL and automatic documentation.
+  Ruby-Cli-Skeleton:
+      'http://github.com/maxpleaner/ruby-cli-skeleton'
+      A Ruby command line application template.
+      Implements a REPL and automatic documentation.
 
-  Sobrr promotional page: 'http://app.sobrr.life/presentation/around_feeds.html'
-    Infinite scroll, pinterest-style layout, and HTML admin interface.
+  Sobrr promotional page:
+      'http://app.sobrr.life/presentation/around_feeds.html'
+      Infinite scroll with pinterest style layout and HTML admin interface.
 
-  Socket helpers: 'http://github.com/maxpleaner/socket_helpers'
-    A gem I wrote for realtime features in rails using websockets.
+  Socket helpers gem:
+      'http://github.com/maxpleaner/socket_helpers'
+      A gem I wrote for realtime features in rails using websockets.
 
-  Chiptune CLI: 'http://github.com/maxpleaner/chiptune-cli'
-    Auto-generates and plays chiptune music
+  Chiptune CLI:
+      'http://github.com/maxpleaner/chiptune-cli'
+      Procedurally generates chiptune music (work in progress)
 
-  News Blender: 'http://maxp-feedly.herokuapp.com'
-     An RSS feed reader and organizer. App academy final project.
+  News Blender:
+      'http://maxp-feedly.herokuapp.com'
+      An RSS feed reader and organizer. App academy final project.
 
-  IRC Logbot: 'http://maxp-logbot.herokuapp.com'
-    IRC bot with Sinatra web interface, hosted on Heroku.
+  IRC Logbot:
+      'http://maxp-logbot.herokuapp.com'
+      IRC bot with Sinatra web interface, hosted on Heroku.
 
-  Trello clone: 'http://maxp-trello.herokuapp.com'
-    Uses Backbone and jQuery UI with a Rails API. App Academy project.
+  Trello clone:
+      'http://maxp-trello.herokuapp.com'
+      Uses Backbone and jQuery UI with a Rails API. App Academy project.
 
-  Snake and Asteroids: 'http://maxpleaner.github.com/snake'
-    Browser games with HTML5 Canvas. App academy projects.
+  Snake and Asteroids:
+      'http://maxpleaner.github.com/snake'
+      Browser games with HTML5 Canvas. App academy projects.
 
-  Job application tracker: 'http://github.com/maxpleaner/job_tracker_cli'
-    A commmand line interface for tracking job applications and events.
+  Job application tracker:
+      'http://github.com/maxpleaner/job_tracker_cli'
+      A commmand line interface for tracking job applications and events.
 
-  Job listing CLI: 'http://github.com/maxpleaner/find_job_listings'
-    Find job listings using APIs and scraping.
-    Queries StackOverflow, Indeed, and more.
+  Job listing CLI:
+      'http://github.com/maxpleaner/find_job_listings'
+      Find job listings using APIs and scraping.
+      Queries StackOverflow, Indeed, and more.
 
   Music downloader scripts:
-    Youtube: 'http://github.com/maxpleaner/youtube-audio-downloader'
-    Bandcamp: 'http://github.com/maxpleaner/bandcamp_downloader'
+      Youtube: 'http://github.com/maxpleaner/youtube-audio-downloader'
+      Bandcamp: 'http://github.com/maxpleaner/bandcamp_downloader'
 
   Self-hosting open source projects:
-    Errbit (error reporting), Redash (HTML interface to database),
-    Opentape (mixtape), Ghost (blog), Telescope (RSS reader)
+      Errbit      (error reporting),
+      Redash      (HTML interface to database),
+      Opentape    (mixtape), 
+      Ghost       (blog), 
+      Telescope   (RSS reader),
+      Zeya        (music streaming server)
 
+---------------------------------------------------------
+
+2/16/16
 
