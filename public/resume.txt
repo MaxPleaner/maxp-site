@@ -72,7 +72,7 @@ Project Examples:
   Tagger:
       'http://github.com/maxpleaner/tagger'
       A crawler that categorizes companies on LinkedIn
-      Uses MonkeyBrains for keyword extraction
+      Uses MonkeyLearn for keyword extraction
 
   Script-maker:
       'http://github.com/maxpleaner/script-maker'
