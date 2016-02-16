@@ -69,6 +69,11 @@ Employment history and education:
 
 Project Examples:
 
+  Tagger:
+      'http://github.com/maxpleaner/tagger'
+      A crawler that categorizes companies on LinkedIn
+      Uses MonkeyBrains for keyword extraction
+
   Script-maker:
       'http://github.com/maxpleaner/script-maker'
       A web interface for writing and executing ruby scripts.
