@@ -1,0 +1,17 @@
+<% if @image %>
+  link to source (html / css): <a href="/business_cards">link</a><br>
+  3 repetitions:  <br>
+  <% 3.times do %>
+    <img src="<%= image_path('bizcards-template.png') %>" alt="">
+  <% end %>
+<% else %>
+  link to final version (png image): <a href="/business_cards?image=true">link</a><br>
+  9 repetitions: <br>
+  <% 9.times do %>
+    <pre class="business-cards-background">
+      <div class="business-cards-content">
+        <%= @content %>
+      </div>
+    </pre>
+  <% end %>
+<% end %>

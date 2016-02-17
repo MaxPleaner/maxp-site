@@ -17,4 +17,22 @@ class PagesController < ApplicationController
     redirect_to "http://maxpleaner.com/#links"
   end
 
+  def business_cards
+    @content = <<-TXT
+
+     Max Pleaner             Programmer
+     maxpleaner.com       San Francisco
+
+      Startups -  Sobrr, Timeset (backend dev)
+      Education - App Academy, CodeUnion, UCSC Politics
+      Political campaigns - ‘08-’13
+
+      Ruby, Sinatra, Rails, RSpec, Mechanize, Redis
+      Javascript, jQuery, Backbone.js, Jasmine, PhantomJs, Node
+      JSON, REST, SQL, Git, Heroku, AWS, Bash, Linux
+    TXT
+    @image = params[:image]
+
+  end
+
 end
