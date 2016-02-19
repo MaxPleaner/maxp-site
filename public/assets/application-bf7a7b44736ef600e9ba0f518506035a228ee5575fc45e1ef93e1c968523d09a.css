@@ -1,0 +1,149 @@
+/* line 3, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+body, html {
+  height: 100%;
+}
+
+/* line 7, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+body {
+  background: #e6ffff;
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%) no-repeat;*/
+  background-position: fixed;
+  /*height: 494px;*/
+  /*width: 620px;*/
+  font-size: 20px;
+}
+
+/* line 16, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+body > .section {
+  background: #e6ffff;
+}
+
+/* line 20, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+pre {
+  /*height: 100%;*/
+  width: 100%;
+  margin-left: 0;
+  overflow-x: scroll;
+}
+
+/* line 30, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.link {
+  display: inline-block;
+  font-family: monospace;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: #e6e6e6;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: background .5s ease-in;
+  /*transition: .5s box-shadow ease-in;*/
+  /*transition: 1s outline ease-in;*/
+  box-shadow: none !important;
+}
+
+/* line 44, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.link:hover {
+  /*box-shadow: 0px 0px 5px white !important;*/
+  background: #cccccc;
+}
+
+/* line 49, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.section {
+  border: 1px solid #cccccc;
+  padding: 15px;
+}
+
+/* line 54, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.minisection {
+  border: 1px solid #ff9999;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* line 62, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.page-container {
+  height: 100% !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+
+/* line 68, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.subsection {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin: -10px 0;
+}
+
+/* line 74, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.section, .subsection, .minisection {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 78, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+p {
+  margin: 0;
+}
+
+/* line 82, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.intro {
+  text-align: center;
+}
+
+/* line 88, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.business-cards-background {
+  background-image: url("/images/new_year_background.png") !important;
+  display: inline-block;
+}
+
+/* line 93, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.business-cards-content {
+  background-color: none !important;
+  padding: 5px 20px 0 5px;
+  border: 1px solid black;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  font-family: serif;
+  overflow-x: hidden;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* line 105, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.icon-link, .link {
+  display: inline-block;
+  /*border: 1px solid black;*/
+  padding: 10px;
+  /*width: 25px;*/
+  font-size: 12px;
+  font-family: monospace;
+  /*height: 25px;*/
+  box-shadow: 0 0 5px black;
+  transition: .2s outline ease-in;
+}
+/* line 113, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.icon-link img, .link img {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 120, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+.icon-link:hover {
+  outline: 2px solid white;
+}
+
+/* line 124, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+small {
+  /*border: 1px solid black;*/
+  display: inline-block;
+  margin: none;
+  font-style: italic;
+}
+
+/* line 131, /home/max/Desktop/maxp-site/app/assets/stylesheets/application.css.scss.erb */
+#resume {
+  padding: 10px;
+  /*margin: 0;*/
+  /*height: 100%;*/
+}
