@@ -1,140 +1,134 @@
-<pre style="background:#fff;color:#000">2/16/16
+2/16/16
 
-<span style="background:rgba(0,0,0,0.05)">---------------------------------------------------------</span>
+---------------------------------------------------------
 
-<span style="color:#1c02ff"><span style="font-weight:700">Contact</span>:</span>
+Contact:
 
   Max Pleaner
   San Francisco, CA
   maxpleaner@gmail.com
-  415 706 0904
+  maxpleaner.com
 
-<span style="background:rgba(0,0,0,0.05)">---------------------------------------------------------</span>
+---------------------------------------------------------
 
-<span style="color:#1c02ff"><span style="font-weight:700">Skills</span>:</span>
+Skills:
 
-<span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Ruby:</span>>       Sinatra, Rails, Resque
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Javascript:</span>> jQuery, Backbone.js, Node
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Testing:</span>>    RSpec, Mechanize, Selenium, Jasmine, PhantomJS
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Data:</span>>       SQL, Redis, JSON, YAML, RSS
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Realtime:</span>>   Websockets, mobile notifications, AJAX
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Design:</span>>     HTML, CSS, single page apps
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Hosting:</span>>    Heroku, AWS (EB, Cloudwatch, etc)
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">APIs:</span>>       oAuth, SAAS providers
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Unix:</span>>       Bash, Ubuntu
-</span><span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Etc:</span>>        Git, error-reporting, admin-interfaces, geolocation
+Ruby:>       Sinatra, Rails, Resque                          
+Javascript:> jQuery, Backbone.js, Node                       
+Testing:>    RSpec, Mechanize, Selenium, Jasmine, PhantomJS  
+Data:>       SQL, Redis, JSON, YAML, RSS                     
+Realtime:>   Websockets, mobile notifications, AJAX          
+Design:>     HTML, CSS, single page apps                     
+Hosting:>    Heroku, AWS (EB, Cloudwatch, etc)               
+APIs:>       oAuth, SAAS providers                           
+Unix:>       Bash, Ubuntu                                    
+Etc:>        Git, admin interfaces, error reporting          
 
-</span><span style="background:rgba(0,0,0,0.05)">---------------------------------------------------------</span>
+Learning:>   Meteor.js, semantic filesystems, ImageMagick    
+             C++ (enrolled at CCSF), electronic music        
 
-<span style="color:#1c02ff"><span style="font-weight:700">I'm learning</span>:</span>
+---------------------------------------------------------
 
-  Meteor.js, HTML5 Canvas, semantic filesystems, ImageMagick,
-  C++ (enrolled at CCSF), chiptunes, generated music,
+Employment history and education:
 
-<span style="background:rgba(0,0,0,0.05)">---------------------------------------------------------</span>
-
-<span style="color:#1c02ff"><span style="font-weight:700">Employment history and education</span>:</span>
-
-  <span style="color:#1c02ff"><span style="font-weight:700">Timeset (Emeryville)</span>: </span><span style="color:#036a07">'10/2015 - 2/2016'</span>
+  Timeset (Emeryville): '10/2015 - 2/2016'
       A social network for geolocated photos.
       Sole builder of Rails JSON API and AWS deployment.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'https://play.google.com/store/apps/details?id=timeset.com.timeset'</span></span>
+      Link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Sobrr (San Francisco)</span>: </span><span style="color:#036a07">'12/2014 - 6/2015'</span>
+  Sobrr (San Francisco): '12/2014 - 6/2015'
       An ephemeral social network with thousands of daily users.
       Rails JSON API with AWS deployment.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'https://play.google.com/store/apps/details?id=com.digit4me.sobrr'</span></span>
+      Link: 'https://play.google.com/store/apps/details?id=com.digit4me.sobrr'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">App Academy (San Francisco)</span>: </span><span style="color:#036a07">'8/2014 - 11/2014'</span>
+  App Academy (San Francisco): '8/2014 - 11/2014'
       3 months full day web dev classes
       tutition depends on eventual salary
       Rails, Backbone.js, SQL, TDD, pairing, etc
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://www.appacademy.io/curriculum'</span></span>
+      Link: 'http://www.appacademy.io/curriculum'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">CodeUnion / Odin Project</span>: </span><span style="color:#036a07">'2013 - 2014'</span>
+  CodeUnion / Odin Project: '2013 - 2014'
       Studied from online curriculums such as the Odin Project.
       3 month CodeUnion course with DevBootcamp cofounder.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://codeunion.io/#workshops'</span></span>
+      Link: 'http://codeunion.io/#workshops'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Politics BA, UC Santa Cruz</span>: </span><span style="color:#036a07">'2008 - 6/2013'</span>
+  Politics BA, UC Santa Cruz: '2008 - 6/2013'
       Concentrated in International Relations.
       Also took multidisciplinary and Linguistics classes.
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Freelance political work</span>: </span><span style="color:#036a07">'2007-2015'</span>
+  Freelance political work: '2007-2015'
       Canvassing, signatures, polling, registering voters.
       Head staff for Santa Cruz city council member (2013)
 
-<span style="background:rgba(0,0,0,0.05)">---------------------------------------------------------</span>
+---------------------------------------------------------
 
-<span style="color:#1c02ff"><span style="font-weight:700">Project Examples</span>:</span>
+Project Examples:
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Tagger</span>:</span>
+  Tagger:
       A crawler that categorizes companies on LinkedIn
       uses MonkeyLearn for keyword extraction
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://github.com/maxpleaner/tagger'</span></span>
+      Link: 'http://github.com/maxpleaner/tagger'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Script-maker</span>:</span>
+  Script-maker:
       A web interface for writing and executing ruby scripts
       includes CMS for drafting HTML pages
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://github.com/maxpleaner/script-maker'</span></span>
+      Link: 'http://github.com/maxpleaner/script-maker'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Ruby-Cli-Skeleton</span>:</span>
+  Ruby-Cli-Skeleton:
       A Ruby command line application template
       implements a REPL and automatic documentation.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://github.com/maxpleaner/ruby-cli-skeleton'</span></span>
+      Link: 'http://github.com/maxpleaner/ruby-cli-skeleton'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Sobrr promotional page</span>:</span>
+  Sobrr promotional page:
       Infinite scroll with pinterest style layout and HTML admin interface.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://app.sobrr.life/presentation/around_feeds.html'</span></span>
+      Link: 'http://app.sobrr.life/presentation/around_feeds.html'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Socket helpers gem</span>:</span>
+  Socket helpers gem:
       A rails gem which helps write realtime sites using websockets.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://github.com/maxpleaner/socket_helpers'</span></span>
+      Link: 'http://github.com/maxpleaner/socket_helpers'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Chiptune CLI</span>:</span>
+  Chiptune CLI:
       Procedurally generates chiptune music (work in progress)
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://github.com/maxpleaner/chiptune-cli'</span></span>
+      Link: 'http://github.com/maxpleaner/chiptune-cli'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">News Blender</span>:</span>
+  News Blender:
       An RSS feed reader and organizer. App academy final project.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://maxp-feedly.herokuapp.com'</span></span>
+      Link: 'http://maxp-feedly.herokuapp.com'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">IRC Logbot</span>:</span>
+  IRC Logbot:
       IRC bot with Sinatra web interface, hosted on Heroku.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://maxp-logbot.herokuapp.com'</span></span>
+      Link: 'http://maxp-logbot.herokuapp.com'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Trello clone</span>:</span>
+  Trello clone:
       Uses Backbone and jQuery UI with a Rails API. App Academy project.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://maxp-trello.herokuapp.com'</span></span>
+      Link: 'http://maxp-trello.herokuapp.com'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Snake and Asteroids</span>:</span>
+  Snake and Asteroids:
       Browser games with HTML5 Canvas. App academy projects.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://maxpleaner.github.com/snake'</span></span>
+      Link: 'http://maxpleaner.github.com/snake'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Job application tracker</span>:</span>
+  Job application tracker:
       A commmand line interface for tracking job applications and events.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://github.com/maxpleaner/job_tracker_cli'</span></span>
+      Link: 'http://github.com/maxpleaner/job_tracker_cli'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Job listing CLI</span>:</span>
+  Job listing CLI:
       Find job listings using APIs and scraping.
       Queries StackOverflow, Indeed, and more.
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Link:</span> <span style="color:#036a07">'http://github.com/maxpleaner/find_job_listings'</span></span>
+      Link: 'http://github.com/maxpleaner/find_job_listings'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Music downloader scripts</span>:</span>
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Youtube:</span> <span style="color:#036a07">'http://github.com/maxpleaner/youtube-audio-downloader'</span></span>
-      <span style="background:rgba(0,0,0,0.05)"><span style="font-weight:700">Bandcamp:</span> <span style="color:#036a07">'http://github.com/maxpleaner/bandcamp_downloader'</span></span>
+  Music downloader scripts:
+      Youtube: 'http://github.com/maxpleaner/youtube-audio-downloader'
+      Bandcamp: 'http://github.com/maxpleaner/bandcamp_downloader'
 
-  <span style="color:#1c02ff"><span style="font-weight:700">Self-hosting open source projects</span>:</span>
-      Errbit      (error reporting),
-      Redash      (HTML interface to database),
-      Opentape    (mixtape),
-      Ghost       (blog),
-      Telescope   (RSS reader),
-      Zeya        (music streaming server)
+  Self-hosting open source projects:
+      Errbit:>      error reporting
+      Redash:>      HTML interface to database
+      Opentape:>    mixtape
+      Ghost:>       blog
+      Telescope:>   RSS reader, bookmarker
+      Zeya:>        music streaming server
 
-<span style="background:rgba(0,0,0,0.05)">---------------------------------------------------------</span>
+---------------------------------------------------------
 
 2/16/16
 
-
-</pre>
