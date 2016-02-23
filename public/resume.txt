@@ -13,16 +13,16 @@ Contact:
 
 Skills:
 
-  Ruby:>        RubyGems, Sinatra, Rails, RSpec, Mechanize, Resque
-  Javascript:>  NPM, jQuery, Backbone.js, Jasmine, Node, PhantomJS
-  Data:>        SQL, Redis, JSON, YAML, RSS
-  Realtime:>    Websockets, mobile notifications, AJAX
-  Design:>      HTML, CSS, Bootstrap, SASS, Weebly
-  Hosting:>     Heroku, AWS, SSL
-  APIs:>        oAuth, Google Maps/Calendar, Twitter, etc
-  UNIX:>        Bash, Ubuntu software
-  Devops:>      error reporting, admin interfaces, Cloudwatch
-  Mail:>        SMTP, SES, IRC
+Ruby:>       Sinatra, Rails, Resque
+Javascript:> jQuery, Backbone.js, Node
+Testing:>    RSpec, Mechanize, Selenium, Jasmine, PhantomJS
+Data:>       SQL, Redis, JSON, YAML, RSS
+Realtime:>   Websockets, mobile notifications, AJAX
+Design:>     HTML, CSS, single page apps
+Hosting:>    Heroku, AWS (EB, Cloudwatch, etc)
+APIs:>       oAuth, SAAS providers
+Unix:>       Bash, Ubuntu
+Etc:>        Git, error-reporting, admin-interfaces, geolocation
 
 ---------------------------------------------------------
 
@@ -70,56 +70,56 @@ Employment history and education:
 Project Examples:
 
   Tagger:
-      'http://github.com/maxpleaner/tagger'
       A crawler that categorizes companies on LinkedIn
-      Uses MonkeyLearn for keyword extraction
+      uses MonkeyLearn for keyword extraction
+      link: 'http://github.com/maxpleaner/tagger'
 
   Script-maker:
-      'http://github.com/maxpleaner/script-maker'
-      A web interface for writing and executing ruby scripts.
-      Includes CMS for drafting HTML pages
+      A web interface for writing and executing ruby scripts
+      includes CMS for drafting HTML pages
+      link: 'http://github.com/maxpleaner/script-maker'
 
   Ruby-Cli-Skeleton:
-      'http://github.com/maxpleaner/ruby-cli-skeleton'
-      A Ruby command line application template.
-      Implements a REPL and automatic documentation.
+      A Ruby command line application template
+      implements a REPL and automatic documentation.
+      link: 'http://github.com/maxpleaner/ruby-cli-skeleton'
 
   Sobrr promotional page:
-      'http://app.sobrr.life/presentation/around_feeds.html'
       Infinite scroll with pinterest style layout and HTML admin interface.
+      link: 'http://app.sobrr.life/presentation/around_feeds.html'
 
   Socket helpers gem:
-      'http://github.com/maxpleaner/socket_helpers'
-      A gem I wrote for realtime features in rails using websockets.
+      A rails gem which helps write realtime sites using websockets.
+      link: 'http://github.com/maxpleaner/socket_helpers'
 
   Chiptune CLI:
-      'http://github.com/maxpleaner/chiptune-cli'
       Procedurally generates chiptune music (work in progress)
+      link: 'http://github.com/maxpleaner/chiptune-cli'
 
   News Blender:
-      'http://maxp-feedly.herokuapp.com'
       An RSS feed reader and organizer. App academy final project.
+      link: 'http://maxp-feedly.herokuapp.com'
 
   IRC Logbot:
-      'http://maxp-logbot.herokuapp.com'
       IRC bot with Sinatra web interface, hosted on Heroku.
+      link: 'http://maxp-logbot.herokuapp.com'
 
   Trello clone:
-      'http://maxp-trello.herokuapp.com'
       Uses Backbone and jQuery UI with a Rails API. App Academy project.
+      link: 'http://maxp-trello.herokuapp.com'
 
   Snake and Asteroids:
-      'http://maxpleaner.github.com/snake'
       Browser games with HTML5 Canvas. App academy projects.
+      link: 'http://maxpleaner.github.com/snake'
 
   Job application tracker:
-      'http://github.com/maxpleaner/job_tracker_cli'
       A commmand line interface for tracking job applications and events.
+      link: 'http://github.com/maxpleaner/job_tracker_cli'
 
   Job listing CLI:
-      'http://github.com/maxpleaner/find_job_listings'
       Find job listings using APIs and scraping.
       Queries StackOverflow, Indeed, and more.
+      link: 'http://github.com/maxpleaner/find_job_listings'
 
   Music downloader scripts:
       Youtube: 'http://github.com/maxpleaner/youtube-audio-downloader'
@@ -128,8 +128,8 @@ Project Examples:
   Self-hosting open source projects:
       Errbit      (error reporting),
       Redash      (HTML interface to database),
-      Opentape    (mixtape), 
-      Ghost       (blog), 
+      Opentape    (mixtape),
+      Ghost       (blog),
       Telescope   (RSS reader),
       Zeya        (music streaming server)
 
