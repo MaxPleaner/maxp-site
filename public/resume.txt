@@ -19,13 +19,13 @@ Testing:>    RSpec, Mechanize, Selenium, Jasmine, PhantomJS
 Data:>       SQL, Redis, JSON, YAML, RSS                     
 Realtime:>   Websockets, mobile notifications, AJAX          
 Design:>     HTML, CSS, single page apps                     
-Hosting:>    Heroku, AWS (EB, Cloudwatch, etc)               
+Hosting:>    AWS (EB, Cloudwatch, etc), Heroku               
 APIs:>       oAuth, SAAS providers                           
 Unix:>       Bash, Ubuntu                                    
 Etc:>        Git, admin interfaces, error reporting          
-
 Learning:>   Meteor.js, semantic filesystems, ImageMagick    
-             C++ (enrolled at CCSF), electronic music        
+             C++ (enrolled at CCSF), electronic music,       
+             antispam                                        
 
 ---------------------------------------------------------
 
@@ -33,7 +33,7 @@ Employment history and education:
 
   Timeset (Emeryville): '10/2015 - 2/2016'
       A social network for geolocated photos.
-      Sole builder of Rails JSON API and AWS deployment.
+      Lead developer on Rails JSON API and AWS deployment.
       Link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
 
   Sobrr (San Francisco): '12/2014 - 6/2015'
@@ -66,21 +66,21 @@ Project Examples:
 
   Tagger:
       A crawler that categorizes companies on LinkedIn
-      uses MonkeyLearn for keyword extraction
+      and uses MonkeyLearn for keyword extraction.
       Link: 'http://github.com/maxpleaner/tagger'
 
   Script-maker:
       A web interface for writing and executing ruby scripts
-      includes CMS for drafting HTML pages
+      that includes a CMS for drafting HTML pages
       Link: 'http://github.com/maxpleaner/script-maker'
 
   Ruby-Cli-Skeleton:
       A Ruby command line application template
-      implements a REPL and automatic documentation.
+      that implements a REPL and automatic documentation.
       Link: 'http://github.com/maxpleaner/ruby-cli-skeleton'
 
   Sobrr promotional page:
-      Infinite scroll with pinterest style layout and HTML admin interface.
+      Infinite scroll with pinterest style layout and Javascript admin interface.
       Link: 'http://app.sobrr.life/presentation/around_feeds.html'
 
   Socket helpers gem:
@@ -88,32 +88,31 @@ Project Examples:
       Link: 'http://github.com/maxpleaner/socket_helpers'
 
   Chiptune CLI:
-      Procedurally generates chiptune music (work in progress)
+      Procedurally generates chiptune music.
       Link: 'http://github.com/maxpleaner/chiptune-cli'
 
   News Blender:
-      An RSS feed reader and organizer. App academy final project.
+      RSS feed reader and organizer with Backbone/Rails
       Link: 'http://maxp-feedly.herokuapp.com'
 
   IRC Logbot:
-      IRC bot with Sinatra web interface, hosted on Heroku.
+      IRC bot with Sinatra web interface.
       Link: 'http://maxp-logbot.herokuapp.com'
 
   Trello clone:
-      Uses Backbone and jQuery UI with a Rails API. App Academy project.
+      Priorities tracker app with Backbone/Rails/jQueryUI/Bootstrap 
       Link: 'http://maxp-trello.herokuapp.com'
 
   Snake and Asteroids:
-      Browser games with HTML5 Canvas. App academy projects.
+      Browser games with HTML5 Canvas.
       Link: 'http://maxpleaner.github.com/snake'
 
   Job application tracker:
-      A commmand line interface for tracking job applications and events.
+      CLI for tracking job applications and events.
       Link: 'http://github.com/maxpleaner/job_tracker_cli'
 
   Job listing CLI:
       Find job listings using APIs and scraping.
-      Queries StackOverflow, Indeed, and more.
       Link: 'http://github.com/maxpleaner/find_job_listings'
 
   Music downloader scripts:
@@ -121,12 +120,15 @@ Project Examples:
       Bandcamp: 'http://github.com/maxpleaner/bandcamp_downloader'
 
   Self-hosting open source projects:
-      Errbit:>      error reporting
-      Redash:>      HTML interface to database
-      Opentape:>    mixtape
-      Ghost:>       blog
-      Telescope:>   RSS reader, bookmarker
-      Zeya:>        music streaming server
+      Errbit:>      Error-reporting server using Airbrake.  
+      Redash:>      Database admin interface.               
+      Opentape:>    Mixtape sharing website.                
+      Zeya:>        Music streaming server.                 
+      Telescope:>   RSS reader and bookmarker.              
+      Ghost:>       Blog                                    
+
+  Virtualization:
+      Hackintosh (OSX), Genymotion (Android)
 
 ---------------------------------------------------------
 
