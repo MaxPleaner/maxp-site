@@ -69,6 +69,10 @@ Project Examples:
       and uses MonkeyLearn for keyword extraction.
       Link: 'http://github.com/maxpleaner/tagger'
 
+  Keyboard-macros:
+      Global keyboard-macros for Linux
+      Link 'http://github.com/maxpleaner/linux-keyboard-macros'
+
   Script-maker:
       A web interface for writing and executing ruby scripts
       that includes a CMS for drafting HTML pages
