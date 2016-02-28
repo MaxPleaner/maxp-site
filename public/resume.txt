@@ -70,7 +70,8 @@ Project Examples:
       Link: 'http://github.com/maxpleaner/tagger'
 
   Keyboard-macros:
-      Global keyboard-macros for Linux
+      Global keyboard-macros for Linux.
+      Uses evtest and xdotool to read/write keystrokes and trigger scripts. 
       Link 'http://github.com/maxpleaner/linux-keyboard-macros'
 
   Script-maker:
