@@ -21,11 +21,10 @@ Realtime:>   Websockets, mobile notifications, AJAX
 Design:>     HTML, CSS, single page apps                     
 Hosting:>    AWS (EB, Cloudwatch, etc), Heroku               
 APIs:>       oAuth, SAAS providers                           
-Unix:>       Bash, Ubuntu                                    
+Unix:>       Bash, Linux, async                              
 Etc:>        Git, admin interfaces, error reporting          
 Learning:>   Meteor.js, semantic filesystems, ImageMagick    
              C++ (enrolled at CCSF), electronic music,       
-             antispam                                        
 
 ---------------------------------------------------------
 
@@ -63,6 +62,12 @@ Employment history and education:
 ---------------------------------------------------------
 
 Project Examples:
+
+
+  Tickers:
+      A web interface for managing background jobs.
+      Includes an original async implementation and Bootstrap.
+      Link: 'http://github.com/maxpleaner/tickers'
 
   Tagger:
       A crawler that categorizes companies on LinkedIn
