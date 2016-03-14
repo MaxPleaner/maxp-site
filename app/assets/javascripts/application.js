@@ -13,9 +13,21 @@
 //= require jquery.turbolinks
 //= require jquery_ujs
 //= require ansi_up
+//= require bootstrap
 //= require turbolinks
 //= require_tree .
 
 console.log("oh, hello")
 
 console.log("you're on a prank show this is too much tunafish")
+
+$(function(){
+
+    var shiftWindow = function() { scrollBy(0, -85) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+
+//   $("a.fragment-link").each(function(){
+//     $($(this).attr("href")).css("padding-top", "40px").prev().css("margin-bottom", "-40px");
+// });
+})

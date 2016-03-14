@@ -1,6 +1,9 @@
 class PagesController < ApplicationController
+
+
   def index
     @urls = PagesHelper::Links
+     render "index2"
     # render text: File.read(Rails.root.join("public/weebly.html"))
   end
 

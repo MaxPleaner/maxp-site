@@ -73,3 +73,8 @@ gem "open4"
 
 # Show method sources
   gem "method_source"
+
+# For bootstrap theme (telestrap, which is not gemified)
+# COMMENTED OUT BECAUASE IT BREAKS THINGS
+# it doesn't allow *= require in application.css
+  # gem 'bootstrap-sass', '~> 3.3.6'
