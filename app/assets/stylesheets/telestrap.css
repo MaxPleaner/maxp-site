@@ -139,7 +139,7 @@ h1 {
 .navbar-default .navbar-nav li > a {
   color: #000000;
 }
-.navbar-default .navbar-nav li.active > a {
+.navbar-default .navbar-nav li > a:hover {
   background: #ffff00;
 }
 .navbar-default .navbar-nav li > .dropdown-menu {
@@ -170,7 +170,7 @@ h1 {
 .navbar-inverse .navbar-nav li a {
   color: #ffffff;
 }
-.navbar-inverse .navbar-nav li.active a {
+.navbar-inverse .navbar-nav li a:hover {
   color: #ffff00;
 }
 .navbar-inverse .navbar-nav li > .dropdown-menu {
@@ -196,9 +196,9 @@ h1 {
   background: transparent;
   color: #ffffff;
 }
-.nav > li.active a,
-.nav > li.active a:focus,
-.nav > li.active a:hover {
+.nav > li a,
+.nav > li a:focus,
+.nav > li a:hover {
   background: transparent;
   color: #ffff00;
 }
