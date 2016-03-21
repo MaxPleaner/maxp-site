@@ -14,7 +14,7 @@ Contact:
 Skills:
 
 Ruby:>       Sinatra, Rails, Resque                          
-Javascript:> jQuery, Backbone.js, Node                       
+Javascript:> jQuery, Backbone.js, Node, React, Meteor                       
 Testing:>    RSpec, Mechanize, Selenium, Jasmine, PhantomJS  
 Data:>       SQL, Redis, JSON, YAML, RSS                     
 Realtime:>   Websockets, mobile notifications, AJAX          
@@ -23,8 +23,8 @@ Hosting:>    AWS (EB, Cloudwatch, etc), Heroku
 APIs:>       oAuth, SAAS providers                           
 Unix:>       Bash, Linux, async                              
 Etc:>        Git, admin interfaces, error reporting          
-Learning:>   Meteor.js, semantic filesystems, ImageMagick    
-             C++ (enrolled at CCSF), electronic music,       
+Learning:>   semantic filesystems, ImageMagick    
+             C++, electronic music,       
 
 ---------------------------------------------------------
 

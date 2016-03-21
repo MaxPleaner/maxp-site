@@ -1,68 +1,146 @@
+2/16/16
+
+---------------------------------------------------------
+
 Contact:
+
   Max Pleaner
   San Francisco, CA
   maxpleaner@gmail.com
-  415 706-0904
+  maxpleaner.com
 
-Skills (summary):
-  - HTML, CSS, Single page apps
-  - Javascript, jQuery, Backbone, NPM, Browserify, Bower
-  - Linux command line
-  - AWS hosting - S3, EB, RDBS, Cloudwatch, SSL
-  - Database (SQL, Redis)
-  - Automated testing - RSpec, Jasmine, Mechanize, PhantomJS  
-  - Ruby: Sinatra, Rails (with websockets)
-  - Email, mobile notifications, AJAX
+---------------------------------------------------------
+
+Skills:
+
+Ruby:>       Sinatra, Rails, Resque                          
+Javascript:> jQuery, Backbone.js, Node, React, Meteor                       
+Testing:>    RSpec, Mechanize, Selenium, Jasmine, PhantomJS  
+Data:>       SQL, Redis, JSON, YAML, RSS                     
+Realtime:>   Websockets, mobile notifications, AJAX          
+Design:>     HTML, CSS, single page apps                     
+Hosting:>    AWS (EB, Cloudwatch, etc), Heroku               
+APIs:>       oAuth, SAAS providers                           
+Unix:>       Bash, Linux, async                              
+Etc:>        Git, admin interfaces, error reporting          
+Learning:>   semantic filesystems, ImageMagick    
+             C++, electronic music,       
+
+---------------------------------------------------------
 
 Employment history and education:
-  2015-2016 (4 months): Timeset
-    - Sole builder of Rails API and AWS deployment   
-    - social network for geolocated photos
-  2015 (6 months): Sobrr
-    - Rails API with AWS deployment and MySQL database
-    - ephemeral social network, thousands of daily users
-  2014: App Academy web dev school
-    - 3 months full-day classes
-    - tuition dependent on post-graduation salary
-  2013-2014: Independent programming study / CodeUnion web dev school 
-    - Studied from online curriculums such as the Odin Project
-    - 3 month CodeUnion course from DevBootcamp cofounder
-  2013: Politics BA, UC Santa Cruz
-    - also took Linguistics classes
-  2007-2015: Freelance political work
-    - canvassing, signatures, polling, registering voters
-    - head staff for Santa Cruz city council member (2013)
+
+  Timeset (Emeryville): '10/2015 - 2/2016'
+      A social network for geolocated photos.
+      Lead developer on Rails JSON API and AWS deployment.
+      Link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
+
+  Sobrr (San Francisco): '12/2014 - 6/2015'
+      An ephemeral social network with thousands of daily users.
+      Rails JSON API with AWS deployment.
+      Link: 'https://play.google.com/store/apps/details?id=com.digit4me.sobrr'
+
+  App Academy (San Francisco): '8/2014 - 11/2014'
+      3 months full day web dev classes
+      tutition depends on eventual salary
+      Rails, Backbone.js, SQL, TDD, pairing, etc
+      Link: 'http://www.appacademy.io/curriculum'
+
+  CodeUnion / Odin Project: '2013 - 2014'
+      Studied from online curriculums such as the Odin Project.
+      3 month CodeUnion course with DevBootcamp cofounder.
+      Link: 'http://codeunion.io/#workshops'
+
+  Politics BA, UC Santa Cruz: '2008 - 6/2013'
+      Concentrated in International Relations.
+      Also took multidisciplinary and Linguistics classes.
+
+  Freelance political work: '2007-2015'
+      Canvassing, signatures, polling, registering voters.
+      Head staff for Santa Cruz city council member (2013)
+
+---------------------------------------------------------
 
 Project Examples:
-  Sobrr promotional page: http://app.sobrr.life/presentation/around_feeds.html
-    - infinite scroll, pinterest-style layout, HTML admin interface
-  Socket helpers: http://github.com/maxpleaner/socket_helpers
-    - a gem I wrote for realtime features in rails
-  News Blender: http://maxp-feedly.herokuapp.com
-    - App academy final project
-    - Feedly clone - RSS feed reader and organizer
-  Logbot: http://maxp-logbot.herokuapp.com 
-    - project built at CodeUnion
-    - Runs an IRC bot and Sinatra app on the same Heroku server using Rack
-    - Shares database between components and presents data as HTML
-  Trello clone: http://maxp-trello.herokuapp.com
-    - App Academy project using Backbone and jQuery UI with a Rails API.
-  Snake and Asteroids: http://maxpleaner.github.com/snake
-    - App academy projects - browser games with Canvas (each built in a day with a parter)
-  Job application tracker: http://github.com/maxpleaner/job_tracker_cli
-    - A database-backed command line interface for managing job applications and events
-    - Find job listing URLS from the command line
-    - uses ActiveRecord without Rails
-  Job listing CLI: http://github.com/maxpleaner/find_job_listings
-    - uses Nokogiri to parse RSS from Indeed.com
-    - parses JSON from Stack Overflow jobs
-    - Uses 'mechanize' to authenticate with App Academy's API for listing tech companies
-  Music downloader scripts - http://github.com/maxpleaner/youtube-audio-downloader,
-                             http://github.com/maxpleaner/bandcamp_downloader
+
+
+  Tickers:
+      A web interface for managing background jobs.
+      Includes an original async implementation and Bootstrap.
+      Link: 'http://github.com/maxpleaner/tickers'
+
+  Tagger:
+      A crawler that categorizes companies on LinkedIn
+      and uses MonkeyLearn for keyword extraction.
+      Link: 'http://github.com/maxpleaner/tagger'
+
+  Keyboard-macros:
+      Global keyboard-macros for Linux.
+      Uses evtest and xdotool to read/write keystrokes and trigger scripts. 
+      Link 'http://github.com/maxpleaner/linux-keyboard-macros'
+
+  Script-maker:
+      A web interface for writing and executing ruby scripts
+      that includes a CMS for drafting HTML pages
+      Link: 'http://github.com/maxpleaner/script-maker'
+
+  Ruby-Cli-Skeleton:
+      A Ruby command line application template
+      that implements a REPL and automatic documentation.
+      Link: 'http://github.com/maxpleaner/ruby-cli-skeleton'
+
+  Sobrr promotional page:
+      Infinite scroll with pinterest style layout and Javascript admin interface.
+      Link: 'http://app.sobrr.life/presentation/around_feeds.html'
+
+  Socket helpers gem:
+      A rails gem which helps write realtime sites using websockets.
+      Link: 'http://github.com/maxpleaner/socket_helpers'
+
+  Chiptune CLI:
+      Procedurally generates chiptune music.
+      Link: 'http://github.com/maxpleaner/chiptune-cli'
+
+  News Blender:
+      RSS feed reader and organizer with Backbone/Rails
+      Link: 'http://maxp-feedly.herokuapp.com'
+
+  IRC Logbot:
+      IRC bot with Sinatra web interface.
+      Link: 'http://maxp-logbot.herokuapp.com'
+
+  Trello clone:
+      Priorities tracker app with Backbone/Rails/jQueryUI/Bootstrap 
+      Link: 'http://maxp-trello.herokuapp.com'
+
+  Snake and Asteroids:
+      Browser games with HTML5 Canvas.
+      Link: 'http://maxpleaner.github.com/snake'
+
+  Job application tracker:
+      CLI for tracking job applications and events.
+      Link: 'http://github.com/maxpleaner/job_tracker_cli'
+
+  Job listing CLI:
+      Find job listings using APIs and scraping.
+      Link: 'http://github.com/maxpleaner/find_job_listings'
+
+  Music downloader scripts:
+      Youtube: 'http://github.com/maxpleaner/youtube-audio-downloader'
+      Bandcamp: 'http://github.com/maxpleaner/bandcamp_downloader'
+
   Self-hosting open source projects:
-    - Errbit (error reporting)
-    - Redash (HTML interface to database)
-    - Opentape (mixtape)
-    - Ghost (blog)
-    - Telescope (RSS reader)
+      Errbit:>      Error-reporting server using Airbrake.  
+      Redash:>      Database admin interface.               
+      Opentape:>    Mixtape sharing website.                
+      Zeya:>        Music streaming server.                 
+      Telescope:>   RSS reader and bookmarker.              
+      Ghost:>       Blog                                    
+
+  Virtualization:
+      Hackintosh (OSX), Genymotion (Android)
+
+---------------------------------------------------------
+
+2/16/16
 

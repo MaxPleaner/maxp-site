@@ -8,7 +8,7 @@ Take a look at my resume to see some things I've built (maxpleaner.com/resume).
 
 Here's a list of some tools I've used:
 
-Ruby, Sinatra, Rails, Cuba, Resque, RSpec, Selenium, Javscript, jQuery(UI),Backbone, Underscore, Coffeescript, Node, NPM, Jasmine, Gulp, Browserify, HTML5, CSS3, SASS, Bootstrap, Git, C++, Airbrake, Virtualbox, popular APIs, Heroku, AWS (SES, S3, SQS, EB, RDS, ElasticCache, EC2), Linux, Bash, Servers (Passenger, Unicorn, Puma, Nginx), Templating (ERB, Handlebars, Mustache, Markdown, HAML), NoSQL (Firebase, Redis), SQL (SQLite, Postgres, MySQL), Realtime (Socket.io, websockets), Serialization (YAML, JSON)
+Ruby, Sinatra, Rails, Cuba, Resque, RSpec, Selenium, Javscript, jQuery(UI),Backbone, Underscore, Coffeescript, Node, NPM, Jasmine, Gulp, Browserify, HTML5, CSS3, SASS, Bootstrap, Git, C++, Airbrake, Virtualbox, popular APIs, Heroku, AWS (SES, S3, SQS, EB, RDS, ElasticCache, EC2), Linux, Bash, Servers (Passenger, Unicorn, Puma, Nginx), Templating (ERB, Handlebars, Mustache, Markdown, HAML), NoSQL (Firebase, Redis), SQL (SQLite, Postgres, MySQL), Realtime (Socket.io, websockets), Serialization (YAML, JSON), Meteor, React
 
 Thanks for your consideration and hope to speak further.
 
