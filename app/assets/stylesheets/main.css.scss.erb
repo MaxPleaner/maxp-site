@@ -26,6 +26,11 @@ pre {
 }
 
 
+.pair-with-me img{
+  max-width: 200px;
+  max-height: 50px;
+}
+
 
 .link {
   display: inline-block;
@@ -43,7 +48,7 @@ pre {
 
 .link:hover {
   /*box-shadow: 0px 0px 5px white !important;*/
-  background: darken(white, 60%);
+  background: darken(red, 60%);
 } 
 
 .section {
@@ -118,10 +123,10 @@ p {
     height: 15px;
   }
   box-shadow: 0 0 5px black;
-  transition: .1s outline ease-in;
+  transition: .25s box-shadow ease-in;
 }
 .icon-link:hover{
-    outline: 2px solid white;
+    box-shadow: 0 0 5px white;
 }
 
 small {
@@ -135,4 +140,8 @@ small {
   padding: 10px;
   /*margin: 0;*/
   /*height: 100%;*/
+}
+
+a {
+  text-decoration: none !important;
 }

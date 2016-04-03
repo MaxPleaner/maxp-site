@@ -1,22 +1,56 @@
-Hello, I'm Max Pleaner.
+Hello, my name's Max Pleaner.
 
-I'm from San Francisco and from 2007-2013, worked in politics roles both here and in Santa Cruz, where I obtained a Politics B.A. degree. Since 2013 I've been programming with web technology. I've been working as a Ruby on Rails + JSON + AWS API and backend developer for mobile startups, including being the lead backend developer at Timeset.
+Since 2013 I've been programming with web technology. I've been working as a Ruby on Rails + JSON + AWS API and backend developer for mobile startups, including being the lead backend developer at Timeset.
+
+I'm from San Francisco and from 2007-2013, worked in politics roles both here and in Santa Cruz, where I obtained a Politics B.A. degree.
 
 I'm relentlessly learning and have strong generalist skills in full-stack development. I enjoy writing a wide facet of features, from automated tests to realtime web apps. I'm interested in collaborating with a driven team and creating successful, innovative products.
 
-Take a look at my resume to see some things I've built (maxpleaner.com/resume).
+My portfolio projects are listed on my website:
+http://maxpleaner.com/#experience
+To give a few examples:
+  - APIs for social networks' mobile apps
+  - Realtime web interface for running background jobs
+  - Keyboard macro program for linux
+  - Websocket helper gem for Rails
+  - Trello Clone
+  - HTML5 Snake game
 
 Here's a list of some tools I've used:
 
-Ruby, Sinatra, Rails, Cuba, Resque, RSpec, Selenium, Javscript, jQuery(UI),Backbone, Underscore, Coffeescript, Node, NPM, Jasmine, Gulp, Browserify, HTML5, CSS3, SASS, Bootstrap, Git, C++, Airbrake, Virtualbox, popular APIs, Heroku, AWS (SES, S3, SQS, EB, RDS, ElasticCache, EC2), Linux, Bash, Servers (Passenger, Unicorn, Puma, Nginx), Templating (ERB, Handlebars, Mustache, Markdown, HAML), NoSQL (Firebase, Redis), SQL (SQLite, Postgres, MySQL), Realtime (Socket.io, websockets), Serialization (YAML, JSON), Meteor, React
+Ruby
+  - web frameworks: Rails, Volt, Sinatra, Cuba
+  - open source gems: 1048 starred on github
+Javascript
+  - Node.js, Meteor, React, Backbone, jQuery, Coffeescript
+  - open source libraries: 654 starred on github
+Automated Testing
+  - RSpec, Selenium, Jasmine
+Realtime & Async
+  - Resque, websockets, socket.io, Elixir
+Websites
+  - HTML, CSS, SASS, Bootstrap
+  - ERB, Handlebars, Mustache, Markdown, HAML
+  - JSON APIs, single-page-apps
+Devops
+  - Heroku, AWS (SES, S3, SQS, EB, RDS, ElasticCache, EC2)
+  - Error reporting, admin interfaces, SSH tunnels
+Databases
+  - SQL: Postgres, MySql, Sqlite3
+  - NoSql: MongoDB, Firebase, Redis, YAML, JSON
+Unix
+  - Bash, Linux, Ubuntu, Virtualization
+Collaboration
+  - Git, Agile
 
 Thanks for your consideration and hope to speak further.
 
 Sincerely, Max
 
-Website:  maxpleaner.com
-Resume:   maxpleaner.com/resume
-Github:   github.com/maxpleaner
+Website: maxpleaner.com
+Resume: maxpleaner.com/resume
+Github: github.com/maxpleaner
 Linkedin: linkedin.com/in/maxpleaner
-Email:    maxpleaner@gmail.com
-Phone:    415 706 0904
+StackOverflow: stackexchange.com/users/3571150/max-pleaner
+Email: maxpleaner@gmail.com
+Phone: 415 706 0904
