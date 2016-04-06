@@ -27,7 +27,7 @@ Javascript
 Automated Testing
   - RSpec, Selenium, Jasmine
 Realtime & Async
-  - Resque, websockets, socket.io
+  - Resque, websockets, socket.io, Elixir
 Websites
   - HTML, CSS, SASS, Bootstrap
   - ERB, Handlebars, Mustache, Markdown, HAML
