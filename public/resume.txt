@@ -63,10 +63,16 @@ Employment history and education:
 
 Project Examples:
 
+  Prototypical:
+      Unstyled Rails prototype of a tutor-hiring app.
+      With realtime online-users list (including pings),
+      realtime direct message notifications,
+      and braintree payment gem.
+      Link: 'http://github.com/maxpleaner/prototypical'
 
   Tickers:
       A web interface for managing background jobs.
-      Includes an original async implementation and Bootstrap.
+      Includes an original async implementation and Telestrap Bootstrap theme.
       Link: 'http://github.com/maxpleaner/tickers'
 
   Tagger:
@@ -75,7 +81,7 @@ Project Examples:
       Link: 'http://github.com/maxpleaner/tagger'
 
   Keyboard-macros:
-      Global keyboard-macros for Linux.
+      Global keyboard macros for Linux.
       Uses evtest and xdotool to read/write keystrokes and trigger scripts. 
       Link 'http://github.com/maxpleaner/linux-keyboard-macros'
 
@@ -86,7 +92,7 @@ Project Examples:
 
   Ruby-Cli-Skeleton:
       A Ruby command line application template
-      that implements a REPL and automatic documentation.
+      with a REPL and extensions.
       Link: 'http://github.com/maxpleaner/ruby-cli-skeleton'
 
   Sobrr promotional page:
@@ -98,7 +104,7 @@ Project Examples:
       Link: 'http://github.com/maxpleaner/socket_helpers'
 
   Chiptune CLI:
-      Procedurally generates chiptune music.
+      Procedurally generates chiptune music using bloops gem
       Link: 'http://github.com/maxpleaner/chiptune-cli'
 
   News Blender:

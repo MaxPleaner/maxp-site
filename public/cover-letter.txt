@@ -1,51 +1,25 @@
-Hello, my name's Max Pleaner.
+GfyCat team, 
 
-Since 2013 I've been programming with web technology. I've been working as a Ruby on Rails + JSON + AWS API and backend developer for mobile startups, including being the lead backend developer at Timeset.
+My name's Max, I'm a programmer from San Francisco.
 
-I'm from San Francisco and from 2007-2013, worked in politics roles both here and in Santa Cruz, where I obtained a Politics B.A. degree.
+I got a politics BA in 2013 and had worked a number of jobs
+in that field. In 2013 I returned to San Francisco and saw that programming was a field which rewarded self-learners. Over the next two years, I studied online and attended CodeUnion and App Academy's classes. My last two positions have been as a JSON API / Rails backend developer at small startups.
 
-I'm relentlessly learning and have strong generalist skills in full-stack development. I enjoy writing a wide facet of features, from automated tests to realtime web apps. I'm interested in collaborating with a driven team and creating successful, innovative products.
+At Sobrr.life, I built a single-page admin interface, implemented a promo page's redesign, migrated data, added features with tests, and used Redis to build a data cache and a queue-based mobile notification system. 
 
-My portfolio projects are listed on my website:
-http://maxpleaner.com/#experience
-To give a few examples:
-  - APIs for social networks' mobile apps
-  - Realtime web interface for running background jobs
-  - Keyboard macro program for linux
-  - Websocket helper gem for Rails
-  - Trello Clone
-  - HTML5 Snake game
+At Timeset, I was the lead backend developer and built the photo-sharing social network's core API with AWS deployment. Features including photo-resizing, LRU cache, worker/staging servers, admin interfaces, automated tests, geolocation, and mobile notifications.
 
-Here's a list of some tools I've used:
+I've been recently learning about websockets and wrote a Rails gem
+for scaffolding realtime apps. I also have experience with the following tools:
 
-Ruby
-  - web frameworks: Rails, Volt, Sinatra, Cuba
-  - open source gems: 1048 starred on github
-Javascript
-  - Node.js, Meteor, React, Backbone, jQuery, Coffeescript
-  - open source libraries: 654 starred on github
-Automated Testing
-  - RSpec, Selenium, Jasmine
-Realtime & Async
-  - Resque, websockets, socket.io, Elixir
-Websites
-  - HTML, CSS, SASS, Bootstrap
-  - ERB, Handlebars, Mustache, Markdown, HAML
-  - JSON APIs, single-page-apps
-Devops
-  - Heroku, AWS (SES, S3, SQS, EB, RDS, ElasticCache, EC2)
-  - Error reporting, admin interfaces, SSH tunnels
-Databases
-  - SQL: Postgres, MySql, Sqlite3
-  - NoSql: MongoDB, Firebase, Redis, YAML, JSON
-Unix
-  - Bash, Linux, Ubuntu, Virtualization
-Collaboration
-  - Git, Agile
+Meteor, Sinatra, jQuery, SQL, RSpec, Mechanize, Git, Heroku,
+AJAX, Linux, Backbone.js, React, YAML, SSL, Airbrake, Email,
+RSS, oAuth
 
-Thanks for your consideration and hope to speak further.
+I'm looking to continue to expand my range of expertise and to collaborate with a team on difficult problems. I'd look forward to speaking more. 
 
-Sincerely, Max
+Thanks,
+Max
 
 Website: maxpleaner.com
 Resume: maxpleaner.com/resume
