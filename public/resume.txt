@@ -23,8 +23,8 @@ Hosting:>    AWS (EB, Cloudwatch, etc), Heroku
 APIs:>       oAuth, SAAS providers                           
 Unix:>       Bash, Linux, async                              
 Etc:>        Git, admin interfaces, error reporting          
-Learning:>   semantic filesystems, ImageMagick    
-             C++, electronic music,       
+Learning:>   Ruboto, semantic filesystems, Visualization,    
+             C++, electronic music, Ember, Angulars          
 
 ---------------------------------------------------------
 
