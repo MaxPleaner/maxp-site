@@ -66,7 +66,7 @@ Project Examples:
 
   Prototypical:
       Unstyled Rails prototype of a tutor-hiring app.
-      With realtime online-users list (including pings),
+      With realtime online-users list,
       realtime direct message notifications,
       and braintree payment gem.
       Link: 'http://github.com/maxpleaner/prototypical'
