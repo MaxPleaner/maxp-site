@@ -14,12 +14,13 @@ Contact:
 Skills:
 
 Ruby:>       Sinatra, Rails, Resque                          
-Javascript:> jQuery, Backbone.js, Node, React, Meteor                       
+Javascript:> jQuery, Backbone.js, Node, React, Meteor        
 Testing:>    RSpec, Mechanize, Selenium, Jasmine, PhantomJS  
 Data:>       SQL, Redis, JSON, YAML, RSS                     
 Realtime:>   Websockets, mobile notifications, AJAX          
 Design:>     HTML, CSS, single page apps                     
-Hosting:>    AWS (EB, Cloudwatch, etc), Heroku               
+Hosting:>    Heroku, AWS including EC2, ElasticBeanstalk,    
+             CloudWatch, S3, RDS, ElasticCache, SES, SNS     
 APIs:>       oAuth, SAAS providers                           
 Unix:>       Bash, Linux, async                              
 Etc:>        Git, admin interfaces, error reporting          

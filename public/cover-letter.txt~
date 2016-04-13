@@ -1,4 +1,4 @@
-Hello, my name's Max Pleaner.
+GfyCat team, 
 
 My name's Max, I'm a programmer from San Francisco.
 
@@ -10,7 +10,7 @@ At Sobrr.life, I built a single-page admin interface, implemented a promo page's
 At Timeset, I was the lead backend developer and built the photo-sharing social network's core API with AWS deployment. Features including photo-resizing, LRU cache, worker/staging servers, admin interfaces, automated tests, geolocation, and mobile notifications.
 
 I've been recently learning about websockets and wrote a Rails gem
-for scaffolding realtime apps. I also have experience with the following tools:
+for scaffolding realtime apps. I also have experience with the following:
 
 Meteor, Sinatra, jQuery, SQL, RSpec, Mechanize, Git, Heroku,
 AJAX, Linux, Backbone.js, React, YAML, SSL, Airbrake, Email,
