@@ -64,15 +64,19 @@ Employment history and education:
 
 Project Examples:
 
-  Prototypical:
-      Unstyled Rails prototype of a tutor-hiring app. With realtime online-users list,
-      realtime direct message notifications, and braintree payment gem.
-      Link: 'http://github.com/maxpleaner/prototypical'
+  TMSU Ruby
+  A ruby wrapper for TMSU, a non-hierarchical file tagging system
+  Link: 'http://github.com/maxpleaner/tmsu-ruby'
 
   Tickers:
       A web interface for managing background jobs.
       Includes an original async implementation and Telestrap Bootstrap theme.
       Link: 'http://github.com/maxpleaner/tickers'
+
+  Prototypical:
+      Unstyled Rails prototype of a tutor-hiring app. With realtime online-users list,
+      realtime direct message notifications, and braintree payment gem.
+      Link: 'http://github.com/maxpleaner/prototypical'
 
   Tagger:
       A crawler that categorizes companies on LinkedIn
