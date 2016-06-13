@@ -19,6 +19,8 @@
 
 console.log("oh, hello")
 
+console.log("you're on a prank show this is too much tunafish")
+
 $(function(){
 
   // Fix a bug with the navbar starting open
