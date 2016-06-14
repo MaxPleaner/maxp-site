@@ -61,7 +61,7 @@ Experience:>
 
 ---------------------------------------------------------
 
-Projects:> (links on github.com/maxpleaner)
+Projects:> (links on github.com/maxpleaner/PROJECT_NAME)
 
 
   "marktplatz" - Realtime accounts-based online user list, geolocation, and
