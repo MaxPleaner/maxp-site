@@ -21,7 +21,7 @@ Skills:>
 Experience:>
 
   Timeset (Emeryville): '10/2015 - 2/2016'
-    A photo-sharing social network for travelers. As the team's only backend developer, I wrote the 
+    A photo-sharing social network for travelers. As the team's only backend developer, I wrote the
     social network logic into a Rails server and API, deployed, maintained, and added features.
     Project examples:
       * Integration test suite
@@ -63,7 +63,7 @@ Education:>
 
 Projects:> (links on github.com/maxpleaner/PROJECT_NAME)
 
-  "spacedagger" - All online users are geocoded and plotted on a map. Built while learning 
+  "spacedagger" - All online users are geocoded and plotted on a map. Built while learning
   Meteor. I also wrote an accompanying tutorial.
 
   "marktplatz" - Realtime online user list, geolocation, and Google Map display. Made with Babel,
@@ -71,16 +71,16 @@ Projects:> (links on github.com/maxpleaner/PROJECT_NAME)
 
   "tmsu-ruby" -  A ruby wrapper for TMSU, a non-hierarchical file tagging system.
 
-  "tickers" - A web interface for managing background jobs. With an original async 
+  "tickers" - A web interface for managing background jobs. With an original async
   implementation and Telestrap Bootstrap theme.
 
-  "prototypical" - Rails prototype of a tutor-hiring app, with realtime online-users lists and direct 
+  "prototypical" - Rails prototype of a tutor-hiring app, with realtime online-users lists and direct
   message notifications. It integrates Braintree for payments.
 
-  "tagger" - A crawler that categorizes companies on LinkedIn and uses MonkeyLearn for 
+  "tagger" - A crawler that categorizes companies on LinkedIn and uses MonkeyLearn for
   keyword extraction.
 
-  "linux-keyboard-macros" - Global keyboard macros for Linux. Uses evtest and xdotool to 
+  "linux-keyboard-macros" - Global keyboard macros for Linux. Uses evtest and xdotool to
   read/write keystrokes and trigger scripts.
 
   "ruby-cli-skeleton" - A Ruby command line application template with a REPL and ActiveRecord.
@@ -97,19 +97,17 @@ Projects:> (links on github.com/maxpleaner/PROJECT_NAME)
 
   "asteroids" and "snake" - Browser games with HTML5 Canvas.
 
-  "job_tracker_cli" - CLI for tracking job applications and events.
+  "jobapps" - A job application tracking system with a web interface.
 
   "find_job_listings" - Find job listings using APIs and scraping.
 
   "youtube_audio_downloader" and "bandcamp_downloader" - command line utils
 
   I also have self-hosted open-source projects:
-  Errbit (Error-reporting using Airbrake), Redash (DB admin interface), Ghost (Blog), Zeya (Music 
+  Errbit (Error-reporting using Airbrake), Redash (DB admin interface), Ghost (Blog), Zeya (Music
   streaming server), Telescope (Forum)
 
   I've done some virtualization with Linux, Windows, Android, and OSX.
-
----------------------------------------------------------
 
 6/14/16
 
