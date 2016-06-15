@@ -16,10 +16,10 @@ Skills:>
       Bash, Unix/Linux, Ubuntu, Git
       Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres)
       Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, EventMachine, lots of gems
+      Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript
       HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications
       Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxiliary servers
       Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling, Selenium
-      Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript, Jasmine
 
 
 ---------------------------------------------------------
