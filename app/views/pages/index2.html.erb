@@ -48,7 +48,7 @@
       HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications <br>
       Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres) <br>
       Bash, Unix/Linux, Ubuntu <br>
-      Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), worker servers <br>
+      Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxilliary servers <br>
       Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling <br>
       Selenium
     </li>
@@ -57,16 +57,35 @@
   <b class="fragment-link" id="experience">Experience / Education: </b><br><br> <br>
 
   <div class="section">
-  <p>Most recently, I was the lead backend developer at <a href="http://timeset.com">Timeset</a>, building a JSON API with Rails and AWS.</p>
-  <p>It's a social network for sharing geotagged photos.</p>
+  <p>I most recently worked at <a href="http://timeset.com">Timeset</a>,
+    a social network for sharing geotagged photos.
+  </p>
+  <p>
+    As the team's only backend developer, I wrote the social network logic into a Rails server and API,
+    deployed, maintained, and added features.
+   </p>
+  <p>Project examples: <ul>
+    <li>AWS setup with staging, worker, SSL, emails, etc.</li>
+    <li>Error reporting, database, and documentation interfaces.</li>
+    <li>Image uploads to S3, resizing, and LRU cache</li>
+    <li>Integration test suite</li>
+    <li>Realtime message bus for adding/deleting GCM notifications</li>
+  </ul></p>
   <p><a href="https://play.google.com/store/apps/details?id=timeset.com.timeset&hl=en" class="icon-link"><img src="<%= image_path("android-icon.svg") %>" alt="">&nbsp Android link</a></p>
   </div>
   <br>
 
   <div class="section">
-  <p>I previously worked at <a href="http://sobrr.life">Sobrr</a>,</p>
-  <p> an ephemeral social network (expiring friendships, chats, and photos).</p>
-  <p>I worked on the JSON API and AWS deployment.</p>
+  <p>I previously worked as backend developer <a href="http://sobrr.life">Sobrr</a>,
+    a social network with ephemeral content (expiring friendships, chats, and photos).
+   </p>
+  <p>Project examples: <ul>
+    <li>Rspec refactoring, testing asynchronous features</li>
+    <li>Redis ORM integration and data migration</li>
+    <li>Asynchronous scheduling of GCM and iOs push notifications</li>
+    <li>Promo page redesign with infinite scroll, pinterest-style layout, and localization </li>
+    <li>Admin interface as a single-page app</li>
+  </ul></p>
   <p><a href="https://itunes.apple.com/us/app/sobrr-life-in-the-moment/id870994697?mt=8" class="icon-link"><img src="<%= image_path("apple-icon.png") %>" alt="">&nbsp iPhone link</a>
   <a href="https://play.google.com/store/apps/details?id=com.digit4me.sobrr" class="icon-link"><img src="<%= image_path("android-icon.svg") %>" alt="">&nbsp Android link</a> </p>
   </div>
