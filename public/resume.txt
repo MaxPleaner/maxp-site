@@ -14,7 +14,7 @@ Contact:>
 Skills:>
 
       Bash, Unix/Linux, Ubuntu, Git
-      Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres)
+      Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres), RethinkDB
       Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, EventMachine, lots of gems
       Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript
       HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications
