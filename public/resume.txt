@@ -13,7 +13,7 @@ Contact:>
 
 Skills:>
 
-      Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, lots of gems
+      Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, EventMachine, lots of gems
       Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript, Jasmine
       HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications
       Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres)
