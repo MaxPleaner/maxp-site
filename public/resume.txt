@@ -94,7 +94,7 @@ Projects:> (links on github.com/maxpleaner/PROJECT_NAME)
       "linux-keyboard-macros" - Global keyboard macros for Linux. Uses evtest and xdotool
       to read/write keystrokes and trigger scripts.
 
-      "ruby-cli-skeleton" - A Ruby command line application template with a REPL and extensions.
+      "ruby-cli-skeleton" - A Ruby command line application template with a REPL and ActiveRecord.
 
       "socket_helpers" -  A rails gem which helps write realtime sites using websockets.
 
