@@ -1,118 +1,236 @@
-<pre style="background:#042029;color:#839496">6/14/16
+   <!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Max Pleaner</a>
+        </div>
+</nav>
 
-<span style="color:#2aa198"><span style="color:#268bd2;font-weight:700">Contact:</span>>
+<div class="page-container">
 
-  Max Pleaner
-  San Francisco, CA
-  maxpleaner@gmail.com
-  maxpleaner.com
+<div class="fragment-link" id="top"></div>
 
-</span><span style="color:#2aa198"><span style="color:#268bd2;font-weight:700">Skills:</span>>
+<section class="intro">
+  <br><b> Max Pleaner </b> <br><br>
+</section>
+<br>
 
-  Bash, Unix/Linux, Ubuntu, Git
-  Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres), RethinkDB
-  Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, EventMachine, lots of gems
-  Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript
-  HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications
-  Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxiliary servers
-  Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling, Selenium
-  Learning Redux, Elixir, and Phoenix.
+<div class="main-section section">
+  <br><b class="fragment-link" id="links">Links:   &nbsp</b> <br><br>
+  <li><a class="link" href="http://github.com/maxpleaner">Github</a><br></li>
+  <li><a class="link" href="/resume">Resume</a><br></li>
+  <li><a class="link" href="http://linkedin.com/in/maxpleaner">LinkedIn</a></li>
+  <li>
+  <a class="pair-with-me" href="https://www.codementor.io/maxpleaner?utm_source=github&utm_medium=button&utm_term=maxpleaner&utm_campaign=github"><img src="https://cdn.codementor.io/badges/book_session_github.svg" alt="Book session on Codementor" style="max-width:100%" /></a>
+  </li>
 
-</span><span style="color:#2aa198"><span style="color:#268bd2;font-weight:700">Experience:</span>>
+  <br><br>
 
-  Timeset (Emeryville): '10/2015 - 2/2016'
-    A photo-sharing social network for travelers. As the team's only backend developer, I wrote the
-    social network logic into a Rails server and API, deployed, maintained, and added features.
-    Project examples:
-      * Integration test suite
-      * Image uploads to S3, resizing, and LRU cache
-      * AWS setup with staging, worker, SSL, emails, etc
-      * Error reporting, db admin, and documentation interfaces
-      * Realtime message bus for adding/deleting GCM notifications
-    Android link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
+  <b>Email: &nbsp</b> maxpleaner at gmail dot com
+  <br><br><br>
 
-  Sobrr (San Francisco): '12/2014 - 6/2015'
-    A social network with ephemeral content (expiring friendships, chats, and photos).
-    Project examples:
-      * Admin interface as a single-page app
-      * Redis ORM integration and data migration
-      * Rspec refactoring, testing asynchronous features
-      * Asynchronous scheduling of GCM and iOs push notifications
-      * Promo page redesign with infinite scroll, pinterest-style layout, and localization
-    iOS link (also on Android): 'https://itunes.apple.com/us/app/sobrr-life-in-the-moment/id870994697?mt=8'
+  <p>
+    <b class="fragment-link" id="skills">Tools I use to write code:</b> <br> <br>
+    <li class="minisection">
+      Bash, Unix/Linux, Ubuntu, Git <br>
+      Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres), RethinkDB<br>
+      Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, EventMachine, lots of gems<br>
+      Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript<br>
+      HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications<br>
+      Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxiliary servers<br>
+      Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling, Selenium<br>
+      Learning Redux, Elixir, and Phoenix.
+    </li>
+  </p> <br>
 
-  Freelance political work: '2007-2015'
-    Canvassing, signatures, polling, registering voters.
-    Staff for Santa Cruz City Council member
+  <b class="fragment-link" id="experience">Experience / Education: </b><br><br> <br>
 
-</span><span style="color:#2aa198"><span style="color:#268bd2;font-weight:700">Education:</span>>
+  <div class="section">
+  <p>I most recently worked at <a href="http://timeset.com">Timeset</a>,
+    a social network for sharing geotagged photos.
+  </p>
+  <p>
+    As the team's only backend developer, I wrote the social network logic into a Rails server and API,
+    deployed, maintained, and added features.
+   </p>
+  <p>Project examples: <ul>
+    <li>Integration test suite</li>
+    <li>Image uploads to S3, resizing, LRU cache</li>
+    <li>AWS setup with staging, worker, SSL, emails, etc.</li>
+    <li>Error reporting, database, and documentation interfaces.</li>
+    <li>Realtime message bus for adding/deleting GCM notifications</li>
+  </ul></p>
+  <p><a href="https://play.google.com/store/apps/details?id=timeset.com.timeset&hl=en" class="icon-link"><img src="<%= image_path("android-icon.svg") %>" alt="">&nbsp Android link</a></p>
+  </div>
+  <br>
 
-  App Academy (San Francisco): '8/2014 - 11/2014'
-    3 months full time web dev classes
+  <div class="section">
+  <p>I previously worked as a backend developer at <a href="http://sobrr.life">Sobrr</a>,
+    a social network with ephemeral content (expiring friendships, chats, and photos).
+   </p>
+  <p>Project examples: <ul>
+    <li>Admin interface as a single-page app</li>
+    <li>Redis ORM integration and data migration</li>
+    <li>Rspec refactoring, testing asynchronous features</li>
+    <li>Asynchronous scheduling of GCM and iOs push notifications</li>
+    <li>Promo page redesign with infinite scroll, pinterest-style layout, and localization </li>
+  </ul></p>
+  <p><a href="https://itunes.apple.com/us/app/sobrr-life-in-the-moment/id870994697?mt=8" class="icon-link"><img src="<%= image_path("apple-icon.png") %>" alt="">&nbsp iPhone link</a>
+  <a href="https://play.google.com/store/apps/details?id=com.digit4me.sobrr" class="icon-link"><img src="<%= image_path("android-icon.svg") %>" alt="">&nbsp Android link</a> </p>
+  </div>
+  <br>
 
-  CodeUnion: '2014'
-    3 month part time course in Ruby and Sinatra.
-    Curriculum from dev bootcamp co-founder
+  <div class="section">
+  <p>I have a Politics BA from <a href="http://politics.ucsc.edu/undergraduate/index.html">UCSC</a>.</p>
+  <p>After graduating in 2013, I began to study web development and programming.</p>
+  <p>I followed online curriculums such as the <a href="http://theodinproject.com/">Odin project</a>.</p>
+  <p>I took three months of remote classes at <a href="http://codeunion.io">Code Union </a>.</p>
+  <p>I took three months of full-time classes at <a href="http://www.appacademy.io/curriculum">App Academy</a>.</p>
+  </div> <br>
 
-  Odin Project: '2013'
-    self-paced introductory curriculum for Ruby / HTML / CSS / Javascript
+    <br><b id="portfolio">Some things I've made:</b> <br>
 
-  Politics BA, UC Santa Cruz: '2008 - 2013'
-    Concentrated in International Relations.
-    Supplementary courses in Linguistics and many disciplines.
-
-</span><span style="color:#2aa198"><span style="color:#268bd2;font-weight:700">Projects:</span>> (links on github.com/maxpleaner/PROJECT_NAME)
-
-  "spacedagger" - All online users are geocoded and plotted on a map. Built while learning
-  Meteor. I also wrote an accompanying tutorial.
-
-  "marktplatz" - Realtime online user list, geolocation, and Google Map display. Made with Babel,
-  ES6, Sequelize async ORM, Express, and Websockets.
-
-  "tmsu-ruby" -  A ruby wrapper for TMSU, a non-hierarchical file tagging system.
-
-  "tickers" - A web interface for managing background jobs. With an original async
-  implementation and Telestrap Bootstrap theme.
-
-  "prototypical" - Rails prototype of a tutor-hiring app, with realtime online-users lists and direct
-  message notifications. It integrates Braintree for payments.
-
-  "tagger" - A crawler that categorizes companies on LinkedIn and uses MonkeyLearn for
-  keyword extraction.
-
-  "linux-keyboard-macros" - Global keyboard macros for Linux. Uses evtest and xdotool to
-  read/write keystrokes and trigger scripts.
-
-  "ruby-cli-skeleton" - A Ruby command line application template with a REPL and ActiveRecord.
-
-  "socket_helpers" -  A rails gem which helps write realtime sites using websockets.
-
-  "chiptune-cli" - Procedurally generates chiptune music using bloopsaphone gem
-
-  "maxp-feedly" - RSS feed reader and organizer with Backbone/Rails
-
-  "logbot" - IRC bot with Sinatra web interface.
-
-  "trello-clone" - Priorities tracker app with Backbone/Rails/jQueryUI/Bootstrap
-
-  "asteroids" and "snake" - Browser games with HTML5 Canvas.
-
-  "jobapps" - A job application tracking system with a web interface. Includes a selenium script
-  to get lists of companies off AngelList.
-
-  "find_job_listings" - Find job listings using APIs and scraping.
-
-  "youtube_audio_downloader" and "bandcamp_downloader" - command line utils
-
-  I also have self-hosted open-source projects:
-  Errbit (Error-reporting using Airbrake), Redash (DB admin interface), Ghost (Blog), Zeya (Music
-  streaming server), Telescope (Forum)
-
-  I've done some virtualization with Linux, Windows, Android, and OSX.
-
-6/14/16
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/spaceDagger">spaceDagger</a>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>All online users are geocoded and plotted on a map. Built while learning Meteor.
+          I also wrote <a href="https://medium.com/@maxpleaner/meteor-tutorial-plotting-online-users-on-a-map-adf3c3d1ebc6">
+          a tutorial</a> to accompany this.
+        </p>
+      </div>
+    </div>
+    </div>
+    <br>
 
 
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/marktplatz">marktplatz</a>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Realtime accounts-based online user list, geolocation, and
+  Google Map display. Built while learning Babel, ES6, Sequelize, Express, and Websockets.</p>
+      </div>
+    </div>
+    </div>
+    <br>
 
 
-</span></pre>
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/tmsu-ruby">TMSU-ruby</a>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>A ruby wrapper for TMSU, a non-hierarchical file tagging system</p>
+      </div>
+    </div>
+    </div>
+    <br>
+
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/tickers">Tickers</a>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>A web interface for managing background jobs.</p>
+        <p>Includes an original async implementation and Bootstrap.</p>
+      </div>
+    </div>
+    </div>
+    <br>
+
+
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/prototypical">Prototypical</a>
+      <p>Unstyled Rails prototype of a tutor-hiring app.</p>
+      <p>With realtime online-users list,</p>
+      <p>realtime direct message notifications,</p>
+      <p>and braintree payment gem.</p>
+    </div>
+    <br>
+
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/tagger">LinkedIn crawler</a>
+    <p>Creates a categorized list of companies by crawling LinkedIn.</p>
+    <p>Uses MonkeyLearn for keyword extraction</p>
+    </div>
+    <br>
+
+    <br><br><div class="subsection"><a class="link" href="http://github.com/maxpleaner/linux-keyboard-macros">linux-keyboard-macros</a> <br>
+      Global keyboard macros for Linux.
+      Uses evtest and xdotool to read/write keystrokes and trigger scripts.
+    </div>
+
+    <br><br><div class="subsection"><a class="link" href="http://github.com/maxpleaner/ruby-cli-skeleton">ruby-cli-skeleton</a> <br>
+  <p>A starter template for Ruby command line REPL applications with ActiveRecord. <br></p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://app.sobrr.life/presentation/around_feeds">Sobrr.Life promotional page</a> (warning: potentially NSFW)<br>
+    <p>Made a responsive pinterest-style vertical columns layout using <a href="http://masonry.desandro.com/">Masonry</a>.</p>
+    <p>It includes infinite scroll, responsiveness. There is also an accompanying admin interface.</p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://github.com/maxpleaner/socket_helpers">Socket helpers</a>
+    <p>a gem I wrote for quickly putting together websocket / Rails apps.</p>
+    <p><a href="http://socket-helpers-example.herokuapp.com">See a realtime todo-list site live</a></p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://github.com/maxpleaner/chiptune-cli">Chiptune-cli</a>
+    <p>Uses <a href="https://github.com/mental/bloopsaphone">bloopsaphone</a> to play electronic music</p>
+    <p>Programmatically creates songs</p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://maxp-logbot.herokuapp.com/">Logbot</a>
+    <p>an IRC chat logging bot with a Sinatra web interface.</p>
+    <p>The applications share a database and are hosted on Heroku</p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://maxp-trello.herokuapp.com/#boards/1">Trello clone</a>
+    <p>Made with Backbone and Bootstrap at App Academy.</p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://maxp-redirector.herokuapp.com/">Redirector</a>
+    <p>a url shortener and chrome extension.</p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://maxpleaner.github.io/snake/">Snake</a>
+    <p>built with Javascript (play in browser). An App Academy project</p></div>
+
+    <br><br><div class="subsection"><a class="link" href="http://maxpleaner.github.io/asteroids/">Asteroids</a>
+    <p>build with HTML5 Canvas (play in browser). An App Academy project</p></div>
+
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/youtube-audio-downloader">Youtube Audio Downloader</a>
+    <p>a wrapper script over <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a> for easily downloading audio tracks from youtube. </p></div>
+
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/bandcamp_downloader">Bandcamp Downloader</a>
+    <p>Downloads songs from Bandcamp </p></div>
+
+    <br><br><div class="subsection"><a class="link" href="https://github.com/MaxPleaner/jobapps/">jobapps</a>
+    <p>A job application tracking system with a web interface. Includes a selenium script
+  to get lists of companies off AngelList.</p>
+    </div>
+
+    <br><br><div class="subsection"><a class="link" href="https://github.com/maxpleaner/find_job_listings">Find Job Listings</a>
+    <p>A Ruby CLI to find job listings using APIs and scraping.</p> <br>
+    <p>Queries Indeed, Stackoverflow, and more</p></div>
+    <br>
+
+</div>
+
+<a href="#top">Top</a>
+<br>
+<br>
+<br>
+<br>
+
+
+</div> <!-- .page-container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+        </div> <!-- /container -->
+
