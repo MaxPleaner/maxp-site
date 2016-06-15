@@ -9,11 +9,11 @@ body {
   color: #ffff00;
 }
 a, a:visited {
-  color: yellow;
+  color: orange;
 }
 a:hover,
 a:focus {
-  color: yellow;
+  color: orange;
   border-bottom: none;
 }
 .text-success {
