@@ -21,7 +21,6 @@ Skills:>
       Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxiliary servers
       Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling, Selenium
 
-
 ---------------------------------------------------------
 
 Experience:>
