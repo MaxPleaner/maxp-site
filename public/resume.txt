@@ -26,47 +26,49 @@ Skills:>
 Experience:>
 
       Timeset (Emeryville): '10/2015 - 2/2016'
-      'https://play.google.com/store/apps/details?id=timeset.com.timeset'
-      - A photo-sharing social network for travelers.
-      - As the team's only backend developer, I wrote the social network logic into a Rails server and API,
+        A photo-sharing social network for travelers.
+        As the team's only backend developer, I wrote the social network logic into a Rails server and API,
         deployed, maintained, and added features.
-      - Project examples:
+      Project examples:
         * Integration test suite
         * Image uploads to S3, resizing, and LRU cache
         * AWS setup with staging, worker, SSL, emails, etc
         * Error reporting, database, and documentation interfaces
         * Realtime message bus for adding/deleting GCM notifications
+      Android link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
 
       Sobrr (San Francisco): '12/2014 - 6/2015'
-      'https://play.google.com/store/apps/details?id=com.digit4me.sobrr'
-      - a social network with ephemeral content (expiring friendships, chats, and photos).
-      - Project examples:
+        A social network with ephemeral content (expiring friendships, chats, and photos).
+      Project examples:
         * Admin interface as a single-page app
         * Redis ORM integration and data migration
         * Rspec refactoring, testing asynchronous features
         * Asynchronous scheduling of GCM and iOs push notifications
         * Promo page redesign with infinite scroll, pinterest-style layout, and localization
-
-      App Academy (San Francisco): '8/2014 - 11/2014'
-      'http://www.appacademy.io/curriculum'
-      3 months full time web dev classes
-
-      CodeUnion: '2014'
-      'http://codeunion.io/#workshops'
-      3 month part time course in Ruby and Sinatra.
-      Curriculum from dev bootcamp co-founder
-
-      Odin Project: '2013'
-      'http://www.theodinproject.com/'
-      self-paced introductory curriculum for Ruby / HTML / CSS / Javascript
-
-      Politics BA, UC Santa Cruz: '2008 - 2013'
-      Concentrated in International Relations.
-      Supplementary courses in Linguistics and many disciplines.
+      iOS link (also on Android): 'https://itunes.apple.com/us/app/sobrr-life-in-the-moment/id870994697?mt=8'
 
       Freelance political work: '2007-2015'
-      Canvassing, signatures, polling, registering voters.
-      Staff for Santa Cruz City Council member
+        Canvassing, signatures, polling, registering voters.
+        Staff for Santa Cruz City Council member
+
+---------------------------------------------------------
+
+Education:>
+
+      App Academy (San Francisco): '8/2014 - 11/2014'
+        3 months full time web dev classes
+
+      CodeUnion: '2014'
+        3 month part time course in Ruby and Sinatra.
+        Curriculum from dev bootcamp co-founder
+
+      Odin Project: '2013'
+        self-paced introductory curriculum for Ruby / HTML / CSS / Javascript
+
+      Politics BA, UC Santa Cruz: '2008 - 2013'
+        Concentrated in International Relations.
+        Supplementary courses in Linguistics and many disciplines.
+
 
 ---------------------------------------------------------
 
