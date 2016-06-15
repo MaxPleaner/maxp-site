@@ -1,125 +1,116 @@
 6/14/16
 
----------------------------------------------------------
-
 Contact:>
 
-      Max Pleaner
-      San Francisco, CA
-      maxpleaner@gmail.com
-      maxpleaner.com
-
----------------------------------------------------------
+  Max Pleaner
+  San Francisco, CA
+  maxpleaner@gmail.com
+  maxpleaner.com
 
 Skills:>
 
-      Bash, Unix/Linux, Ubuntu, Git
-      Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres), RethinkDB
-      Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, EventMachine, lots of gems
-      Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript
-      HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications
-      Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxiliary servers
-      Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling, Selenium
-
----------------------------------------------------------
+  Bash, Unix/Linux, Ubuntu, Git
+  Redis, JSON, YAML, MongoDB, SQL (MySQL, Postgres), RethinkDB
+  Ruby, Rails, Sinatra, RSpec, Mechanize, Resque, EventMachine, lots of gems
+  Javascript, Express, Node, Meteor, React, ES6, Backbone, jQuery, Coffeescript
+  HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications
+  Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxiliary servers
+  Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling, Selenium
 
 Experience:>
 
-      Timeset (Emeryville): '10/2015 - 2/2016'
-        A photo-sharing social network for travelers.
-        As the team's only backend developer, I wrote the social network logic into a Rails server and API,
-        deployed, maintained, and added features.
-      Project examples:
-        * Integration test suite
-        * Image uploads to S3, resizing, and LRU cache
-        * AWS setup with staging, worker, SSL, emails, etc
-        * Error reporting, database, and documentation interfaces
-        * Realtime message bus for adding/deleting GCM notifications
-      Android link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
+  Timeset (Emeryville): '10/2015 - 2/2016'
+    A photo-sharing social network for travelers. As the team's only backend developer, I wrote the 
+    social network logic into a Rails server and API, deployed, maintained, and added features.
+    Project examples:
+      * Integration test suite
+      * Image uploads to S3, resizing, and LRU cache
+      * AWS setup with staging, worker, SSL, emails, etc
+      * Error reporting, db admin, and documentation interfaces
+      * Realtime message bus for adding/deleting GCM notifications
+    Android link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
 
-      Sobrr (San Francisco): '12/2014 - 6/2015'
-        A social network with ephemeral content (expiring friendships, chats, and photos).
-      Project examples:
-        * Admin interface as a single-page app
-        * Redis ORM integration and data migration
-        * Rspec refactoring, testing asynchronous features
-        * Asynchronous scheduling of GCM and iOs push notifications
-        * Promo page redesign with infinite scroll, pinterest-style layout, and localization
-      iOS link (also on Android): 'https://itunes.apple.com/us/app/sobrr-life-in-the-moment/id870994697?mt=8'
+  Sobrr (San Francisco): '12/2014 - 6/2015'
+    A social network with ephemeral content (expiring friendships, chats, and photos).
+    Project examples:
+      * Admin interface as a single-page app
+      * Redis ORM integration and data migration
+      * Rspec refactoring, testing asynchronous features
+      * Asynchronous scheduling of GCM and iOs push notifications
+      * Promo page redesign with infinite scroll, pinterest-style layout, and localization
+    iOS link (also on Android): 'https://itunes.apple.com/us/app/sobrr-life-in-the-moment/id870994697?mt=8'
 
-      Freelance political work: '2007-2015'
-        Canvassing, signatures, polling, registering voters.
-        Staff for Santa Cruz City Council member
-
----------------------------------------------------------
+  Freelance political work: '2007-2015'
+    Canvassing, signatures, polling, registering voters.
+    Staff for Santa Cruz City Council member
 
 Education:>
 
-      App Academy (San Francisco): '8/2014 - 11/2014'
-        3 months full time web dev classes
+  App Academy (San Francisco): '8/2014 - 11/2014'
+    3 months full time web dev classes
 
-      CodeUnion: '2014'
-        3 month part time course in Ruby and Sinatra.
-        Curriculum from dev bootcamp co-founder
+  CodeUnion: '2014'
+    3 month part time course in Ruby and Sinatra.
+    Curriculum from dev bootcamp co-founder
 
-      Odin Project: '2013'
-        self-paced introductory curriculum for Ruby / HTML / CSS / Javascript
+  Odin Project: '2013'
+    self-paced introductory curriculum for Ruby / HTML / CSS / Javascript
 
-      Politics BA, UC Santa Cruz: '2008 - 2013'
-        Concentrated in International Relations.
-        Supplementary courses in Linguistics and many disciplines.
-
-
----------------------------------------------------------
+  Politics BA, UC Santa Cruz: '2008 - 2013'
+    Concentrated in International Relations.
+    Supplementary courses in Linguistics and many disciplines.
 
 Projects:> (links on github.com/maxpleaner/PROJECT_NAME)
 
-      "spacedagger" - All online users are geocoded and plotted on a map.
-      Built while learning Meteor. I also wrote an accompanying tutorial.
+  "spacedagger" - All online users are geocoded and plotted on a map. Built while learning 
+  Meteor. I also wrote an accompanying tutorial.
 
-      "marktplatz" - Realtime accounts-based online user list, geolocation, and
-      Google Map display. Made with Babel, ES6, Sequelize, Express, and Websockets.
+  "marktplatz" - Realtime online user list, geolocation, and Google Map display. Made with Babel,
+  ES6, Sequelize async ORM, Express, and Websockets.
 
-      "tmsu-ruby" -  A ruby wrapper for TMSU, a non-hierarchical file tagging system.
+  "tmsu-ruby" -  A ruby wrapper for TMSU, a non-hierarchical file tagging system.
 
-      "tickers" - A web interface for managing background jobs. With an original
-      async implementation and Telestrap Bootstrap theme.
+  "tickers" - A web interface for managing background jobs. With an original async 
+  implementation and Telestrap Bootstrap theme.
 
-      "prototypical" - Rails prototype of a tutor-hiring app, with realtime online-users
-      lists and direct message notifications. It integrates Braintree for payments.
+  "prototypical" - Rails prototype of a tutor-hiring app, with realtime online-users lists and direct 
+  message notifications. It integrates Braintree for payments.
 
-      "tagger" - A crawler that categorizes companies on LinkedIn and uses MonkeyLearn
-      for keyword extraction.
+  "tagger" - A crawler that categorizes companies on LinkedIn and uses MonkeyLearn for 
+  keyword extraction.
 
-      "linux-keyboard-macros" - Global keyboard macros for Linux. Uses evtest and xdotool
-      to read/write keystrokes and trigger scripts.
+  "linux-keyboard-macros" - Global keyboard macros for Linux. Uses evtest and xdotool to 
+  read/write keystrokes and trigger scripts.
 
-      "ruby-cli-skeleton" - A Ruby command line application template with a REPL and ActiveRecord.
+  "ruby-cli-skeleton" - A Ruby command line application template with a REPL and ActiveRecord.
 
-      "socket_helpers" -  A rails gem which helps write realtime sites using websockets.
+  "socket_helpers" -  A rails gem which helps write realtime sites using websockets.
 
-      "chiptune-cli" - Procedurally generates chiptune music using bloopsaphone gem
+  "chiptune-cli" - Procedurally generates chiptune music using bloopsaphone gem
 
-      "maxp-feedly" - RSS feed reader and organizer with Backbone/Rails
+  "maxp-feedly" - RSS feed reader and organizer with Backbone/Rails
 
-      "logbot" - IRC bot with Sinatra web interface.
+  "logbot" - IRC bot with Sinatra web interface.
 
-      "trello-clone" - Priorities tracker app with Backbone/Rails/jQueryUI/Bootstrap
+  "trello-clone" - Priorities tracker app with Backbone/Rails/jQueryUI/Bootstrap
 
-      "asteroids" and "snake" - Browser games with HTML5 Canvas.
+  "asteroids" and "snake" - Browser games with HTML5 Canvas.
 
-      "job_tracker_cli" - CLI for tracking job applications and events.
+  "job_tracker_cli" - CLI for tracking job applications and events.
 
-      "find_job_listings" - Find job listings using APIs and scraping.
+  "find_job_listings" - Find job listings using APIs and scraping.
 
-      "youtube_audio_downloader" and "bandcamp_downloader" - command line utils
+  "youtube_audio_downloader" and "bandcamp_downloader" - command line utils
 
-      I also have self-hosted open-source projects:
-      Errbit (Error-reporting using Airbrake), Redash (DB admin interface), Ghost (Blog)
-      Zeya (Music streaming server), Telescope (Forum)
+  I also have self-hosted open-source projects:
+  Errbit (Error-reporting using Airbrake), Redash (DB admin interface), Ghost (Blog), Zeya (Music 
+  streaming server), Telescope (Forum)
 
-      I've done some virtualization with Linux, Windows, Android, and OSX.
+  I've done some virtualization with Linux, Windows, Android, and OSX.
 
 ---------------------------------------------------------
 
 6/14/16
+
+
+
