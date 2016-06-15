@@ -16,6 +16,7 @@ Skills:>
   HTML, CSS, SASS, Bootstrap, Websockets, Geolocation, Maps, oAuth, push notifications
   Heroku, AWS (EC2, EB, Cloudwatch, S3, RDS, ElastiCache, SES, SNS), auxiliary servers
   Emailing, error reporting, admin interfaces, SSL, ImageMagick, web crawling, Selenium
+  Learning Redux, Elixir, and Phoenix.
 
 Experience:>
 
