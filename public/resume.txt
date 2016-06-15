@@ -49,7 +49,7 @@ Experience:>
 
       App Academy (San Francisco): '8/2014 - 11/2014'
       'http://www.appacademy.io/curriculum'
-      3 months full day web dev classes
+      3 months full time web dev classes
 
       CodeUnion: '2014'
       'http://codeunion.io/#workshops'
