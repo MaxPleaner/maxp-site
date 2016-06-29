@@ -18,7 +18,7 @@ Skills:>
   Ruby:           Ruby, Sinatra, Rails, EventMachine
   Unix:           Linux, Bash, Ubuntu
   Hosting:        Heroku, AWS
-  Javascript:     Node, ECMAscript2015, jQuery 
+  Javascript:     Node, ECMAscript2015, Coffeescript, jQuery 
   Realtime:       Websockets, notifications
   Testing:        RSpec, Mechanize, Selenium, Phantom
   Database:       SQL, Redis, JSON, YAML
