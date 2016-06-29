@@ -1,48 +1,49 @@
-6/14/16
+6/29/16
 
 Contact:>
 
   Max Pleaner
   San Francisco, CA
   maxpleaner@gmail.com
-  maxpleaner.com
+  see maxpleaner.com for portfolio
+
+Summary:>
+  
+  A full-stack developer particularly experienced building Ruby backends.
+  Seeking a collaborative team applying new technologies to challenging problems.
+  Interests include Node, realtime, functional programming, and web standards.
 
 Skills:>
 
-     Design: HTML, CSS, Sass, Bootstrap
-    Systems: Linux, Shell scripting
-  Databases: SQL, Redis, MongoDB, RethinkDB
-Concurrency: EventMachine, Elixir, Phoenix
-   Realtime: websockets, GCM / iOS push notifications
-    Testing: RSpec, Mechanize, Selenium, Phantom
-    Hosting: Heroku, AWS (EC2, EB, S3, RDS, SES, SNS, ElastiCache, CloudWatch)
-       Ruby: Sinatra, Rails, Volt
- Javascript: Node, jQuery, Backbone, Express, React, Meteor, ES6
-       Maps: geolocation, localization
-     Images: server-side caching, resizing
+  Ruby:           Ruby, Sinatra, Rails, EventMachine
+  Unix:           Linux, Bash, Ubuntu
+  Hosting:        Heroku, AWS
+  Javascript:     Node, ECMAscript2015, jQuery 
+  Realtime:       Websockets, notifications
+  Testing:        RSpec, Mechanize, Selenium, Phantom
+  Database:       SQL, Redis, JSON, YAML
+  JS Framework:   Backbone, Express, Meteor, React  
+  Design:         CSS, Sass, Bootstrap
+  Web APIs:       geolocation, streaming, voice recognition
 
 Experience:>
 
   Timeset (Emeryville): '10/2015 - 2/2016'
-    A photo-sharing social network for travelers. As the team's only backend developer, I wrote the
-    social network logic into a Rails server and API, deployed, maintained, and added features.
-    Project examples:
-      * Integration test suite
-      * Image uploads to S3, resizing, and LRU cache
-      * AWS setup with staging, worker, SSL, emails, etc
-      * Error reporting, db admin, and documentation interfaces
-      * Realtime message bus for adding/deleting GCM notifications
-    Android link: 'https://play.google.com/store/apps/details?id=timeset.com.timeset'
+    Lead backend developer on a photo-sharing social network for travelers.
+    I build the social network logic into a Rails API, deployed, maintained, and added features.
+    - Integration test suite
+    - Image uploads to S3, resizing, and LRU cache
+    - AWS setup with staging, worker, SSL, emails, etc
+    - Error reporting, db admin, and documentation interfaces
+    - Realtime message bus for adding/deleting GCM notifications
 
   Sobrr (San Francisco): '12/2014 - 6/2015'
-    A social network with ephemeral content (expiring friendships, chats, and photos).
-    Project examples:
-      * Admin interface as a single-page app
-      * Redis ORM integration and data migration
-      * Rspec refactoring, testing asynchronous features
-      * Asynchronous scheduling of GCM and iOs push notifications
-      * Promo page redesign with infinite scroll, pinterest-style layout, and localization
-    iOS link (also on Android): 'https://itunes.apple.com/us/app/sobrr-life-in-the-moment/id870994697?mt=8'
+    Backend developer on a social network with ephemeral content (expiring friendships, chats, and photos).
+    - Admin interface as a single-page app
+    - Redis ORM integration and data migration
+    - Rspec refactoring, testing asynchronous features
+    - Asynchronous scheduling of GCM and iOS push notifications
+    - Promo page redesign with infinite scroll, pinterest-style layout, and localization
 
   Freelance political work: '2007-2015'
     Canvassing, signatures, polling, registering voters.
@@ -64,56 +65,9 @@ Education:>
     Concentrated in International Relations.
     Supplementary courses in Linguistics and many disciplines.
 
-Projects:> (links on github.com/maxpleaner/PROJECT_NAME)
+Portfolio:>
 
-  "spacedagger" - All online users are geocoded and plotted on a map. Built while learning
-  Meteor. I also wrote an accompanying tutorial.
+  Please see maxpleaner.com/#portfolio
 
-  "marktplatz" - Realtime online user list, geolocation, and Google Map display. Made with Babel,
-  ES6, Sequelize async ORM, Express, and Websockets.
-
-  "tmsu-ruby" -  A ruby wrapper for TMSU, a non-hierarchical file tagging system.
-
-  "tickers" - A web interface for managing background jobs. With an original async
-  implementation and Telestrap Bootstrap theme.
-
-  "prototypical" - Rails prototype of a tutor-hiring app, with realtime online-users lists and direct
-  message notifications. It integrates Braintree for payments.
-
-  "tagger" - A crawler that categorizes companies on LinkedIn and uses MonkeyLearn for
-  keyword extraction.
-
-  "linux-keyboard-macros" - Global keyboard macros for Linux. Uses evtest and xdotool to
-  read/write keystrokes and trigger scripts.
-
-  "ruby-cli-skeleton" - A Ruby command line application template with a REPL and ActiveRecord.
-
-  "socket_helpers" -  A rails gem which helps write realtime sites using websockets.
-
-  "chiptune-cli" - Procedurally generates chiptune music using bloopsaphone gem
-
-  "maxp-feedly" - RSS feed reader and organizer with Backbone/Rails
-
-  "logbot" - IRC bot with Sinatra web interface.
-
-  "trello-clone" - Priorities tracker app with Backbone/Rails/jQueryUI/Bootstrap
-
-  "asteroids" and "snake" - Browser games with HTML5 Canvas.
-
-  "jobapps" - A job application tracking system with a web interface. Includes a selenium script
-  to get lists of companies off AngelList.
-
-  "find_job_listings" - Find job listings using APIs and scraping.
-
-  "youtube_audio_downloader" and "bandcamp_downloader" - command line utils
-
-  I also have self-hosted open-source projects:
-  Errbit (Error-reporting using Airbrake), Redash (DB admin interface), Ghost (Blog), Zeya (Music
-  streaming server), Telescope (Forum)
-
-  I've done some virtualization with Linux, Windows, Android, and OSX.
-
-6/14/16
-
-
+6/29/16
 
