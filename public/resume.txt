@@ -15,16 +15,16 @@ Summary:>
 
 Skills:>
 
-  Ruby:           Ruby, Sinatra, Rails, EventMachine
-  Unix:           Linux, Bash, Ubuntu
-  Hosting:        Heroku, AWS
-  Javascript:     Node, ECMAscript2015, Coffeescript, jQuery 
-  Realtime:       Websockets, notifications
-  Testing:        RSpec, Mechanize, Selenium, Phantom
-  Database:       SQL, Redis, JSON, YAML
-  JS Framework:   Backbone, Express, Meteor, React  
-  Design:         CSS, Sass, Bootstrap
-  Web APIs:       geolocation, streaming, voice recognition
+  Ruby:        Sinatra, Rails, many gems
+  HTML5:       geolocation, voice recogition, web audio / video
+  Javascript:  Node, jQuery, Backbone, Express, React, Meteor, ES6, Chrome Extensions, CoffeeScript
+  Design:      HTML, Slim, CSS, Sass, Bootstrap, Masonry, jQuery plugins, etc.
+  Hosting:     Nginx, Apache, Heroku, AWS (Ruby SDK, S3, ElasticBeanstalk, etc), Linode, iptables
+  Realtime:    websockets, GCM / iOS push notifications
+  Databases:   SQL, Redis, Firebase, LRU caches
+  Systems:     Unix, Bash, Ubuntu
+  Testing:     RSpec, Mechanize, Selenium, Phantom
+
 
 Experience:>
 
