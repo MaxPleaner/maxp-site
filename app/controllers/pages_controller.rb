@@ -38,4 +38,8 @@ class PagesController < ApplicationController
 
   end
 
+  def linode
+    redirect_to "http://li1196-141.members.linode.com:8000/"
+  end
+
 end

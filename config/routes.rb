@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'animation', to: "pages#animation"
   get 'resume', to: "pages#resume"
   get 'portfolio', to: "pages#portfolio"
+  get "linode", to: "pages#linode"
 end
