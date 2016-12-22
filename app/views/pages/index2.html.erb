@@ -106,8 +106,25 @@
     <div class="row">
       <div class="col-xs-12">
         <p>
-          A "general purpose" gem with a modular, refinements-compliant
-          collection of Ruby core extensions. Also includes a gem generator.
+          A 'general-purpose' gem that I add eclectic functionality to.
+          <br>
+          To install: <code> gem "gemmyrb" </code>
+          <ul>
+            <li> a gem generator</li>
+            <li>ruby core extensions which can be loaded as global patches or scoped refinements</li>
+            <li>basic text classification based on part-of-speech lookup</li>
+            <li>programmatic speech synthesis using espeak. Using multithreading and the amen break,
+                I used this to make a glitch-hop track:
+            <audio controls>
+                <source src="public/cat_in_the_hat.mp3" type="audio/mpeg">
+	    </audio>
+            </li>
+            <li> A Hash#persisted patch is extracted to a gem 
+		<a href="http://github.com/maxpleaner/persisted_hash">persisted_hash</a>
+		This syncs the hash's state with a yaml file.
+	</li>
+            <li> Build upon Hash#persisted is an EasyCache class which is a 'drop-in' way to cache method calls.</li>
+          </ul>
         </p>
       </div>
     </div>
