@@ -8,23 +8,22 @@ Contact:>
   maxpleaner@gmail.com
 
 Summary:>
-  
+
   A full-stack developer particularly experienced building Ruby backends.
   Seeking a collaborative team applying new technologies to challenging problems.
   Interests include Node, realtime, functional programming, and web standards.
 
 Skills:>
 
-  Ruby:        Sinatra, Rails, many gems
-  HTML5:       geolocation, voice recogition, web audio / video
-  Javascript:  Node, jQuery, Backbone, Express, React, Meteor, ES6, Chrome Extensions, CoffeeScript
-  Design:      HTML, Slim, CSS, Sass, Bootstrap, Masonry, jQuery plugins, etc.
-  Hosting:     Nginx, Apache, Heroku, AWS (Ruby SDK, S3, ElasticBeanstalk, etc), Linode, iptables
-  Realtime:    websockets, GCM / iOS push notifications
-  Databases:   SQL, Redis, Firebase, LRU caches
-  Systems:     Unix, Bash, Ubuntu
-  Testing:     RSpec, Mechanize, Selenium, Phantom
-
+   HTML, CSS, Sass, Slim, Javascript, Coffeescript, Bootstrap, jQuery
+   Unix, Linux, Ubuntu
+   SQL (Postgres, MySql), NoSQL (PStore, Redis, Firebase)
+   Websockets, mobile push notifications
+   Ruby, Sinatra, Rails, multithreading, metaprogramming, making gems
+   Automated Testing with Rspec, Mechanize, Selenium, Capybara, Cucumber
+   AWS (EC2, Elastic Beanstalk, S3, CloudWatch, etc), Heroku
+   Node, Express, Meteor, ES6, web audio/video
+   Generative speech and music
 
 Experience:>
 
