@@ -1,4 +1,3 @@
-6/29/16
 
 Contact:>
 
@@ -6,12 +5,6 @@ Contact:>
   San Francisco, CA
   415 706 0904
   maxpleaner@gmail.com
-
-Summary:>
-
-  A full-stack developer particularly experienced building Ruby backends.
-  Seeking a collaborative team applying new technologies to challenging problems.
-  Interests include Node, realtime, functional programming, and web standards.
 
 Skills:>
 
@@ -25,16 +18,34 @@ Skills:>
    Node, Express, Meteor, ES6, web audio/video
    Generative speech and music
 
+Portfolio:>
+
+  30+ hobby projects listed on http://maxpleaner.com/#portfolio
+  For example:
+    - global keyboard macros for linux
+    - record and replay website interaction
+    - command line drum set and arpeggiator
+    - websocket helper gems for sinatra and rails
+    - web interface for building and deploying static websites
+
 Experience:>
 
+  Atipica (San Mateo): '11/2016 - present'
+    HR analytics, encouraging diversity in hiring
+    Software engineer (contractor), Rails stack
+    - Testing of website via automated selenium browser
+    - uploaded millions of files to S3
+    - ATS vendor integrations
+    - general new feature development
+
   Timeset (Emeryville): '10/2015 - 2/2016'
-    Lead backend developer on a photo-sharing social network for travelers.
-    I build the social network logic into a Rails API, deployed, maintained, and added features.
-    - Integration test suite
+    A photo-sharing social network for travelers.
+    Lead backend developer
+    - built social network logic into Rails JSON API
     - Image uploads to S3, resizing, and LRU cache
     - AWS setup with staging, worker, SSL, emails, etc
     - Error reporting, db admin, and documentation interfaces
-    - Realtime message bus for adding/deleting GCM notifications
+    - Realtime API to add/remove push notifications
 
   Sobrr (San Francisco): '12/2014 - 6/2015'
     Backend developer on a social network with ephemeral content (expiring friendships, chats, and photos).
@@ -68,4 +79,3 @@ Portfolio:>
 
   Please see maxpleaner.com/#portfolio
 
-6/29/16
