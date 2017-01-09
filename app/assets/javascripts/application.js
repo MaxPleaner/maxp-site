@@ -16,23 +16,3 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
-
-console.log("oh, hello")
-
-$(function(){
-
-  // Fix a bug with the navbar starting open
-  for (var i = 0; i < 2; i++) {
-    window.setTimeout(function(){
-      $("body > div > nav > div > div.navbar-header > button").trigger("click")
-    }, 500 * (i + 1))
-  }
-
-    var shiftWindow = function() { scrollBy(0, -85) };
-    window.addEventListener("hashchange", shiftWindow);
-    function load() { if (window.location.hash) shiftWindow(); }
-
-//   $("a.fragment-link").each(function(){
-//     $($(this).attr("href")).css("padding-top", "40px").prev().css("margin-bottom", "-40px");
-// });
-})
