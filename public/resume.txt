@@ -8,15 +8,12 @@ Contact:>
 
 Skills:>
 
-   HTML, CSS, Sass, Slim, Javascript, Coffeescript, Bootstrap, jQuery
-   Unix, Linux, Ubuntu
-   SQL (Postgres, MySql), NoSQL (PStore, Redis, Firebase)
-   Websockets, mobile push notifications
-   Ruby, Sinatra, Rails, multithreading, metaprogramming, making gems
-   Automated Testing with Rspec, Mechanize, Selenium, Capybara, Cucumber
-   AWS (EC2, Elastic Beanstalk, S3, CloudWatch, etc), Heroku
-   Node, Express, Meteor, ES6, web audio/video
-   Generative speech and music
+   System (Bash, Ubuntu)
+   Database (SQL, Redis, S3)
+   Hosting (Heroku, AWS)
+   Ruby (Sinatra, Rails, Slim, RSpec, Cucumber, Selenium)
+   Javascript (Coffeescript, Node, ES6, Express, Meteor)
+   APIs (JSON, websockets)
 
 Portfolio:>
 
