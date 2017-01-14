@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+
 <html>
-<head>
+
+  <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +12,21 @@
     <meta name="author" content="">
     <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-  <title>Max Pleaner</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
+    <title>Max Pleaner</title>
 
-<body>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
 
-<%= yield %>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
 
-</body>
+  </head>
+
+  <body>
+
+  <%= yield %>
+
+  </body>
+
 </html>

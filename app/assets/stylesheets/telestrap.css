@@ -111,7 +111,7 @@ h1.page-header {
   line-height: 64px;
 }
 hr {
-  border-color: #ff0000;
+  /*border-color: #ff0000;*/
 }
 
 @font-face {
