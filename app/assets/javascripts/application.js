@@ -10,10 +10,16 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //= require jquery
-//= require jquery.turbolinks
 //= require jquery_ujs
 //= require ansi_up
 //= require bootstrap
-//= require turbolinks
 //= require_tree .
 
+// $(function(){
+//   $('.grid').masonry({
+//     // options
+//     itemSelector: '.grid-item',
+//     columnWidth: 1,
+//     gutter: 0
+//   });
+// })

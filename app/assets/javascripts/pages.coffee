@@ -29,6 +29,7 @@ $ ->
       $target.removeClass "hidden"
       $target.addClass "visible"
       setFragment $target.attr "id"
+      window.scrollTo(0,0)
 
   routeFromFragment()
 

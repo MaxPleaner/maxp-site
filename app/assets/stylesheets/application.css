@@ -57,22 +57,35 @@ body, html {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 300px;
 }
 
 .skills-item-title {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin: 5px 0;
   width: 100%;
   text-align: center;
+  color: pink;
 }
 
 
 .grid-item {
    display: inline-block;
    float: left;
-   /*height: 200px;*/
+   /*width: 250px;*/
+   padding: 15px;
+   /*padding-left: 10px;*/
+   /*padding-bottom: 20px;*/
+   height: 150px;
+   width: 300px;
+   text-align: center;
    border: 1px solid white;
-   /*width: 400px;*/
    margin: 5px;
-   padding: 10px;
+   /*margin-bottom: 5px;*/
+}
+
+#portfolio > .grid > .grid-item {
+  width: auto;
+  height: auto;
+  max-width: 300px;
 }
