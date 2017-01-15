@@ -6,15 +6,6 @@ Contact:>
   415 706 0904
   maxpleaner@gmail.com
 
-Skills:>
-
-   System (Bash, Ubuntu)
-   Database (SQL, Redis, S3)
-   Hosting (Heroku, AWS)
-   Ruby (Sinatra, Rails, Slim, RSpec, Cucumber, Selenium)
-   Javascript (Coffeescript, Node, ES6, Express, Meteor)
-   APIs (JSON, websockets)
-
 Portfolio:>
 
   30+ hobby projects listed on http://maxpleaner.com/#portfolio
@@ -33,7 +24,6 @@ Experience:>
     - Testing of website via automated selenium browser
     - uploaded millions of files to S3
     - ATS vendor integrations
-    - general new feature development
 
   Timeset (Emeryville): '10/2015 - 2/2016'
     A photo-sharing social network for travelers.
@@ -50,7 +40,7 @@ Experience:>
     - Redis ORM integration and data migration
     - Rspec refactoring, testing asynchronous features
     - Asynchronous scheduling of GCM and iOS push notifications
-    - Promo page redesign with infinite scroll, pinterest-style layout, and localization
+    - Promo page redesign with infinite scroll, responsive grid, and localization
 
   Freelance political work: '2007-2015'
     Canvassing, signatures, polling, registering voters.
@@ -69,6 +59,40 @@ Education:>
     self-paced introductory curriculum for Ruby / HTML / CSS / Javascript
 
   Politics BA, UC Santa Cruz: '2008 - 2013'
-    Concentrated in International Relations.
-    Supplementary courses in Linguistics and many disciplines.
+
+Skills:>
+
+  Ruby:
+    Sinatra, Rails, making gems, EventMachine, Resque, Sidekiq,
+    YAML, music
+
+  APIs:
+    JSON, AJAX, Websockets, oAuth, push notifications,
+    chat bots
+
+  Storage:
+    Postgres, MySql, SQLite, Redis, Firebase, MongoDB, Pstore,
+    TMSU filesystem tagging, AWS S3
+
+  Hosting:
+    AWS Elastic Beanstalk and EC2, AWS S3 static hosting,
+    Github pages, Heroku, Linode
+
+  Unix:
+    Linux, Ubuntu, Bash, Fish, Tmux, Screen, Git
+
+  ORMs:
+    DataMapper, ActiveRecord, Sequelize, redis-objects,
+    custom filesystem ORM
+
+  Test automation:
+    Selenium, Capybara, Mechanize, RSpec, Cucumber, Jasmine,
+    headless
+
+  Front-end:
+    Slim(HTML), SASS(CSS), Bootstrap, Coffeescript(Javascript),
+    Backbone.js, Masonry, audio/video, maps, speech
+
+  Node.js
+    Express, Meteor, React, Babel, Bower, Browserify
 
