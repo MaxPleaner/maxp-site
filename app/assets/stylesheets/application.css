@@ -112,3 +112,22 @@ label {
   border: 1px solid darkblue;
   font-weight: bold;
 }
+
+.body-background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  /*background-size: 1000px;*/
+  /*background: url("aesthetic.png");*/
+  /*background-repeat: no-repeat;*/
+  opacity: 0.05;
+  /*z-index: 0*/
+  /*float: left;*/
+  pointer-events: none;
+}
+
+body {
+  /*z-index: 1;*/
+}
+
+
