@@ -11,6 +11,7 @@
 // about supported directives.
 //= require jquery
 //= require jquery_ujs
+//= require tooltip
 //= require ansi_up
 //= require bootstrap
 //= require_tree .
@@ -23,3 +24,17 @@
 //     gutter: 0
 //   });
 // })
+
+
+$(function(){
+
+  $skillLink = $("#skills-bullets .grid-item a")
+  $skillLink.darkTooltip({
+    opacity: 1.0,
+    size: 'large',
+    animation: "flipIn"
+    // gravity: 'north'
+  });
+
+
+})
