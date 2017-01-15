@@ -25,6 +25,7 @@
 //   });
 // })
 
+console.log("you support console.log")
 
 $(function(){
 
