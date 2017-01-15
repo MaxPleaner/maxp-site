@@ -36,5 +36,9 @@ $(function(){
     // gravity: 'north'
   });
 
+  $(".redbox-link").on("mouseenter", function(e){
+    $(e.currentTarget).trigger("click")
+    return false;
+  })
 
 })
