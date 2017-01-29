@@ -393,26 +393,9 @@ module ApplicationHelper
 
   def self.phoenix
     <<-TXT.strip_heredoc
-    Phoenix might be called the "rails of elixir" although it's better in some ways.
-    The bar to entry in elixir is a little higher, but it's better performing, especially
-    for multi-process or async stuff.
-    Some goodies include a live-reloading server and npm integration. 
+    Phoenix is a Rails-like framework for Elixir with some bells and whistles such as live reload and NPM integration.
+    It has a reputation as being fast and scalable for realtime apps.
     TXT
   end
-
-  def self.phoenix_presence
-    <<-TXT.strip_heredoc
-    Phoenix comes with websocket support, although without the automatic two-way binding e.g. Metor.
-    Presence is a component to the websocket stack, which enables publishing a realtime list of online users.
-    TXT
-  end
-
-  def self.phoenix_heroku
-    <<-TXT.strip_heredoc
-    Phoenix is quite easy to deploy to Heroku if you specify the buildpack.
-    TXT
-  end
-
-
 
 end

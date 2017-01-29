@@ -62,8 +62,8 @@ Education:>
 
 Skills:>
 
-  Elixir (learning):
-    Phoenix, Presence, Heroku deployment
+  Elixir:
+    Phoenix
 
   Ruby:
     Sinatra, Rails, making gems, EventMachine, Resque, Sidekiq,
