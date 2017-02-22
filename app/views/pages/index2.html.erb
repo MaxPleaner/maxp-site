@@ -1,21 +1,26 @@
+<!--HEADER + NAVBAR SECTION -->
 <div class="page-container">
-  <b>Max Pleaner</b><br><small>Web Programming</small><br><br>
-  <b class="redbox-link section-btn links" target="#links">Links</b>
-  <b class="redbox-link section-btn email" target="#email">Email</b>
-  <b class='redbox-link section-btn skills-bullets' target="#skills-bullets">Skills</b>
-  <b class="redbox-link section-btn experience" target="#experience">Experience </b>
-  <b class="redbox-link section-btn education" target="#education">Education </b>
-  <b class="redbox-link section-btn portfolio" target="#portfolio" >Things I've made</b>
-<br><br><br>
-<hr>
+
+  <!-- HEADER -->
+  <b>Max Pleaner</b><br><small>web development</small><br><br>
+
+  <!-- NAVBAR -->
+  <b class="redbox-link section-btn portfolio" target="#portfolio">Apps</b>
+  <b class="redbox-link section-btn about-me" target="#about-me">About Me</b>
+  <b class='redbox-link section-btn contact' target="#contact">Contact</b>
+
+  <br><br><br>
+  <hr>
+
 </div>
 
+
+<!-- PAGE CONTENT SECTIONS -->
 <div class="page-container">
-  <%= render "partials/portfolio" %>
-  <%= render "partials/links" %>
-  <%= render "partials/email" %>
-  <%= render "partials/skills_bullets" %>
-  <%= render "partials/experience" %>
-  <%= render "partials/education" %>
+
+  <%= render "partials/my_apps" %>
+  <%= render "partials/about_me" %>
+  <%= render "partials/contact" %>
+
 </div>
 

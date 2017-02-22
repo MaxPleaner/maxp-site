@@ -75,3 +75,6 @@ gem "open4"
 # COMMENTED OUT BECAUASE IT BREAKS THINGS
 # it doesn't allow *= require in application.css
   # gem 'bootstrap-sass', '~> 3.3.6'
+
+
+gem "markdown-rails" 
