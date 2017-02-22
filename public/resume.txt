@@ -1,101 +1,78 @@
 
 Contact:>
 
-  Max Pleaner
-  San Francisco, CA
-  415 706 0904
-  maxpleaner@gmail.com
+    Max Pleaner
+    San Francisco, CA
+    415 706 0904
+    maxpleaner@gmail.com
 
-Portfolio:>
+Summary:>
 
-  30+ hobby projects listed on http://maxpleaner.com/#portfolio
-  For example:
-    - global keyboard macros for linux
-    - record and replay website interaction
-    - command line drum set and arpeggiator
-    - websocket helper gems for sinatra and rails
-    - web interface for building and deploying static websites
-
-Experience:>
-
-  Atipica (San Mateo): '11/2016 - present'
-    HR analytics, encouraging diversity in hiring
-    Software engineer (contractor), Rails stack
-    - Testing of website via automated selenium browser
-    - uploaded millions of files to S3
-    - ATS vendor integrations
-
-  Timeset (Emeryville): '10/2015 - 2/2016'
-    A photo-sharing social network for travelers.
-    Lead backend developer
-    - built social network logic into Rails JSON API
-    - Image uploads to S3, resizing, and LRU cache
-    - AWS setup with staging, worker, SSL, emails, etc
-    - Error reporting, db admin, and documentation interfaces
-    - Realtime API to add/remove push notifications
-
-  Sobrr (San Francisco): '12/2014 - 6/2015'
-    Backend developer on a social network with ephemeral content (expiring friendships, chats, and photos).
-    - Admin interface as a single-page app
-    - Redis ORM integration and data migration
-    - Rspec refactoring, testing asynchronous features
-    - Asynchronous scheduling of GCM and iOS push notifications
-    - Promo page redesign with infinite scroll, responsive grid, and localization
-
-  Freelance political work: '2007-2015'
-    Canvassing, signatures, polling, registering voters.
-    Staff for Santa Cruz City Council member
-
-Education:>
-
-  App Academy (San Francisco): '8/2014 - 11/2014'
-    3 months full time web dev classes
-
-  CodeUnion: '2014'
-    3 month part time course in Ruby and Sinatra.
-    Curriculum from dev bootcamp co-founder
-
-  Odin Project: '2013'
-    self-paced introductory curriculum for Ruby / HTML / CSS / Javascript
-
-  Politics BA, UC Santa Cruz: '2008 - 2013'
+    A web developer currently located in San Francisco.
+    Seeking remote role or onsite in Northern California.
+    3+ years with Ruby, Javacript, and Linux
 
 Skills:>
 
-  Elixir:
-    Phoenix
+    Sinatra, Slim, Coffeescript, AWS, Websockets,
+    Selenium, Meteor, Phoenix, Rails, Linux,
+    HTML5 audiovideo, speech API, Google Maps
 
-  Ruby:
-    Sinatra, Rails, making gems, EventMachine, Resque, Sidekiq,
-    YAML, music
+Portfolio:>
 
-  APIs:
-    JSON, AJAX, Websockets, oAuth, push notifications,
-    chat bots
+    Listed at http://maxpleaner.com/#portfolio
+   
+    Examples:
 
-  Storage:
-    Postgres, MySql, SQLite, Redis, Firebase, MongoDB, Pstore,
-    TMSU filesystem tagging, AWS S3
+        Linux global keyboard macros
+        Web IDE for Selenium
+        CLI arpeggiator and musical-keyboard
+        Websocket gems for Sinatra and Rails
+        AWS S3 static website generator
+        Phoenix, Meteor, and Express practice apps
 
-  Hosting:
-    AWS Elastic Beanstalk and EC2, AWS S3 static hosting,
-    Github pages, Heroku, Linode
+Education:>
 
-  Unix:
-    Linux, Ubuntu, Bash, Fish, Tmux, Screen, Git
+    Bootcamp and online classes:
+    
+        2014: Code Union, App Academy
 
-  ORMs:
-    DataMapper, ActiveRecord, Sequelize, redis-objects,
-    custom filesystem ORM
+    College:
 
-  Test automation:
-    Selenium, Capybara, Mechanize, RSpec, Cucumber, Jasmine,
-    headless
+        2013: Politics B.A. University of California, Santa Cruz
 
-  Front-end:
-    Slim(HTML), SASS(CSS), Bootstrap, Coffeescript(Javascript),
-    Backbone.js, Masonry, audio/video, maps, speech
+Experience:>
 
-  Node.js
-    Express, Meteor, React, Babel, Bower, Browserify
+    Atipica:
+
+        HR analytics in San Mateo, 11/2016 - present
+
+        Sidekiq async jobs, S3 storage, ATS vendor API integration
+        Elasticsearch autocomplete and full text search
+        Rspec + Cucumber + Selenium/Capybara tests
+
+    Timeset:
+
+        photo-sharing social network in Emeryville, 10/2015 - 2/2016
+
+        Ground-up Rails JSON API for social network
+        S3 image hosting with server-side resizing + cache
+        AWS ElasticBeanstalk deployment with staging, worker, and SSL
+        Web interfaces for error reporting, db admin, and docs
+        Realtime push notifications API
+        RSpec + Mechanize tests
+
+    Sobrr:
+
+        photo-sharing social network in San Francisco, 12/2014 - 6/2015
+
+        JQuery infinite-scroll, responsive grid (Masonry, Bootstrap)
+        Single-page-app admin UI, Redis caching, push notifications
+        AWS ElasticBeanstalk deployment
+        RSpec tests, Resque async jobs
+
+    Freelance political work:
+
+        Petitioning, polling, voter registration, city council staff
+        San Francisco and Santa Cruz, 2007 - 2014
 
