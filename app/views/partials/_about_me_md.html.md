@@ -10,4 +10,4 @@ Previously I was at the photo-sharing social networks [Sobrr](http://sobrr.life)
 I am fan of fast and / or experimental music, and play the drums. I enjoy making
 electronic music and mashups, and aim to eventually be a DIY producer. Other
 interests of mine include sharing economies, internet sociology, direct democracy,
-pinball, hiking, and aquariums.
+pinball, hiking, aquariums, and absurdism.
