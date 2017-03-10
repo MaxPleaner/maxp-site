@@ -10,13 +10,12 @@ Summary:>
 
     A web developer currently located in San Francisco.
     Seeking remote role or onsite in Northern California.
-    3+ years with Ruby, Javacript, and Linux
 
-Skills:>
+Tools:>
 
-    Sinatra, Slim, Coffeescript, AWS, Websockets,
-    Selenium, Meteor, Phoenix, Rails, Linux,
-    HTML5 audiovideo, speech API, Google Maps
+    Javascript (Node, ES6, Coffeescript, Webpack, Vue, etc)
+    Ruby (Sinatra, Rails, RSpec, Selenium, ec)
+    Linux, Elixir (Phoenix), HTML5 APIs, AWS
 
 Portfolio:>
 
@@ -24,22 +23,10 @@ Portfolio:>
    
     Examples:
 
-        Linux global keyboard macros
-        Web IDE for Selenium
-        CLI arpeggiator and musical-keyboard
-        Websocket gems for Sinatra and Rails
-        AWS S3 static website generator
-        Phoenix, Meteor, and Express practice apps
-
-Education:>
-
-    Bootcamp and online classes:
-    
-        2014: Code Union, App Academy
-
-    College:
-
-        2013: Politics B.A. University of California, Santa Cruz
+        Linux global keyboard macros (trigger scripts by typing things anywhere)
+        Web IDE for Selenium (automate the browser in your browser)
+        CLI arpeggiator and musical-keyboard (play a drumset on the command line)
+        Websocket gems for Sinatra and Rails (realtime apps in no time)
 
 Experience:>
 
@@ -75,4 +62,9 @@ Experience:>
 
         Petitioning, polling, voter registration, city council staff
         San Francisco and Santa Cruz, 2007 - 2014
+
+Education:>
+    
+    2014: Code Union, App Academy
+    2013: Politics B.A. University of California, Santa Cruz
 
