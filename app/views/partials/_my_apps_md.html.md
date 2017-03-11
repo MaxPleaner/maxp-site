@@ -1,7 +1,3 @@
-
-- [next-level-boiler](http://github.com/maxpleaner/next-level-boiler):
-  _a full stack boiler with Vue, Webpack, Coffeescript, Slim, Sass, Sinatra, Websockets, and Github oAuth._
-
 - [slim-lang-loader](http://github.com/maxpleaner/slim-lang-loader):
   _A webpack loader for the Slim templating language. Compiles slim => HTML => JS_
 
