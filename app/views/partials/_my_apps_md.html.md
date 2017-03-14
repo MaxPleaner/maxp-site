@@ -1,3 +1,7 @@
+- [vue-sinatra-boiler](http://github.com/maxpleaner/vue-sinatra-boiler):
+  _a full stack boiler with Webpack, Vue, Vuex (Redux-like centralized client store), Coffeescript, Slim, Sinatra, websockets, Github oAuth, server-push, and crud generators_.
+  _Includes a collaborative, realtime todos demo_
+
 - [slim-lang-loader](http://github.com/maxpleaner/slim-lang-loader):
   _A webpack loader for the Slim templating language. Compiles slim => HTML => JS_
 
