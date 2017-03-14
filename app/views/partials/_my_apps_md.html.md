@@ -6,19 +6,20 @@
   _A webpack loader for the Slim templating language. Compiles slim => HTML => JS_
 
 - [bandcamp labels](https://maxpleaner.github.io/bandcamp_labels):
-  _A listing of record labels on bandcamp._
+  _A listing of record labels on bandcamp, categorized by genre_
 
 - [Phoenix Socket Server](https://github.com/maxpleaner/phoenix_socket_server):
-  _A chat app built to practice Phoenix. Includes an online-users list and persisted direct messages, all in realtime._
+  _A realtime chat app built to practice Phoenix. Includes an online-users list and persisted direct messages_
 
 - [Paned REPL](https://github.com/maxpleaner/paned_repl):
-  _A TMux wrapper for dynamic multiplexing in a REPL._
+  _A Ruby TMux wrapper for multiplexing in a REPL._
+  _Splits the Pry terminal horizontally or vertically and can launch processes in the new panes
 
 - [sinatra_sockets](https://github.com/maxpleaner/sinatra_sockets">sinatra_sockets):
   _A gemmified generator to create a sinatra/websockets API's skeleton_
 
 - [gemmyrb](https://github.com/maxpleaner/gemmy):
-  _A 'general-purpose' gem that I add eclectic functionality to, including a gem generater, ruby core extensions, and some natural language parsing / speech synthesis._
+  _A 'general-purpose' gem that I added eclectic functionality to, including a gem generater, ruby core extensions, and some natural language parsing / speech synthesis._
 
 - [persisted_hash](http://github.com/maxpleaner/persisted_hash):
   _gem which syncs a hash's state with a yaml file_
