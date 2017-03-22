@@ -1,6 +1,6 @@
 - [gosu_wrapper](http://github.com/maxpleaner/gosu_wrapper):
   _A DSL for the Gosu game library_.
-  _[snake game example](http://github.com/maxpleaner/gosu_wrapper_snake_example)
+  _[snake game example](http://github.com/maxpleaner/gosu_wrapper_snake_example)_
 
 - [vue-sinatra-boiler](http://github.com/maxpleaner/vue-sinatra-boiler):
   _a full stack boiler with Webpack, Vue, Vuex (Redux-like centralized client store), Coffeescript, Slim, Sinatra, websockets, Github oAuth, server-push, and crud generators_. 

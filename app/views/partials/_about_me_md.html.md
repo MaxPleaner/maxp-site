@@ -1,13 +1,22 @@
-I am from San Francisco and have a politics BA from UC Santa Cruz. In the past
-I worked in food service (Ike's Place, Marianne's Ice Cream) and a number of
-political jobs (voter registration, city council staff, polling, petitioning).
-In 2013, I began to study web development and programming. I followed online curriculums such as the [Odin project](http://theodinproject.com/), took three months of remote classes at [Code Union](http://codeunion.io), and attended three months of full-time classes at [App Academy](http://www.appacademy.io/curriculum).
+I got a Politics BA from UC Santa Cruz in 2013 and started programming right
+afterwards. I previously did a lot of public-outreach type work like voter
+registration, city council intern, polling, petitioning, etc.
 
-I'm currently working in the field of HR analytics at [Atipica](http://atipica.co).
-Previously I was at the photo-sharing social networks [Sobrr](http://sobrr.life) and
-[Timeset](http://timeset.com).
+To learn to code I utilized free online resources as well as courses through
+[CodeUnion](http://codeunion.io) and [App Academy](http://appacademy.io).
 
-I am fan of fast and / or experimental music, and play the drums. I enjoy making
-electronic music and mashups, and aim to eventually be a DIY producer. Other
-interests of mine include sharing economies, internet sociology, direct democracy,
-pinball, hiking, aquariums, and absurdism.
+For the past few years, I've been working as a mostly-backend Rails developer for 
+startups here in the Bay Area. I'm a big fan of Ruby but would also welcome 
+opportunities to employ other tools like Node, Coffeescript, or Elixir.
+
+Here's where my roles have been:
+
+- [Atipica](http://atipica.co) HR analytics
+- [Timeset](http://timeset.com) Social network for travelers
+- [Sobrr](http://sobrr.life) Social network with ephemeral content
+
+
+
+
+
+
