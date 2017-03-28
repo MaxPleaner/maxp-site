@@ -1,3 +1,7 @@
+- [pinball](http://maxpleaner.github.io/pinball):
+  _A pinball game built with Phaser.js, WebGL, and P2 Physics_  
+  _a proper writeup is forthcoming_
+
 - [gosu_wrapper](http://github.com/maxpleaner/gosu_wrapper):
   _A DSL for the Gosu game library_.
   _[snake game example](http://github.com/maxpleaner/gosu_wrapper_snake_example)_
