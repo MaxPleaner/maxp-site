@@ -1,6 +1,7 @@
 - [phaser-p2-coffee-webpack-boiler](http://github.com/maxpleaner/phaser-p2-coffee-webpack-boiler):
-  _A boilerplate for 2d WebGL games_
-  _play a demo pinball game in the browser [here](http://maxpleaner.github.io/pinball)_
+  _A boilerplate for 2d WebGL games_  
+  _play a demo pinball game in the browser [here](http://maxpleaner.github.io/pinball)_  
+  _example animation showing webm alpha channel (transparency) [here](./images/webm_overlay.gif)_
 
 - [gosu_wrapper](http://github.com/maxpleaner/gosu_wrapper):
   _A DSL for the Gosu game library_.
