@@ -1,3 +1,6 @@
+- [animation-loader](http://github.com/maxpleaner/animation-loader) a webpack loader for manipulating 
+  gifs and converting them to webm.
+
 - [phaser-p2-coffee-webpack-boiler](http://github.com/maxpleaner/phaser-p2-coffee-webpack-boiler):
   _A boilerplate for 2d WebGL games_  
   _play a demo pinball game in the browser [here](http://maxpleaner.github.io/pinball)_  
