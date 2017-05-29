@@ -1,5 +1,10 @@
-- [animation-loader](http://github.com/maxpleaner/animation-loader) a webpack loader for manipulating 
-  gifs and converting them to webm.
+- [muzak](http://github.com/maxpleaner/muzak) _A HTML5 Web Audio sound generator
+  and step sequencer with Firebase backend_
+  _[screencast](https://vimeo.com/219435376)_
+  _[demo](http://maxpleaner.github.ui/muzak)_
+
+- [animation-loader](http://github.com/maxpleaner/animation-loader) _a webpack loader for manipulating 
+  gifs and converting them to webm._
 
 - [phaser-p2-coffee-webpack-boiler](http://github.com/maxpleaner/phaser-p2-coffee-webpack-boiler):
   _A boilerplate for 2d WebGL games_  
