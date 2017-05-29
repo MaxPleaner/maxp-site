@@ -1,6 +1,6 @@
 - [muzak](http://github.com/maxpleaner/muzak) _A HTML5 Web Audio sound generator
-  and step sequencer with Firebase backend_
-  _[screencast](https://vimeo.com/219435376)_
+  and step sequencer with Firebase backend_  
+  _[screencast](https://vimeo.com/219435376)_  
   _[demo](http://maxpleaner.github.ui/muzak)_
 
 - [animation-loader](http://github.com/maxpleaner/animation-loader) _a webpack loader for manipulating 
