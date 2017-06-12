@@ -1,3 +1,6 @@
+- [step_sequencer](http://github.com/maxpleaner/step_sequencer) _A ruby gem for manipulating sounds
+and playing them back in a grid, like a drum machine_
+
 - [static_dom](http://github.com/maxpleaner/static_dom) _A tiny DSL for mapping the DOM to JS_
 
 - [muzak](http://github.com/maxpleaner/muzak) _A HTML5 Web Audio sound generator
